@@ -2,6 +2,7 @@
 using ROV_TL.Models;
 using NLog;
 using System.Text.RegularExpressions;
+using System.Net.Mail;
 
 namespace ROV_TL.Forms
 {
@@ -68,6 +69,24 @@ namespace ROV_TL.Forms
 
                 log.Info("User register success {login}", user.Login);
 
+                try
+                {
+                    MailMessage mm = new MailMessage();
+                    SmtpClient smtpclient = new SmtpClient("smtp.mail.ru", 587);
+                    mm.From = new MailAddress("z4574736@gmail.com");
+                    mm.To.Add(user.Email);
+                    mm.Subject = "registration";
+                    mm.Body = "registration";
+                    smtpclient.Credentials = new System.Net.NetworkCredential("fghfgh1954@inbox.ru", "231204den");
+                    smtpclient.EnableSsl = true;
+                    smtpclient.Send(mm);
+                    MessageBox.Show("Email has meen sent.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("error");
+                }
+
                 user = db.Users.Where(u => u.Login == user.Login).First();
                 ProfileForm profileForm = new ProfileForm(user.Id);
                 this.Hide();
@@ -78,6 +97,8 @@ namespace ROV_TL.Forms
             {
                 MessageBox.Show("Такие данные как логин и/или электронная почта уже существуют!");
             }
+
+
         }
         private void LoginButton_Click(object sender, EventArgs e)
         {
