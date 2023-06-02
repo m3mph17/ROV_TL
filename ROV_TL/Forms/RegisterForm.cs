@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using ROV_TL.Models;
 using NLog;
+using System.Text.RegularExpressions;
 
 namespace ROV_TL.Forms
 {
@@ -27,6 +28,37 @@ namespace ROV_TL.Forms
                 Fio = fioTextBox.Text,
                 Balance = 0
             };
+
+            if (loginTextBox.Text == "" || passwordTextBox.Text == "" || emailTextBox.Text == "" || fioTextBox.Text == "")
+            {
+                MessageBox.Show("Не все данные заполнены", "ROV Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                log.Warn("Data is not fulled: user {login}", loginTextBox.Text);
+                return;
+            }
+
+            // Regex for validating email 
+            Regex regex = new Regex(@"^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$");
+            if (regex.IsMatch(emailTextBox.Text) == false)
+            {
+                MessageBox.Show("Неверная электронная почта", "ROV Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                log.Warn("Email is wrong: {email}", emailTextBox.Text);
+                return;
+            }
+
+            // Regex for validating FIO
+            regex = new Regex(@"/^([А-ЯA-Z]|[А-ЯA-Z][\x27а-яa-z]{1,}|[А-ЯA-Z][\x27а-яa-z]{1,}\-([А-ЯA-Z][\x27а-яa-z]{1,}|(оглы)|(кызы)))\040[А-ЯA-Z][\x27а-яa-z]{1,}(\040[А-ЯA-Z][\x27а-яa-z]{1,})?$/");
+            if (regex.IsMatch(loginTextBox.Text) == false && fioTextBox.Text.Length < 5 || fioTextBox.Text.Length > 75)
+            {
+                MessageBox.Show("Неверное ФИО", "ROV Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                log.Warn("FIO is wrong: {FIO}", loginTextBox.Text);
+                return;
+            }
 
             if (IsLoginUnique(user) == true && IsEmailUnique(user) == true)
             {
