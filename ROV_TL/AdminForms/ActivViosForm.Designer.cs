@@ -28,652 +28,653 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ViosLabel = new System.Windows.Forms.Label();
-            this.AdminProfileLabel = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CarsLabel = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.AdminsLabel = new System.Windows.Forms.Label();
-            this.UsersLabel = new System.Windows.Forms.Label();
-            this.FineLabel_7 = new System.Windows.Forms.Label();
-            this.FineLabel_6 = new System.Windows.Forms.Label();
-            this.FineLabel_5 = new System.Windows.Forms.Label();
-            this.FineLabel_4 = new System.Windows.Forms.Label();
-            this.FineLabel_3 = new System.Windows.Forms.Label();
-            this.FineLabel_2 = new System.Windows.Forms.Label();
-            this.FineLabel_1 = new System.Windows.Forms.Label();
-            this.StaticFineLabel = new System.Windows.Forms.Label();
-            this.AddButton = new System.Windows.Forms.PictureBox();
-            this.RuleLabel_7 = new System.Windows.Forms.Label();
-            this.IdLabel_7 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.RuleLabel_6 = new System.Windows.Forms.Label();
-            this.IdLabel_6 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.RuleLabel_5 = new System.Windows.Forms.Label();
-            this.IdLabel_5 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.RuleLabel_4 = new System.Windows.Forms.Label();
-            this.IdLabel_4 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.RuleLabel_3 = new System.Windows.Forms.Label();
-            this.IdLabel_3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.RuleLabel_2 = new System.Windows.Forms.Label();
-            this.IdLabel_2 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.RuleLabel_1 = new System.Windows.Forms.Label();
-            this.IdLabel_1 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.StaticRuleLabel = new System.Windows.Forms.Label();
-            this.StaticIdLabel = new System.Windows.Forms.Label();
-            this.NextPageButton = new System.Windows.Forms.PictureBox();
-            this.PrevPageButton = new System.Windows.Forms.PictureBox();
-            this.CurrentPageLabel = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AddButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActivViosForm));
+            panel1 = new Panel();
+            ViosLabel = new Label();
+            AdminProfileLabel = new Label();
+            panel3 = new Panel();
+            CarsLabel = new Label();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            AdminsLabel = new Label();
+            UsersLabel = new Label();
+            FineLabel_7 = new Label();
+            FineLabel_6 = new Label();
+            FineLabel_5 = new Label();
+            FineLabel_4 = new Label();
+            FineLabel_3 = new Label();
+            FineLabel_2 = new Label();
+            FineLabel_1 = new Label();
+            StaticFineLabel = new Label();
+            AddButton = new PictureBox();
+            RuleLabel_7 = new Label();
+            IdLabel_7 = new Label();
+            panel10 = new Panel();
+            RuleLabel_6 = new Label();
+            IdLabel_6 = new Label();
+            panel7 = new Panel();
+            RuleLabel_5 = new Label();
+            IdLabel_5 = new Label();
+            panel6 = new Panel();
+            RuleLabel_4 = new Label();
+            IdLabel_4 = new Label();
+            panel5 = new Panel();
+            RuleLabel_3 = new Label();
+            IdLabel_3 = new Label();
+            panel4 = new Panel();
+            RuleLabel_2 = new Label();
+            IdLabel_2 = new Label();
+            panel9 = new Panel();
+            RuleLabel_1 = new Label();
+            IdLabel_1 = new Label();
+            panel8 = new Panel();
+            StaticRuleLabel = new Label();
+            StaticIdLabel = new Label();
+            NextPageButton = new PictureBox();
+            PrevPageButton = new PictureBox();
+            CurrentPageLabel = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)AddButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.ViosLabel);
-            this.panel1.Controls.Add(this.AdminProfileLabel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarsLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.AdminsLabel);
-            this.panel1.Controls.Add(this.UsersLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 460);
-            this.panel1.TabIndex = 17;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(ViosLabel);
+            panel1.Controls.Add(AdminProfileLabel);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarsLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(AdminsLabel);
+            panel1.Controls.Add(UsersLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 460);
+            panel1.TabIndex = 17;
             // 
             // ViosLabel
             // 
-            this.ViosLabel.AutoSize = true;
-            this.ViosLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ViosLabel.ForeColor = System.Drawing.Color.Black;
-            this.ViosLabel.Location = new System.Drawing.Point(11, 216);
-            this.ViosLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ViosLabel.Name = "ViosLabel";
-            this.ViosLabel.Size = new System.Drawing.Size(119, 29);
-            this.ViosLabel.TabIndex = 11;
-            this.ViosLabel.Text = "Нарушения";
-            this.ViosLabel.Click += new System.EventHandler(this.ViosLabel_Click);
+            ViosLabel.AutoSize = true;
+            ViosLabel.Cursor = Cursors.Hand;
+            ViosLabel.ForeColor = Color.Black;
+            ViosLabel.Location = new Point(11, 216);
+            ViosLabel.Margin = new Padding(5, 0, 5, 0);
+            ViosLabel.Name = "ViosLabel";
+            ViosLabel.Size = new Size(119, 29);
+            ViosLabel.TabIndex = 11;
+            ViosLabel.Text = "Нарушения";
+            ViosLabel.Click += ViosLabel_Click;
             // 
             // AdminProfileLabel
             // 
-            this.AdminProfileLabel.AutoSize = true;
-            this.AdminProfileLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminProfileLabel.Location = new System.Drawing.Point(47, 62);
-            this.AdminProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminProfileLabel.Name = "AdminProfileLabel";
-            this.AdminProfileLabel.Size = new System.Drawing.Size(72, 29);
-            this.AdminProfileLabel.TabIndex = 10;
-            this.AdminProfileLabel.Text = "Admin";
-            this.AdminProfileLabel.Click += new System.EventHandler(this.AdminProfileLabel_Click);
+            AdminProfileLabel.AutoSize = true;
+            AdminProfileLabel.Cursor = Cursors.Hand;
+            AdminProfileLabel.ForeColor = Color.Black;
+            AdminProfileLabel.Location = new Point(47, 62);
+            AdminProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminProfileLabel.Name = "AdminProfileLabel";
+            AdminProfileLabel.Size = new Size(72, 29);
+            AdminProfileLabel.TabIndex = 10;
+            AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.Click += AdminProfileLabel_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(1, 246);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(136, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(1, 246);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(136, 5);
+            panel3.TabIndex = 9;
             // 
             // CarsLabel
             // 
-            this.CarsLabel.AutoSize = true;
-            this.CarsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarsLabel.ForeColor = System.Drawing.Color.Black;
-            this.CarsLabel.Location = new System.Drawing.Point(11, 180);
-            this.CarsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarsLabel.Name = "CarsLabel";
-            this.CarsLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarsLabel.TabIndex = 8;
-            this.CarsLabel.Text = "Автомобили";
-            this.CarsLabel.Click += new System.EventHandler(this.CarsLabel_Click);
+            CarsLabel.AutoSize = true;
+            CarsLabel.Cursor = Cursors.Hand;
+            CarsLabel.ForeColor = Color.Black;
+            CarsLabel.Location = new Point(11, 180);
+            CarsLabel.Margin = new Padding(5, 0, 5, 0);
+            CarsLabel.Name = "CarsLabel";
+            CarsLabel.Size = new Size(126, 29);
+            CarsLabel.TabIndex = 8;
+            CarsLabel.Text = "Автомобили";
+            CarsLabel.Click += CarsLabel_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.ForeColor = System.Drawing.Color.Black;
-            this.ROVLabel.Location = new System.Drawing.Point(33, 9);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.ForeColor = Color.Black;
+            ROVLabel.Location = new Point(33, 9);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // AdminsLabel
             // 
-            this.AdminsLabel.AutoSize = true;
-            this.AdminsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminsLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdminsLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminsLabel.Location = new System.Drawing.Point(11, 109);
-            this.AdminsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminsLabel.Name = "AdminsLabel";
-            this.AdminsLabel.Size = new System.Drawing.Size(150, 29);
-            this.AdminsLabel.TabIndex = 2;
-            this.AdminsLabel.Text = "Администраторы";
-            this.AdminsLabel.Click += new System.EventHandler(this.AdminsLabel_Click);
+            AdminsLabel.AutoSize = true;
+            AdminsLabel.Cursor = Cursors.Hand;
+            AdminsLabel.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            AdminsLabel.ForeColor = Color.Black;
+            AdminsLabel.Location = new Point(11, 109);
+            AdminsLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminsLabel.Name = "AdminsLabel";
+            AdminsLabel.Size = new Size(150, 29);
+            AdminsLabel.TabIndex = 2;
+            AdminsLabel.Text = "Администраторы";
+            AdminsLabel.Click += AdminsLabel_Click;
             // 
             // UsersLabel
             // 
-            this.UsersLabel.AutoSize = true;
-            this.UsersLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UsersLabel.ForeColor = System.Drawing.Color.Black;
-            this.UsersLabel.Location = new System.Drawing.Point(11, 144);
-            this.UsersLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.UsersLabel.Name = "UsersLabel";
-            this.UsersLabel.Size = new System.Drawing.Size(142, 29);
-            this.UsersLabel.TabIndex = 3;
-            this.UsersLabel.Text = "Пользователи";
-            this.UsersLabel.Click += new System.EventHandler(this.UsersLabel_Click);
+            UsersLabel.AutoSize = true;
+            UsersLabel.Cursor = Cursors.Hand;
+            UsersLabel.ForeColor = Color.Black;
+            UsersLabel.Location = new Point(11, 144);
+            UsersLabel.Margin = new Padding(5, 0, 5, 0);
+            UsersLabel.Name = "UsersLabel";
+            UsersLabel.Size = new Size(142, 29);
+            UsersLabel.TabIndex = 3;
+            UsersLabel.Text = "Пользователи";
+            UsersLabel.Click += UsersLabel_Click;
             // 
             // FineLabel_7
             // 
-            this.FineLabel_7.AutoSize = true;
-            this.FineLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_7.Location = new System.Drawing.Point(758, 405);
-            this.FineLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_7.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_7.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_7.Name = "FineLabel_7";
-            this.FineLabel_7.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_7.TabIndex = 186;
-            this.FineLabel_7.Text = "0";
-            this.FineLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_7.AutoSize = true;
+            FineLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_7.Location = new Point(758, 405);
+            FineLabel_7.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_7.MaximumSize = new Size(75, 25);
+            FineLabel_7.MinimumSize = new Size(75, 25);
+            FineLabel_7.Name = "FineLabel_7";
+            FineLabel_7.Size = new Size(75, 25);
+            FineLabel_7.TabIndex = 186;
+            FineLabel_7.Text = "0";
+            FineLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_6
             // 
-            this.FineLabel_6.AutoSize = true;
-            this.FineLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_6.Location = new System.Drawing.Point(758, 362);
-            this.FineLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_6.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_6.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_6.Name = "FineLabel_6";
-            this.FineLabel_6.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_6.TabIndex = 185;
-            this.FineLabel_6.Text = "0";
-            this.FineLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_6.AutoSize = true;
+            FineLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_6.Location = new Point(758, 362);
+            FineLabel_6.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_6.MaximumSize = new Size(75, 25);
+            FineLabel_6.MinimumSize = new Size(75, 25);
+            FineLabel_6.Name = "FineLabel_6";
+            FineLabel_6.Size = new Size(75, 25);
+            FineLabel_6.TabIndex = 185;
+            FineLabel_6.Text = "0";
+            FineLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_5
             // 
-            this.FineLabel_5.AutoSize = true;
-            this.FineLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_5.Location = new System.Drawing.Point(758, 317);
-            this.FineLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_5.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_5.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_5.Name = "FineLabel_5";
-            this.FineLabel_5.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_5.TabIndex = 184;
-            this.FineLabel_5.Text = "0";
-            this.FineLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_5.AutoSize = true;
+            FineLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_5.Location = new Point(758, 317);
+            FineLabel_5.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_5.MaximumSize = new Size(75, 25);
+            FineLabel_5.MinimumSize = new Size(75, 25);
+            FineLabel_5.Name = "FineLabel_5";
+            FineLabel_5.Size = new Size(75, 25);
+            FineLabel_5.TabIndex = 184;
+            FineLabel_5.Text = "0";
+            FineLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_4
             // 
-            this.FineLabel_4.AutoSize = true;
-            this.FineLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_4.Location = new System.Drawing.Point(758, 271);
-            this.FineLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_4.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_4.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_4.Name = "FineLabel_4";
-            this.FineLabel_4.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_4.TabIndex = 183;
-            this.FineLabel_4.Text = "0";
-            this.FineLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_4.AutoSize = true;
+            FineLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_4.Location = new Point(758, 271);
+            FineLabel_4.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_4.MaximumSize = new Size(75, 25);
+            FineLabel_4.MinimumSize = new Size(75, 25);
+            FineLabel_4.Name = "FineLabel_4";
+            FineLabel_4.Size = new Size(75, 25);
+            FineLabel_4.TabIndex = 183;
+            FineLabel_4.Text = "0";
+            FineLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_3
             // 
-            this.FineLabel_3.AutoSize = true;
-            this.FineLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_3.Location = new System.Drawing.Point(758, 226);
-            this.FineLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_3.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_3.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_3.Name = "FineLabel_3";
-            this.FineLabel_3.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_3.TabIndex = 182;
-            this.FineLabel_3.Text = "0";
-            this.FineLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_3.AutoSize = true;
+            FineLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_3.Location = new Point(758, 226);
+            FineLabel_3.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_3.MaximumSize = new Size(75, 25);
+            FineLabel_3.MinimumSize = new Size(75, 25);
+            FineLabel_3.Name = "FineLabel_3";
+            FineLabel_3.Size = new Size(75, 25);
+            FineLabel_3.TabIndex = 182;
+            FineLabel_3.Text = "0";
+            FineLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_2
             // 
-            this.FineLabel_2.AutoSize = true;
-            this.FineLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_2.Location = new System.Drawing.Point(758, 183);
-            this.FineLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_2.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_2.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_2.Name = "FineLabel_2";
-            this.FineLabel_2.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_2.TabIndex = 181;
-            this.FineLabel_2.Text = "0";
-            this.FineLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_2.AutoSize = true;
+            FineLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_2.Location = new Point(758, 183);
+            FineLabel_2.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_2.MaximumSize = new Size(75, 25);
+            FineLabel_2.MinimumSize = new Size(75, 25);
+            FineLabel_2.Name = "FineLabel_2";
+            FineLabel_2.Size = new Size(75, 25);
+            FineLabel_2.TabIndex = 181;
+            FineLabel_2.Text = "0";
+            FineLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FineLabel_1
             // 
-            this.FineLabel_1.AutoSize = true;
-            this.FineLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FineLabel_1.Location = new System.Drawing.Point(758, 139);
-            this.FineLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.FineLabel_1.MaximumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_1.MinimumSize = new System.Drawing.Size(75, 25);
-            this.FineLabel_1.Name = "FineLabel_1";
-            this.FineLabel_1.Size = new System.Drawing.Size(75, 25);
-            this.FineLabel_1.TabIndex = 180;
-            this.FineLabel_1.Text = "0";
-            this.FineLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            FineLabel_1.AutoSize = true;
+            FineLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            FineLabel_1.Location = new Point(758, 139);
+            FineLabel_1.Margin = new Padding(5, 0, 5, 0);
+            FineLabel_1.MaximumSize = new Size(75, 25);
+            FineLabel_1.MinimumSize = new Size(75, 25);
+            FineLabel_1.Name = "FineLabel_1";
+            FineLabel_1.Size = new Size(75, 25);
+            FineLabel_1.TabIndex = 180;
+            FineLabel_1.Text = "0";
+            FineLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // StaticFineLabel
             // 
-            this.StaticFineLabel.AutoSize = true;
-            this.StaticFineLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticFineLabel.Location = new System.Drawing.Point(748, 87);
-            this.StaticFineLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticFineLabel.Name = "StaticFineLabel";
-            this.StaticFineLabel.Size = new System.Drawing.Size(95, 35);
-            this.StaticFineLabel.TabIndex = 179;
-            this.StaticFineLabel.Text = "Штраф";
+            StaticFineLabel.AutoSize = true;
+            StaticFineLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticFineLabel.Location = new Point(748, 87);
+            StaticFineLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticFineLabel.Name = "StaticFineLabel";
+            StaticFineLabel.Size = new Size(95, 35);
+            StaticFineLabel.TabIndex = 179;
+            StaticFineLabel.Text = "Штраф";
             // 
             // AddButton
             // 
-            this.AddButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AddButton.Image = global::ROV_TL.Properties.Resources.AddIcon;
-            this.AddButton.Location = new System.Drawing.Point(201, 24);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(40, 40);
-            this.AddButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AddButton.TabIndex = 178;
-            this.AddButton.TabStop = false;
-            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
+            AddButton.Cursor = Cursors.Hand;
+            AddButton.Image = Properties.Resources.AddIcon;
+            AddButton.Location = new Point(201, 24);
+            AddButton.Name = "AddButton";
+            AddButton.Size = new Size(40, 40);
+            AddButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            AddButton.TabIndex = 178;
+            AddButton.TabStop = false;
+            AddButton.Click += AddButton_Click;
             // 
             // RuleLabel_7
             // 
-            this.RuleLabel_7.AutoSize = true;
-            this.RuleLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_7.Location = new System.Drawing.Point(297, 407);
-            this.RuleLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_7.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_7.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_7.Name = "RuleLabel_7";
-            this.RuleLabel_7.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_7.TabIndex = 176;
-            this.RuleLabel_7.Text = "Rule";
-            this.RuleLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_7.AutoSize = true;
+            RuleLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_7.Location = new Point(297, 407);
+            RuleLabel_7.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_7.MaximumSize = new Size(450, 30);
+            RuleLabel_7.MinimumSize = new Size(450, 0);
+            RuleLabel_7.Name = "RuleLabel_7";
+            RuleLabel_7.Size = new Size(450, 25);
+            RuleLabel_7.TabIndex = 176;
+            RuleLabel_7.Text = "Rule";
+            RuleLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_7
             // 
-            this.IdLabel_7.AutoSize = true;
-            this.IdLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_7.Location = new System.Drawing.Point(203, 408);
-            this.IdLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_7.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_7.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_7.Name = "IdLabel_7";
-            this.IdLabel_7.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_7.TabIndex = 175;
-            this.IdLabel_7.Text = "0";
-            this.IdLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_7.AutoSize = true;
+            IdLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_7.Location = new Point(203, 408);
+            IdLabel_7.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_7.MaximumSize = new Size(75, 25);
+            IdLabel_7.MinimumSize = new Size(75, 25);
+            IdLabel_7.Name = "IdLabel_7";
+            IdLabel_7.Size = new Size(75, 25);
+            IdLabel_7.TabIndex = 175;
+            IdLabel_7.Text = "0";
+            IdLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel10.Location = new System.Drawing.Point(200, 393);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(643, 10);
-            this.panel10.TabIndex = 174;
+            panel10.BackColor = Color.FromArgb(55, 55, 55);
+            panel10.Location = new Point(200, 393);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(643, 10);
+            panel10.TabIndex = 174;
             // 
             // RuleLabel_6
             // 
-            this.RuleLabel_6.AutoSize = true;
-            this.RuleLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_6.Location = new System.Drawing.Point(298, 364);
-            this.RuleLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_6.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_6.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_6.Name = "RuleLabel_6";
-            this.RuleLabel_6.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_6.TabIndex = 172;
-            this.RuleLabel_6.Text = "Rule";
-            this.RuleLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_6.AutoSize = true;
+            RuleLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_6.Location = new Point(298, 364);
+            RuleLabel_6.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_6.MaximumSize = new Size(450, 30);
+            RuleLabel_6.MinimumSize = new Size(450, 0);
+            RuleLabel_6.Name = "RuleLabel_6";
+            RuleLabel_6.Size = new Size(450, 25);
+            RuleLabel_6.TabIndex = 172;
+            RuleLabel_6.Text = "Rule";
+            RuleLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_6
             // 
-            this.IdLabel_6.AutoSize = true;
-            this.IdLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_6.Location = new System.Drawing.Point(204, 365);
-            this.IdLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_6.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_6.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_6.Name = "IdLabel_6";
-            this.IdLabel_6.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_6.TabIndex = 171;
-            this.IdLabel_6.Text = "0";
-            this.IdLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_6.AutoSize = true;
+            IdLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_6.Location = new Point(204, 365);
+            IdLabel_6.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_6.MaximumSize = new Size(75, 25);
+            IdLabel_6.MinimumSize = new Size(75, 25);
+            IdLabel_6.Name = "IdLabel_6";
+            IdLabel_6.Size = new Size(75, 25);
+            IdLabel_6.TabIndex = 171;
+            IdLabel_6.Text = "0";
+            IdLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel7.Location = new System.Drawing.Point(201, 350);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(643, 10);
-            this.panel7.TabIndex = 170;
+            panel7.BackColor = Color.FromArgb(55, 55, 55);
+            panel7.Location = new Point(201, 350);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(643, 10);
+            panel7.TabIndex = 170;
             // 
             // RuleLabel_5
             // 
-            this.RuleLabel_5.AutoSize = true;
-            this.RuleLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_5.Location = new System.Drawing.Point(298, 319);
-            this.RuleLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_5.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_5.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_5.Name = "RuleLabel_5";
-            this.RuleLabel_5.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_5.TabIndex = 168;
-            this.RuleLabel_5.Text = "Rule";
-            this.RuleLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_5.AutoSize = true;
+            RuleLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_5.Location = new Point(298, 319);
+            RuleLabel_5.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_5.MaximumSize = new Size(450, 30);
+            RuleLabel_5.MinimumSize = new Size(450, 0);
+            RuleLabel_5.Name = "RuleLabel_5";
+            RuleLabel_5.Size = new Size(450, 25);
+            RuleLabel_5.TabIndex = 168;
+            RuleLabel_5.Text = "Rule";
+            RuleLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_5
             // 
-            this.IdLabel_5.AutoSize = true;
-            this.IdLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_5.Location = new System.Drawing.Point(204, 320);
-            this.IdLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_5.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_5.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_5.Name = "IdLabel_5";
-            this.IdLabel_5.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_5.TabIndex = 167;
-            this.IdLabel_5.Text = "0";
-            this.IdLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_5.AutoSize = true;
+            IdLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_5.Location = new Point(204, 320);
+            IdLabel_5.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_5.MaximumSize = new Size(75, 25);
+            IdLabel_5.MinimumSize = new Size(75, 25);
+            IdLabel_5.Name = "IdLabel_5";
+            IdLabel_5.Size = new Size(75, 25);
+            IdLabel_5.TabIndex = 167;
+            IdLabel_5.Text = "0";
+            IdLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel6.Location = new System.Drawing.Point(201, 305);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(643, 10);
-            this.panel6.TabIndex = 166;
+            panel6.BackColor = Color.FromArgb(55, 55, 55);
+            panel6.Location = new Point(201, 305);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(643, 10);
+            panel6.TabIndex = 166;
             // 
             // RuleLabel_4
             // 
-            this.RuleLabel_4.AutoSize = true;
-            this.RuleLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_4.Location = new System.Drawing.Point(298, 273);
-            this.RuleLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_4.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_4.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_4.Name = "RuleLabel_4";
-            this.RuleLabel_4.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_4.TabIndex = 164;
-            this.RuleLabel_4.Text = "Rule";
-            this.RuleLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_4.AutoSize = true;
+            RuleLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_4.Location = new Point(298, 273);
+            RuleLabel_4.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_4.MaximumSize = new Size(450, 30);
+            RuleLabel_4.MinimumSize = new Size(450, 0);
+            RuleLabel_4.Name = "RuleLabel_4";
+            RuleLabel_4.Size = new Size(450, 25);
+            RuleLabel_4.TabIndex = 164;
+            RuleLabel_4.Text = "Rule";
+            RuleLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_4
             // 
-            this.IdLabel_4.AutoSize = true;
-            this.IdLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_4.Location = new System.Drawing.Point(204, 274);
-            this.IdLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_4.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_4.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_4.Name = "IdLabel_4";
-            this.IdLabel_4.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_4.TabIndex = 163;
-            this.IdLabel_4.Text = "0";
-            this.IdLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_4.AutoSize = true;
+            IdLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_4.Location = new Point(204, 274);
+            IdLabel_4.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_4.MaximumSize = new Size(75, 25);
+            IdLabel_4.MinimumSize = new Size(75, 25);
+            IdLabel_4.Name = "IdLabel_4";
+            IdLabel_4.Size = new Size(75, 25);
+            IdLabel_4.TabIndex = 163;
+            IdLabel_4.Text = "0";
+            IdLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel5.Location = new System.Drawing.Point(201, 259);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(643, 10);
-            this.panel5.TabIndex = 162;
+            panel5.BackColor = Color.FromArgb(55, 55, 55);
+            panel5.Location = new Point(201, 259);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(643, 10);
+            panel5.TabIndex = 162;
             // 
             // RuleLabel_3
             // 
-            this.RuleLabel_3.AutoSize = true;
-            this.RuleLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_3.Location = new System.Drawing.Point(298, 228);
-            this.RuleLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_3.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_3.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_3.Name = "RuleLabel_3";
-            this.RuleLabel_3.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_3.TabIndex = 160;
-            this.RuleLabel_3.Text = "Rule";
-            this.RuleLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_3.AutoSize = true;
+            RuleLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_3.Location = new Point(298, 228);
+            RuleLabel_3.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_3.MaximumSize = new Size(450, 30);
+            RuleLabel_3.MinimumSize = new Size(450, 0);
+            RuleLabel_3.Name = "RuleLabel_3";
+            RuleLabel_3.Size = new Size(450, 25);
+            RuleLabel_3.TabIndex = 160;
+            RuleLabel_3.Text = "Rule";
+            RuleLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_3
             // 
-            this.IdLabel_3.AutoSize = true;
-            this.IdLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_3.Location = new System.Drawing.Point(204, 229);
-            this.IdLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_3.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_3.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_3.Name = "IdLabel_3";
-            this.IdLabel_3.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_3.TabIndex = 159;
-            this.IdLabel_3.Text = "0";
-            this.IdLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_3.AutoSize = true;
+            IdLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_3.Location = new Point(204, 229);
+            IdLabel_3.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_3.MaximumSize = new Size(75, 25);
+            IdLabel_3.MinimumSize = new Size(75, 25);
+            IdLabel_3.Name = "IdLabel_3";
+            IdLabel_3.Size = new Size(75, 25);
+            IdLabel_3.TabIndex = 159;
+            IdLabel_3.Text = "0";
+            IdLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(201, 214);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(643, 10);
-            this.panel4.TabIndex = 158;
+            panel4.BackColor = Color.FromArgb(55, 55, 55);
+            panel4.Location = new Point(201, 214);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(643, 10);
+            panel4.TabIndex = 158;
             // 
             // RuleLabel_2
             // 
-            this.RuleLabel_2.AutoSize = true;
-            this.RuleLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_2.Location = new System.Drawing.Point(298, 183);
-            this.RuleLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_2.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_2.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_2.Name = "RuleLabel_2";
-            this.RuleLabel_2.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_2.TabIndex = 156;
-            this.RuleLabel_2.Text = "Rule";
-            this.RuleLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_2.AutoSize = true;
+            RuleLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_2.Location = new Point(298, 183);
+            RuleLabel_2.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_2.MaximumSize = new Size(450, 30);
+            RuleLabel_2.MinimumSize = new Size(450, 0);
+            RuleLabel_2.Name = "RuleLabel_2";
+            RuleLabel_2.Size = new Size(450, 25);
+            RuleLabel_2.TabIndex = 156;
+            RuleLabel_2.Text = "Rule";
+            RuleLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_2
             // 
-            this.IdLabel_2.AutoSize = true;
-            this.IdLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_2.Location = new System.Drawing.Point(204, 184);
-            this.IdLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_2.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_2.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_2.Name = "IdLabel_2";
-            this.IdLabel_2.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_2.TabIndex = 155;
-            this.IdLabel_2.Text = "0";
-            this.IdLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_2.AutoSize = true;
+            IdLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_2.Location = new Point(204, 184);
+            IdLabel_2.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_2.MaximumSize = new Size(75, 25);
+            IdLabel_2.MinimumSize = new Size(75, 25);
+            IdLabel_2.Name = "IdLabel_2";
+            IdLabel_2.Size = new Size(75, 25);
+            IdLabel_2.TabIndex = 155;
+            IdLabel_2.Text = "0";
+            IdLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel9.Location = new System.Drawing.Point(201, 169);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(643, 10);
-            this.panel9.TabIndex = 154;
+            panel9.BackColor = Color.FromArgb(55, 55, 55);
+            panel9.Location = new Point(201, 169);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(643, 10);
+            panel9.TabIndex = 154;
             // 
             // RuleLabel_1
             // 
-            this.RuleLabel_1.AutoSize = true;
-            this.RuleLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RuleLabel_1.Location = new System.Drawing.Point(298, 138);
-            this.RuleLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.RuleLabel_1.MaximumSize = new System.Drawing.Size(450, 30);
-            this.RuleLabel_1.MinimumSize = new System.Drawing.Size(450, 0);
-            this.RuleLabel_1.Name = "RuleLabel_1";
-            this.RuleLabel_1.Size = new System.Drawing.Size(450, 25);
-            this.RuleLabel_1.TabIndex = 152;
-            this.RuleLabel_1.Text = "Rule";
-            this.RuleLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            RuleLabel_1.AutoSize = true;
+            RuleLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RuleLabel_1.Location = new Point(298, 138);
+            RuleLabel_1.Margin = new Padding(5, 0, 5, 0);
+            RuleLabel_1.MaximumSize = new Size(450, 30);
+            RuleLabel_1.MinimumSize = new Size(450, 0);
+            RuleLabel_1.Name = "RuleLabel_1";
+            RuleLabel_1.Size = new Size(450, 25);
+            RuleLabel_1.TabIndex = 152;
+            RuleLabel_1.Text = "Rule";
+            RuleLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // IdLabel_1
             // 
-            this.IdLabel_1.AutoSize = true;
-            this.IdLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.IdLabel_1.Location = new System.Drawing.Point(204, 138);
-            this.IdLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.IdLabel_1.MaximumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_1.MinimumSize = new System.Drawing.Size(75, 25);
-            this.IdLabel_1.Name = "IdLabel_1";
-            this.IdLabel_1.Size = new System.Drawing.Size(75, 25);
-            this.IdLabel_1.TabIndex = 151;
-            this.IdLabel_1.Text = "0";
-            this.IdLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            IdLabel_1.AutoSize = true;
+            IdLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            IdLabel_1.Location = new Point(204, 138);
+            IdLabel_1.Margin = new Padding(5, 0, 5, 0);
+            IdLabel_1.MaximumSize = new Size(75, 25);
+            IdLabel_1.MinimumSize = new Size(75, 25);
+            IdLabel_1.Name = "IdLabel_1";
+            IdLabel_1.Size = new Size(75, 25);
+            IdLabel_1.TabIndex = 151;
+            IdLabel_1.Text = "0";
+            IdLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel8.Location = new System.Drawing.Point(201, 125);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(643, 10);
-            this.panel8.TabIndex = 150;
+            panel8.BackColor = Color.FromArgb(55, 55, 55);
+            panel8.Location = new Point(201, 125);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(643, 10);
+            panel8.TabIndex = 150;
             // 
             // StaticRuleLabel
             // 
-            this.StaticRuleLabel.AutoSize = true;
-            this.StaticRuleLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticRuleLabel.Location = new System.Drawing.Point(434, 87);
-            this.StaticRuleLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticRuleLabel.Name = "StaticRuleLabel";
-            this.StaticRuleLabel.Size = new System.Drawing.Size(179, 35);
-            this.StaticRuleLabel.TabIndex = 148;
-            this.StaticRuleLabel.Text = "Текст правила";
+            StaticRuleLabel.AutoSize = true;
+            StaticRuleLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticRuleLabel.Location = new Point(434, 87);
+            StaticRuleLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticRuleLabel.Name = "StaticRuleLabel";
+            StaticRuleLabel.Size = new Size(179, 35);
+            StaticRuleLabel.TabIndex = 148;
+            StaticRuleLabel.Text = "Текст правила";
             // 
             // StaticIdLabel
             // 
-            this.StaticIdLabel.AutoSize = true;
-            this.StaticIdLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticIdLabel.Location = new System.Drawing.Point(224, 87);
-            this.StaticIdLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticIdLabel.Name = "StaticIdLabel";
-            this.StaticIdLabel.Size = new System.Drawing.Size(36, 35);
-            this.StaticIdLabel.TabIndex = 147;
-            this.StaticIdLabel.Text = "Id";
+            StaticIdLabel.AutoSize = true;
+            StaticIdLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticIdLabel.Location = new Point(224, 87);
+            StaticIdLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticIdLabel.Name = "StaticIdLabel";
+            StaticIdLabel.Size = new Size(36, 35);
+            StaticIdLabel.TabIndex = 147;
+            StaticIdLabel.Text = "Id";
             // 
             // NextPageButton
             // 
-            this.NextPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NextPageButton.Image = global::ROV_TL.Properties.Resources.NextPageIcon;
-            this.NextPageButton.Location = new System.Drawing.Point(678, 24);
-            this.NextPageButton.Name = "NextPageButton";
-            this.NextPageButton.Size = new System.Drawing.Size(30, 30);
-            this.NextPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.NextPageButton.TabIndex = 146;
-            this.NextPageButton.TabStop = false;
-            this.NextPageButton.Click += new System.EventHandler(this.NextPageButton_Click);
+            NextPageButton.Cursor = Cursors.Hand;
+            NextPageButton.Image = Properties.Resources.NextPageIcon;
+            NextPageButton.Location = new Point(678, 24);
+            NextPageButton.Name = "NextPageButton";
+            NextPageButton.Size = new Size(30, 30);
+            NextPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            NextPageButton.TabIndex = 146;
+            NextPageButton.TabStop = false;
+            NextPageButton.Click += NextPageButton_Click;
             // 
             // PrevPageButton
             // 
-            this.PrevPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PrevPageButton.Image = global::ROV_TL.Properties.Resources.PrevPageIcon;
-            this.PrevPageButton.Location = new System.Drawing.Point(350, 24);
-            this.PrevPageButton.Name = "PrevPageButton";
-            this.PrevPageButton.Size = new System.Drawing.Size(30, 30);
-            this.PrevPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PrevPageButton.TabIndex = 145;
-            this.PrevPageButton.TabStop = false;
-            this.PrevPageButton.Click += new System.EventHandler(this.PrevPageButton_Click);
+            PrevPageButton.Cursor = Cursors.Hand;
+            PrevPageButton.Image = Properties.Resources.PrevPageIcon;
+            PrevPageButton.Location = new Point(350, 24);
+            PrevPageButton.Name = "PrevPageButton";
+            PrevPageButton.Size = new Size(30, 30);
+            PrevPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            PrevPageButton.TabIndex = 145;
+            PrevPageButton.TabStop = false;
+            PrevPageButton.Click += PrevPageButton_Click;
             // 
             // CurrentPageLabel
             // 
-            this.CurrentPageLabel.AutoSize = true;
-            this.CurrentPageLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CurrentPageLabel.Location = new System.Drawing.Point(386, 21);
-            this.CurrentPageLabel.Name = "CurrentPageLabel";
-            this.CurrentPageLabel.Size = new System.Drawing.Size(286, 35);
-            this.CurrentPageLabel.TabIndex = 144;
-            this.CurrentPageLabel.Text = "Текущая страница: 1";
+            CurrentPageLabel.AutoSize = true;
+            CurrentPageLabel.Font = new Font("Bahnschrift SemiBold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CurrentPageLabel.Location = new Point(386, 21);
+            CurrentPageLabel.Name = "CurrentPageLabel";
+            CurrentPageLabel.Size = new Size(286, 35);
+            CurrentPageLabel.TabIndex = 144;
+            CurrentPageLabel.Text = "Текущая страница: 1";
             // 
             // ActivViosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.FineLabel_7);
-            this.Controls.Add(this.FineLabel_6);
-            this.Controls.Add(this.FineLabel_5);
-            this.Controls.Add(this.FineLabel_4);
-            this.Controls.Add(this.FineLabel_3);
-            this.Controls.Add(this.FineLabel_2);
-            this.Controls.Add(this.FineLabel_1);
-            this.Controls.Add(this.StaticFineLabel);
-            this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.RuleLabel_7);
-            this.Controls.Add(this.IdLabel_7);
-            this.Controls.Add(this.panel10);
-            this.Controls.Add(this.RuleLabel_6);
-            this.Controls.Add(this.IdLabel_6);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.RuleLabel_5);
-            this.Controls.Add(this.IdLabel_5);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.RuleLabel_4);
-            this.Controls.Add(this.IdLabel_4);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.RuleLabel_3);
-            this.Controls.Add(this.IdLabel_3);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.RuleLabel_2);
-            this.Controls.Add(this.IdLabel_2);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.RuleLabel_1);
-            this.Controls.Add(this.IdLabel_1);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.StaticRuleLabel);
-            this.Controls.Add(this.StaticIdLabel);
-            this.Controls.Add(this.NextPageButton);
-            this.Controls.Add(this.PrevPageButton);
-            this.Controls.Add(this.CurrentPageLabel);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "ActivViosForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ActivViosForm";
-            this.Load += new System.EventHandler(this.ActivViosForm_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AddButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(FineLabel_7);
+            Controls.Add(FineLabel_6);
+            Controls.Add(FineLabel_5);
+            Controls.Add(FineLabel_4);
+            Controls.Add(FineLabel_3);
+            Controls.Add(FineLabel_2);
+            Controls.Add(FineLabel_1);
+            Controls.Add(StaticFineLabel);
+            Controls.Add(AddButton);
+            Controls.Add(RuleLabel_7);
+            Controls.Add(IdLabel_7);
+            Controls.Add(panel10);
+            Controls.Add(RuleLabel_6);
+            Controls.Add(IdLabel_6);
+            Controls.Add(panel7);
+            Controls.Add(RuleLabel_5);
+            Controls.Add(IdLabel_5);
+            Controls.Add(panel6);
+            Controls.Add(RuleLabel_4);
+            Controls.Add(IdLabel_4);
+            Controls.Add(panel5);
+            Controls.Add(RuleLabel_3);
+            Controls.Add(IdLabel_3);
+            Controls.Add(panel4);
+            Controls.Add(RuleLabel_2);
+            Controls.Add(IdLabel_2);
+            Controls.Add(panel9);
+            Controls.Add(RuleLabel_1);
+            Controls.Add(IdLabel_1);
+            Controls.Add(panel8);
+            Controls.Add(StaticRuleLabel);
+            Controls.Add(StaticIdLabel);
+            Controls.Add(NextPageButton);
+            Controls.Add(PrevPageButton);
+            Controls.Add(CurrentPageLabel);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "ActivViosForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ActivViosForm";
+            Load += ActivViosForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)AddButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

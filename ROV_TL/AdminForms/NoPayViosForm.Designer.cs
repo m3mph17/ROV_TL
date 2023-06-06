@@ -28,681 +28,682 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ViosLabel = new System.Windows.Forms.Label();
-            this.AdminProfileLabel = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CarsLabel = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.AdminsLabel = new System.Windows.Forms.Label();
-            this.UsersLabel = new System.Windows.Forms.Label();
-            this.LoginLabel_5 = new System.Windows.Forms.Label();
-            this.LoginLabel_4 = new System.Windows.Forms.Label();
-            this.LoginLabel_3 = new System.Windows.Forms.Label();
-            this.LoginLabel_2 = new System.Windows.Forms.Label();
-            this.LoginLabel_1 = new System.Windows.Forms.Label();
-            this.StaticLoginLabel = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.DateLabel_5 = new System.Windows.Forms.Label();
-            this.SumLabel_5 = new System.Windows.Forms.Label();
-            this.ModelLabel_5 = new System.Windows.Forms.Label();
-            this.VioLabel_5 = new System.Windows.Forms.Label();
-            this.DateLabel_4 = new System.Windows.Forms.Label();
-            this.SumLabel_4 = new System.Windows.Forms.Label();
-            this.ModelLabel_4 = new System.Windows.Forms.Label();
-            this.VioLabel_4 = new System.Windows.Forms.Label();
-            this.DateLabel_3 = new System.Windows.Forms.Label();
-            this.SumLabel_3 = new System.Windows.Forms.Label();
-            this.ModelLabel_3 = new System.Windows.Forms.Label();
-            this.VioLabel_3 = new System.Windows.Forms.Label();
-            this.DateLabel_2 = new System.Windows.Forms.Label();
-            this.SumLabel_2 = new System.Windows.Forms.Label();
-            this.ModelLabel_2 = new System.Windows.Forms.Label();
-            this.VioLabel_2 = new System.Windows.Forms.Label();
-            this.DateLabel_1 = new System.Windows.Forms.Label();
-            this.SumLabel_1 = new System.Windows.Forms.Label();
-            this.ModelLabel_1 = new System.Windows.Forms.Label();
-            this.VioLabel_1 = new System.Windows.Forms.Label();
-            this.StaticDateLabel = new System.Windows.Forms.Label();
-            this.StaticVioLabel = new System.Windows.Forms.Label();
-            this.StaticSumLabel = new System.Windows.Forms.Label();
-            this.StaticCarLabel = new System.Windows.Forms.Label();
-            this.NextPageButton = new System.Windows.Forms.PictureBox();
-            this.PrevPageButton = new System.Windows.Forms.PictureBox();
-            this.CurrentPageLabel = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NoPayViosForm));
+            panel1 = new Panel();
+            ViosLabel = new Label();
+            AdminProfileLabel = new Label();
+            panel3 = new Panel();
+            CarsLabel = new Label();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            AdminsLabel = new Label();
+            UsersLabel = new Label();
+            LoginLabel_5 = new Label();
+            LoginLabel_4 = new Label();
+            LoginLabel_3 = new Label();
+            LoginLabel_2 = new Label();
+            LoginLabel_1 = new Label();
+            StaticLoginLabel = new Label();
+            panel8 = new Panel();
+            panel7 = new Panel();
+            panel6 = new Panel();
+            panel5 = new Panel();
+            panel4 = new Panel();
+            DateLabel_5 = new Label();
+            SumLabel_5 = new Label();
+            ModelLabel_5 = new Label();
+            VioLabel_5 = new Label();
+            DateLabel_4 = new Label();
+            SumLabel_4 = new Label();
+            ModelLabel_4 = new Label();
+            VioLabel_4 = new Label();
+            DateLabel_3 = new Label();
+            SumLabel_3 = new Label();
+            ModelLabel_3 = new Label();
+            VioLabel_3 = new Label();
+            DateLabel_2 = new Label();
+            SumLabel_2 = new Label();
+            ModelLabel_2 = new Label();
+            VioLabel_2 = new Label();
+            DateLabel_1 = new Label();
+            SumLabel_1 = new Label();
+            ModelLabel_1 = new Label();
+            VioLabel_1 = new Label();
+            StaticDateLabel = new Label();
+            StaticVioLabel = new Label();
+            StaticSumLabel = new Label();
+            StaticCarLabel = new Label();
+            NextPageButton = new PictureBox();
+            PrevPageButton = new PictureBox();
+            CurrentPageLabel = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.ViosLabel);
-            this.panel1.Controls.Add(this.AdminProfileLabel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarsLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.AdminsLabel);
-            this.panel1.Controls.Add(this.UsersLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 460);
-            this.panel1.TabIndex = 17;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(ViosLabel);
+            panel1.Controls.Add(AdminProfileLabel);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarsLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(AdminsLabel);
+            panel1.Controls.Add(UsersLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 460);
+            panel1.TabIndex = 17;
             // 
             // ViosLabel
             // 
-            this.ViosLabel.AutoSize = true;
-            this.ViosLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ViosLabel.ForeColor = System.Drawing.Color.Black;
-            this.ViosLabel.Location = new System.Drawing.Point(11, 216);
-            this.ViosLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ViosLabel.Name = "ViosLabel";
-            this.ViosLabel.Size = new System.Drawing.Size(119, 29);
-            this.ViosLabel.TabIndex = 11;
-            this.ViosLabel.Text = "Нарушения";
-            this.ViosLabel.Click += new System.EventHandler(this.ViosLabel_Click);
+            ViosLabel.AutoSize = true;
+            ViosLabel.Cursor = Cursors.Hand;
+            ViosLabel.ForeColor = Color.Black;
+            ViosLabel.Location = new Point(11, 216);
+            ViosLabel.Margin = new Padding(5, 0, 5, 0);
+            ViosLabel.Name = "ViosLabel";
+            ViosLabel.Size = new Size(119, 29);
+            ViosLabel.TabIndex = 11;
+            ViosLabel.Text = "Нарушения";
+            ViosLabel.Click += ViosLabel_Click;
             // 
             // AdminProfileLabel
             // 
-            this.AdminProfileLabel.AutoSize = true;
-            this.AdminProfileLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminProfileLabel.Location = new System.Drawing.Point(47, 62);
-            this.AdminProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminProfileLabel.Name = "AdminProfileLabel";
-            this.AdminProfileLabel.Size = new System.Drawing.Size(72, 29);
-            this.AdminProfileLabel.TabIndex = 10;
-            this.AdminProfileLabel.Text = "Admin";
-            this.AdminProfileLabel.Click += new System.EventHandler(this.AdminProfileLabel_Click);
+            AdminProfileLabel.AutoSize = true;
+            AdminProfileLabel.Cursor = Cursors.Hand;
+            AdminProfileLabel.ForeColor = Color.Black;
+            AdminProfileLabel.Location = new Point(47, 62);
+            AdminProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminProfileLabel.Name = "AdminProfileLabel";
+            AdminProfileLabel.Size = new Size(72, 29);
+            AdminProfileLabel.TabIndex = 10;
+            AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.Click += AdminProfileLabel_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(1, 246);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(136, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(1, 246);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(136, 5);
+            panel3.TabIndex = 9;
             // 
             // CarsLabel
             // 
-            this.CarsLabel.AutoSize = true;
-            this.CarsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarsLabel.ForeColor = System.Drawing.Color.Black;
-            this.CarsLabel.Location = new System.Drawing.Point(11, 180);
-            this.CarsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarsLabel.Name = "CarsLabel";
-            this.CarsLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarsLabel.TabIndex = 8;
-            this.CarsLabel.Text = "Автомобили";
-            this.CarsLabel.Click += new System.EventHandler(this.CarsLabel_Click);
+            CarsLabel.AutoSize = true;
+            CarsLabel.Cursor = Cursors.Hand;
+            CarsLabel.ForeColor = Color.Black;
+            CarsLabel.Location = new Point(11, 180);
+            CarsLabel.Margin = new Padding(5, 0, 5, 0);
+            CarsLabel.Name = "CarsLabel";
+            CarsLabel.Size = new Size(126, 29);
+            CarsLabel.TabIndex = 8;
+            CarsLabel.Text = "Автомобили";
+            CarsLabel.Click += CarsLabel_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.ForeColor = System.Drawing.Color.Black;
-            this.ROVLabel.Location = new System.Drawing.Point(33, 9);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.ForeColor = Color.Black;
+            ROVLabel.Location = new Point(33, 9);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // AdminsLabel
             // 
-            this.AdminsLabel.AutoSize = true;
-            this.AdminsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminsLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdminsLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminsLabel.Location = new System.Drawing.Point(11, 109);
-            this.AdminsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminsLabel.Name = "AdminsLabel";
-            this.AdminsLabel.Size = new System.Drawing.Size(150, 29);
-            this.AdminsLabel.TabIndex = 2;
-            this.AdminsLabel.Text = "Администраторы";
-            this.AdminsLabel.Click += new System.EventHandler(this.AdminsLabel_Click);
+            AdminsLabel.AutoSize = true;
+            AdminsLabel.Cursor = Cursors.Hand;
+            AdminsLabel.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            AdminsLabel.ForeColor = Color.Black;
+            AdminsLabel.Location = new Point(11, 109);
+            AdminsLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminsLabel.Name = "AdminsLabel";
+            AdminsLabel.Size = new Size(150, 29);
+            AdminsLabel.TabIndex = 2;
+            AdminsLabel.Text = "Администраторы";
+            AdminsLabel.Click += AdminsLabel_Click;
             // 
             // UsersLabel
             // 
-            this.UsersLabel.AutoSize = true;
-            this.UsersLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UsersLabel.ForeColor = System.Drawing.Color.Black;
-            this.UsersLabel.Location = new System.Drawing.Point(11, 144);
-            this.UsersLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.UsersLabel.Name = "UsersLabel";
-            this.UsersLabel.Size = new System.Drawing.Size(142, 29);
-            this.UsersLabel.TabIndex = 3;
-            this.UsersLabel.Text = "Пользователи";
-            this.UsersLabel.Click += new System.EventHandler(this.UsersLabel_Click);
+            UsersLabel.AutoSize = true;
+            UsersLabel.Cursor = Cursors.Hand;
+            UsersLabel.ForeColor = Color.Black;
+            UsersLabel.Location = new Point(11, 144);
+            UsersLabel.Margin = new Padding(5, 0, 5, 0);
+            UsersLabel.Name = "UsersLabel";
+            UsersLabel.Size = new Size(142, 29);
+            UsersLabel.TabIndex = 3;
+            UsersLabel.Text = "Пользователи";
+            UsersLabel.Click += UsersLabel_Click;
             // 
             // LoginLabel_5
             // 
-            this.LoginLabel_5.AutoSize = true;
-            this.LoginLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_5.Location = new System.Drawing.Point(372, 386);
-            this.LoginLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_5.MaximumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_5.MinimumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_5.Name = "LoginLabel_5";
-            this.LoginLabel_5.Size = new System.Drawing.Size(120, 50);
-            this.LoginLabel_5.TabIndex = 167;
-            this.LoginLabel_5.Text = "Login";
-            this.LoginLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_5.AutoSize = true;
+            LoginLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_5.Location = new Point(372, 386);
+            LoginLabel_5.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_5.MaximumSize = new Size(120, 50);
+            LoginLabel_5.MinimumSize = new Size(120, 50);
+            LoginLabel_5.Name = "LoginLabel_5";
+            LoginLabel_5.Size = new Size(120, 50);
+            LoginLabel_5.TabIndex = 167;
+            LoginLabel_5.Text = "Login";
+            LoginLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_4
             // 
-            this.LoginLabel_4.AutoSize = true;
-            this.LoginLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_4.Location = new System.Drawing.Point(373, 318);
-            this.LoginLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_4.MaximumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_4.MinimumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_4.Name = "LoginLabel_4";
-            this.LoginLabel_4.Size = new System.Drawing.Size(120, 50);
-            this.LoginLabel_4.TabIndex = 166;
-            this.LoginLabel_4.Text = "Login";
-            this.LoginLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_4.AutoSize = true;
+            LoginLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_4.Location = new Point(373, 318);
+            LoginLabel_4.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_4.MaximumSize = new Size(120, 50);
+            LoginLabel_4.MinimumSize = new Size(120, 50);
+            LoginLabel_4.Name = "LoginLabel_4";
+            LoginLabel_4.Size = new Size(120, 50);
+            LoginLabel_4.TabIndex = 166;
+            LoginLabel_4.Text = "Login";
+            LoginLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_3
             // 
-            this.LoginLabel_3.AutoSize = true;
-            this.LoginLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_3.Location = new System.Drawing.Point(373, 245);
-            this.LoginLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_3.MaximumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_3.MinimumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_3.Name = "LoginLabel_3";
-            this.LoginLabel_3.Size = new System.Drawing.Size(120, 50);
-            this.LoginLabel_3.TabIndex = 165;
-            this.LoginLabel_3.Text = "Login";
-            this.LoginLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_3.AutoSize = true;
+            LoginLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_3.Location = new Point(373, 245);
+            LoginLabel_3.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_3.MaximumSize = new Size(120, 50);
+            LoginLabel_3.MinimumSize = new Size(120, 50);
+            LoginLabel_3.Name = "LoginLabel_3";
+            LoginLabel_3.Size = new Size(120, 50);
+            LoginLabel_3.TabIndex = 165;
+            LoginLabel_3.Text = "Login";
+            LoginLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_2
             // 
-            this.LoginLabel_2.AutoSize = true;
-            this.LoginLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_2.Location = new System.Drawing.Point(372, 172);
-            this.LoginLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_2.MaximumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_2.MinimumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_2.Name = "LoginLabel_2";
-            this.LoginLabel_2.Size = new System.Drawing.Size(120, 50);
-            this.LoginLabel_2.TabIndex = 164;
-            this.LoginLabel_2.Text = "Login";
-            this.LoginLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_2.AutoSize = true;
+            LoginLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_2.Location = new Point(372, 172);
+            LoginLabel_2.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_2.MaximumSize = new Size(120, 50);
+            LoginLabel_2.MinimumSize = new Size(120, 50);
+            LoginLabel_2.Name = "LoginLabel_2";
+            LoginLabel_2.Size = new Size(120, 50);
+            LoginLabel_2.TabIndex = 164;
+            LoginLabel_2.Text = "Login";
+            LoginLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_1
             // 
-            this.LoginLabel_1.AutoSize = true;
-            this.LoginLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_1.Location = new System.Drawing.Point(373, 104);
-            this.LoginLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_1.MaximumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_1.MinimumSize = new System.Drawing.Size(120, 50);
-            this.LoginLabel_1.Name = "LoginLabel_1";
-            this.LoginLabel_1.Size = new System.Drawing.Size(120, 50);
-            this.LoginLabel_1.TabIndex = 163;
-            this.LoginLabel_1.Text = "Login";
-            this.LoginLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_1.AutoSize = true;
+            LoginLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_1.Location = new Point(373, 104);
+            LoginLabel_1.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_1.MaximumSize = new Size(120, 50);
+            LoginLabel_1.MinimumSize = new Size(120, 50);
+            LoginLabel_1.Name = "LoginLabel_1";
+            LoginLabel_1.Size = new Size(120, 50);
+            LoginLabel_1.TabIndex = 163;
+            LoginLabel_1.Text = "Login";
+            LoginLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // StaticLoginLabel
             // 
-            this.StaticLoginLabel.AutoSize = true;
-            this.StaticLoginLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticLoginLabel.Location = new System.Drawing.Point(390, 56);
-            this.StaticLoginLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticLoginLabel.Name = "StaticLoginLabel";
-            this.StaticLoginLabel.Size = new System.Drawing.Size(84, 35);
-            this.StaticLoginLabel.TabIndex = 162;
-            this.StaticLoginLabel.Text = "Логин";
+            StaticLoginLabel.AutoSize = true;
+            StaticLoginLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticLoginLabel.Location = new Point(390, 56);
+            StaticLoginLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticLoginLabel.Name = "StaticLoginLabel";
+            StaticLoginLabel.Size = new Size(84, 35);
+            StaticLoginLabel.TabIndex = 162;
+            StaticLoginLabel.Text = "Логин";
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel8.Location = new System.Drawing.Point(180, 91);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(671, 10);
-            this.panel8.TabIndex = 161;
+            panel8.BackColor = Color.FromArgb(55, 55, 55);
+            panel8.Location = new Point(180, 91);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(671, 10);
+            panel8.TabIndex = 161;
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel7.Location = new System.Drawing.Point(180, 373);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(671, 10);
-            this.panel7.TabIndex = 160;
+            panel7.BackColor = Color.FromArgb(55, 55, 55);
+            panel7.Location = new Point(180, 373);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(671, 10);
+            panel7.TabIndex = 160;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel6.Location = new System.Drawing.Point(180, 304);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(671, 10);
-            this.panel6.TabIndex = 159;
+            panel6.BackColor = Color.FromArgb(55, 55, 55);
+            panel6.Location = new Point(180, 304);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(671, 10);
+            panel6.TabIndex = 159;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel5.Location = new System.Drawing.Point(180, 231);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(671, 10);
-            this.panel5.TabIndex = 158;
+            panel5.BackColor = Color.FromArgb(55, 55, 55);
+            panel5.Location = new Point(180, 231);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(671, 10);
+            panel5.TabIndex = 158;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(180, 159);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(671, 10);
-            this.panel4.TabIndex = 157;
+            panel4.BackColor = Color.FromArgb(55, 55, 55);
+            panel4.Location = new Point(180, 159);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(671, 10);
+            panel4.TabIndex = 157;
             // 
             // DateLabel_5
             // 
-            this.DateLabel_5.AutoSize = true;
-            this.DateLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 17.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DateLabel_5.Location = new System.Drawing.Point(743, 383);
-            this.DateLabel_5.MaximumSize = new System.Drawing.Size(120, 0);
-            this.DateLabel_5.Name = "DateLabel_5";
-            this.DateLabel_5.Size = new System.Drawing.Size(108, 29);
-            this.DateLabel_5.TabIndex = 156;
-            this.DateLabel_5.Text = "15.05.2023";
-            this.DateLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            DateLabel_5.AutoSize = true;
+            DateLabel_5.Font = new Font("Bahnschrift SemiCondensed", 17.5F, FontStyle.Regular, GraphicsUnit.Point);
+            DateLabel_5.Location = new Point(743, 383);
+            DateLabel_5.MaximumSize = new Size(120, 0);
+            DateLabel_5.Name = "DateLabel_5";
+            DateLabel_5.Size = new Size(108, 29);
+            DateLabel_5.TabIndex = 156;
+            DateLabel_5.Text = "15.05.2023";
+            DateLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SumLabel_5
             // 
-            this.SumLabel_5.AutoSize = true;
-            this.SumLabel_5.Location = new System.Drawing.Point(641, 398);
-            this.SumLabel_5.MinimumSize = new System.Drawing.Size(75, 0);
-            this.SumLabel_5.Name = "SumLabel_5";
-            this.SumLabel_5.Size = new System.Drawing.Size(75, 29);
-            this.SumLabel_5.TabIndex = 155;
-            this.SumLabel_5.Text = "0";
-            this.SumLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            SumLabel_5.AutoSize = true;
+            SumLabel_5.Location = new Point(641, 398);
+            SumLabel_5.MinimumSize = new Size(75, 0);
+            SumLabel_5.Name = "SumLabel_5";
+            SumLabel_5.Size = new Size(75, 29);
+            SumLabel_5.TabIndex = 155;
+            SumLabel_5.Text = "0";
+            SumLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ModelLabel_5
             // 
-            this.ModelLabel_5.AutoSize = true;
-            this.ModelLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ModelLabel_5.Location = new System.Drawing.Point(507, 388);
-            this.ModelLabel_5.MaximumSize = new System.Drawing.Size(100, 0);
-            this.ModelLabel_5.MinimumSize = new System.Drawing.Size(120, 50);
-            this.ModelLabel_5.Name = "ModelLabel_5";
-            this.ModelLabel_5.Size = new System.Drawing.Size(120, 50);
-            this.ModelLabel_5.TabIndex = 154;
-            this.ModelLabel_5.Text = "Model Model";
-            this.ModelLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            ModelLabel_5.AutoSize = true;
+            ModelLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ModelLabel_5.Location = new Point(507, 388);
+            ModelLabel_5.MaximumSize = new Size(100, 0);
+            ModelLabel_5.MinimumSize = new Size(120, 50);
+            ModelLabel_5.Name = "ModelLabel_5";
+            ModelLabel_5.Size = new Size(120, 50);
+            ModelLabel_5.TabIndex = 154;
+            ModelLabel_5.Text = "Model Model";
+            ModelLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // VioLabel_5
             // 
-            this.VioLabel_5.AutoSize = true;
-            this.VioLabel_5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VioLabel_5.Location = new System.Drawing.Point(183, 389);
-            this.VioLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel_5.MaximumSize = new System.Drawing.Size(200, 0);
-            this.VioLabel_5.MinimumSize = new System.Drawing.Size(185, 46);
-            this.VioLabel_5.Name = "VioLabel_5";
-            this.VioLabel_5.Size = new System.Drawing.Size(185, 46);
-            this.VioLabel_5.TabIndex = 153;
-            this.VioLabel_5.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
-            this.VioLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            VioLabel_5.AutoSize = true;
+            VioLabel_5.Cursor = Cursors.Hand;
+            VioLabel_5.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            VioLabel_5.Location = new Point(183, 389);
+            VioLabel_5.Margin = new Padding(5, 0, 5, 0);
+            VioLabel_5.MaximumSize = new Size(200, 0);
+            VioLabel_5.MinimumSize = new Size(185, 46);
+            VioLabel_5.Name = "VioLabel_5";
+            VioLabel_5.Size = new Size(185, 46);
+            VioLabel_5.TabIndex = 153;
+            VioLabel_5.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
+            VioLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DateLabel_4
             // 
-            this.DateLabel_4.AutoSize = true;
-            this.DateLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 17.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DateLabel_4.Location = new System.Drawing.Point(743, 314);
-            this.DateLabel_4.MaximumSize = new System.Drawing.Size(120, 0);
-            this.DateLabel_4.Name = "DateLabel_4";
-            this.DateLabel_4.Size = new System.Drawing.Size(108, 29);
-            this.DateLabel_4.TabIndex = 152;
-            this.DateLabel_4.Text = "15.05.2023";
-            this.DateLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            DateLabel_4.AutoSize = true;
+            DateLabel_4.Font = new Font("Bahnschrift SemiCondensed", 17.5F, FontStyle.Regular, GraphicsUnit.Point);
+            DateLabel_4.Location = new Point(743, 314);
+            DateLabel_4.MaximumSize = new Size(120, 0);
+            DateLabel_4.Name = "DateLabel_4";
+            DateLabel_4.Size = new Size(108, 29);
+            DateLabel_4.TabIndex = 152;
+            DateLabel_4.Text = "15.05.2023";
+            DateLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SumLabel_4
             // 
-            this.SumLabel_4.AutoSize = true;
-            this.SumLabel_4.Location = new System.Drawing.Point(641, 327);
-            this.SumLabel_4.MinimumSize = new System.Drawing.Size(75, 0);
-            this.SumLabel_4.Name = "SumLabel_4";
-            this.SumLabel_4.Size = new System.Drawing.Size(75, 29);
-            this.SumLabel_4.TabIndex = 151;
-            this.SumLabel_4.Text = "0";
-            this.SumLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            SumLabel_4.AutoSize = true;
+            SumLabel_4.Location = new Point(641, 327);
+            SumLabel_4.MinimumSize = new Size(75, 0);
+            SumLabel_4.Name = "SumLabel_4";
+            SumLabel_4.Size = new Size(75, 29);
+            SumLabel_4.TabIndex = 151;
+            SumLabel_4.Text = "0";
+            SumLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ModelLabel_4
             // 
-            this.ModelLabel_4.AutoSize = true;
-            this.ModelLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ModelLabel_4.Location = new System.Drawing.Point(507, 317);
-            this.ModelLabel_4.MaximumSize = new System.Drawing.Size(100, 0);
-            this.ModelLabel_4.MinimumSize = new System.Drawing.Size(120, 50);
-            this.ModelLabel_4.Name = "ModelLabel_4";
-            this.ModelLabel_4.Size = new System.Drawing.Size(120, 50);
-            this.ModelLabel_4.TabIndex = 150;
-            this.ModelLabel_4.Text = "Model Model";
-            this.ModelLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            ModelLabel_4.AutoSize = true;
+            ModelLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ModelLabel_4.Location = new Point(507, 317);
+            ModelLabel_4.MaximumSize = new Size(100, 0);
+            ModelLabel_4.MinimumSize = new Size(120, 50);
+            ModelLabel_4.Name = "ModelLabel_4";
+            ModelLabel_4.Size = new Size(120, 50);
+            ModelLabel_4.TabIndex = 150;
+            ModelLabel_4.Text = "Model Model";
+            ModelLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // VioLabel_4
             // 
-            this.VioLabel_4.AutoSize = true;
-            this.VioLabel_4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VioLabel_4.Location = new System.Drawing.Point(183, 319);
-            this.VioLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel_4.MaximumSize = new System.Drawing.Size(200, 0);
-            this.VioLabel_4.MinimumSize = new System.Drawing.Size(185, 46);
-            this.VioLabel_4.Name = "VioLabel_4";
-            this.VioLabel_4.Size = new System.Drawing.Size(185, 46);
-            this.VioLabel_4.TabIndex = 149;
-            this.VioLabel_4.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
-            this.VioLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            VioLabel_4.AutoSize = true;
+            VioLabel_4.Cursor = Cursors.Hand;
+            VioLabel_4.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            VioLabel_4.Location = new Point(183, 319);
+            VioLabel_4.Margin = new Padding(5, 0, 5, 0);
+            VioLabel_4.MaximumSize = new Size(200, 0);
+            VioLabel_4.MinimumSize = new Size(185, 46);
+            VioLabel_4.Name = "VioLabel_4";
+            VioLabel_4.Size = new Size(185, 46);
+            VioLabel_4.TabIndex = 149;
+            VioLabel_4.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
+            VioLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DateLabel_3
             // 
-            this.DateLabel_3.AutoSize = true;
-            this.DateLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 17.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DateLabel_3.Location = new System.Drawing.Point(743, 241);
-            this.DateLabel_3.MaximumSize = new System.Drawing.Size(120, 0);
-            this.DateLabel_3.Name = "DateLabel_3";
-            this.DateLabel_3.Size = new System.Drawing.Size(108, 29);
-            this.DateLabel_3.TabIndex = 148;
-            this.DateLabel_3.Text = "15.05.2023";
-            this.DateLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            DateLabel_3.AutoSize = true;
+            DateLabel_3.Font = new Font("Bahnschrift SemiCondensed", 17.5F, FontStyle.Regular, GraphicsUnit.Point);
+            DateLabel_3.Location = new Point(743, 241);
+            DateLabel_3.MaximumSize = new Size(120, 0);
+            DateLabel_3.Name = "DateLabel_3";
+            DateLabel_3.Size = new Size(108, 29);
+            DateLabel_3.TabIndex = 148;
+            DateLabel_3.Text = "15.05.2023";
+            DateLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SumLabel_3
             // 
-            this.SumLabel_3.AutoSize = true;
-            this.SumLabel_3.Location = new System.Drawing.Point(641, 257);
-            this.SumLabel_3.MinimumSize = new System.Drawing.Size(75, 0);
-            this.SumLabel_3.Name = "SumLabel_3";
-            this.SumLabel_3.Size = new System.Drawing.Size(75, 29);
-            this.SumLabel_3.TabIndex = 147;
-            this.SumLabel_3.Text = "0";
-            this.SumLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            SumLabel_3.AutoSize = true;
+            SumLabel_3.Location = new Point(641, 257);
+            SumLabel_3.MinimumSize = new Size(75, 0);
+            SumLabel_3.Name = "SumLabel_3";
+            SumLabel_3.Size = new Size(75, 29);
+            SumLabel_3.TabIndex = 147;
+            SumLabel_3.Text = "0";
+            SumLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ModelLabel_3
             // 
-            this.ModelLabel_3.AutoSize = true;
-            this.ModelLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ModelLabel_3.Location = new System.Drawing.Point(507, 247);
-            this.ModelLabel_3.MaximumSize = new System.Drawing.Size(100, 0);
-            this.ModelLabel_3.MinimumSize = new System.Drawing.Size(120, 50);
-            this.ModelLabel_3.Name = "ModelLabel_3";
-            this.ModelLabel_3.Size = new System.Drawing.Size(120, 50);
-            this.ModelLabel_3.TabIndex = 146;
-            this.ModelLabel_3.Text = "Model Model";
-            this.ModelLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            ModelLabel_3.AutoSize = true;
+            ModelLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ModelLabel_3.Location = new Point(507, 247);
+            ModelLabel_3.MaximumSize = new Size(100, 0);
+            ModelLabel_3.MinimumSize = new Size(120, 50);
+            ModelLabel_3.Name = "ModelLabel_3";
+            ModelLabel_3.Size = new Size(120, 50);
+            ModelLabel_3.TabIndex = 146;
+            ModelLabel_3.Text = "Model Model";
+            ModelLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // VioLabel_3
             // 
-            this.VioLabel_3.AutoSize = true;
-            this.VioLabel_3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VioLabel_3.Location = new System.Drawing.Point(183, 248);
-            this.VioLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel_3.MaximumSize = new System.Drawing.Size(200, 0);
-            this.VioLabel_3.MinimumSize = new System.Drawing.Size(185, 46);
-            this.VioLabel_3.Name = "VioLabel_3";
-            this.VioLabel_3.Size = new System.Drawing.Size(185, 46);
-            this.VioLabel_3.TabIndex = 145;
-            this.VioLabel_3.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
-            this.VioLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            VioLabel_3.AutoSize = true;
+            VioLabel_3.Cursor = Cursors.Hand;
+            VioLabel_3.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            VioLabel_3.Location = new Point(183, 248);
+            VioLabel_3.Margin = new Padding(5, 0, 5, 0);
+            VioLabel_3.MaximumSize = new Size(200, 0);
+            VioLabel_3.MinimumSize = new Size(185, 46);
+            VioLabel_3.Name = "VioLabel_3";
+            VioLabel_3.Size = new Size(185, 46);
+            VioLabel_3.TabIndex = 145;
+            VioLabel_3.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
+            VioLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DateLabel_2
             // 
-            this.DateLabel_2.AutoSize = true;
-            this.DateLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 17.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DateLabel_2.Location = new System.Drawing.Point(743, 169);
-            this.DateLabel_2.MaximumSize = new System.Drawing.Size(120, 0);
-            this.DateLabel_2.Name = "DateLabel_2";
-            this.DateLabel_2.Size = new System.Drawing.Size(108, 29);
-            this.DateLabel_2.TabIndex = 144;
-            this.DateLabel_2.Text = "15.05.2023";
-            this.DateLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            DateLabel_2.AutoSize = true;
+            DateLabel_2.Font = new Font("Bahnschrift SemiCondensed", 17.5F, FontStyle.Regular, GraphicsUnit.Point);
+            DateLabel_2.Location = new Point(743, 169);
+            DateLabel_2.MaximumSize = new Size(120, 0);
+            DateLabel_2.Name = "DateLabel_2";
+            DateLabel_2.Size = new Size(108, 29);
+            DateLabel_2.TabIndex = 144;
+            DateLabel_2.Text = "15.05.2023";
+            DateLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SumLabel_2
             // 
-            this.SumLabel_2.AutoSize = true;
-            this.SumLabel_2.Location = new System.Drawing.Point(641, 184);
-            this.SumLabel_2.MinimumSize = new System.Drawing.Size(75, 0);
-            this.SumLabel_2.Name = "SumLabel_2";
-            this.SumLabel_2.Size = new System.Drawing.Size(75, 29);
-            this.SumLabel_2.TabIndex = 143;
-            this.SumLabel_2.Text = "0";
-            this.SumLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            SumLabel_2.AutoSize = true;
+            SumLabel_2.Location = new Point(641, 184);
+            SumLabel_2.MinimumSize = new Size(75, 0);
+            SumLabel_2.Name = "SumLabel_2";
+            SumLabel_2.Size = new Size(75, 29);
+            SumLabel_2.TabIndex = 143;
+            SumLabel_2.Text = "0";
+            SumLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ModelLabel_2
             // 
-            this.ModelLabel_2.AutoSize = true;
-            this.ModelLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ModelLabel_2.Location = new System.Drawing.Point(508, 174);
-            this.ModelLabel_2.MaximumSize = new System.Drawing.Size(100, 0);
-            this.ModelLabel_2.MinimumSize = new System.Drawing.Size(120, 50);
-            this.ModelLabel_2.Name = "ModelLabel_2";
-            this.ModelLabel_2.Size = new System.Drawing.Size(120, 50);
-            this.ModelLabel_2.TabIndex = 142;
-            this.ModelLabel_2.Text = "Model Model";
-            this.ModelLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            ModelLabel_2.AutoSize = true;
+            ModelLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ModelLabel_2.Location = new Point(508, 174);
+            ModelLabel_2.MaximumSize = new Size(100, 0);
+            ModelLabel_2.MinimumSize = new Size(120, 50);
+            ModelLabel_2.Name = "ModelLabel_2";
+            ModelLabel_2.Size = new Size(120, 50);
+            ModelLabel_2.TabIndex = 142;
+            ModelLabel_2.Text = "Model Model";
+            ModelLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // VioLabel_2
             // 
-            this.VioLabel_2.AutoSize = true;
-            this.VioLabel_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VioLabel_2.Location = new System.Drawing.Point(183, 175);
-            this.VioLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel_2.MaximumSize = new System.Drawing.Size(200, 0);
-            this.VioLabel_2.MinimumSize = new System.Drawing.Size(185, 46);
-            this.VioLabel_2.Name = "VioLabel_2";
-            this.VioLabel_2.Size = new System.Drawing.Size(185, 46);
-            this.VioLabel_2.TabIndex = 141;
-            this.VioLabel_2.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
-            this.VioLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            VioLabel_2.AutoSize = true;
+            VioLabel_2.Cursor = Cursors.Hand;
+            VioLabel_2.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            VioLabel_2.Location = new Point(183, 175);
+            VioLabel_2.Margin = new Padding(5, 0, 5, 0);
+            VioLabel_2.MaximumSize = new Size(200, 0);
+            VioLabel_2.MinimumSize = new Size(185, 46);
+            VioLabel_2.Name = "VioLabel_2";
+            VioLabel_2.Size = new Size(185, 46);
+            VioLabel_2.TabIndex = 141;
+            VioLabel_2.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
+            VioLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DateLabel_1
             // 
-            this.DateLabel_1.AutoSize = true;
-            this.DateLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 17.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.DateLabel_1.Location = new System.Drawing.Point(743, 101);
-            this.DateLabel_1.MaximumSize = new System.Drawing.Size(120, 0);
-            this.DateLabel_1.Name = "DateLabel_1";
-            this.DateLabel_1.Size = new System.Drawing.Size(108, 29);
-            this.DateLabel_1.TabIndex = 140;
-            this.DateLabel_1.Text = "15.05.2023";
-            this.DateLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            DateLabel_1.AutoSize = true;
+            DateLabel_1.Font = new Font("Bahnschrift SemiCondensed", 17.5F, FontStyle.Regular, GraphicsUnit.Point);
+            DateLabel_1.Location = new Point(743, 101);
+            DateLabel_1.MaximumSize = new Size(120, 0);
+            DateLabel_1.Name = "DateLabel_1";
+            DateLabel_1.Size = new Size(108, 29);
+            DateLabel_1.TabIndex = 140;
+            DateLabel_1.Text = "15.05.2023";
+            DateLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SumLabel_1
             // 
-            this.SumLabel_1.AutoSize = true;
-            this.SumLabel_1.Location = new System.Drawing.Point(641, 114);
-            this.SumLabel_1.MinimumSize = new System.Drawing.Size(75, 0);
-            this.SumLabel_1.Name = "SumLabel_1";
-            this.SumLabel_1.Size = new System.Drawing.Size(75, 29);
-            this.SumLabel_1.TabIndex = 139;
-            this.SumLabel_1.Text = "0";
-            this.SumLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            SumLabel_1.AutoSize = true;
+            SumLabel_1.Location = new Point(641, 114);
+            SumLabel_1.MinimumSize = new Size(75, 0);
+            SumLabel_1.Name = "SumLabel_1";
+            SumLabel_1.Size = new Size(75, 29);
+            SumLabel_1.TabIndex = 139;
+            SumLabel_1.Text = "0";
+            SumLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ModelLabel_1
             // 
-            this.ModelLabel_1.AutoSize = true;
-            this.ModelLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ModelLabel_1.Location = new System.Drawing.Point(508, 104);
-            this.ModelLabel_1.MaximumSize = new System.Drawing.Size(100, 0);
-            this.ModelLabel_1.MinimumSize = new System.Drawing.Size(120, 50);
-            this.ModelLabel_1.Name = "ModelLabel_1";
-            this.ModelLabel_1.Size = new System.Drawing.Size(120, 50);
-            this.ModelLabel_1.TabIndex = 138;
-            this.ModelLabel_1.Text = "Model Model";
-            this.ModelLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            ModelLabel_1.AutoSize = true;
+            ModelLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ModelLabel_1.Location = new Point(508, 104);
+            ModelLabel_1.MaximumSize = new Size(100, 0);
+            ModelLabel_1.MinimumSize = new Size(120, 50);
+            ModelLabel_1.Name = "ModelLabel_1";
+            ModelLabel_1.Size = new Size(120, 50);
+            ModelLabel_1.TabIndex = 138;
+            ModelLabel_1.Text = "Model Model";
+            ModelLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // VioLabel_1
             // 
-            this.VioLabel_1.AutoSize = true;
-            this.VioLabel_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VioLabel_1.Location = new System.Drawing.Point(181, 106);
-            this.VioLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel_1.MaximumSize = new System.Drawing.Size(200, 0);
-            this.VioLabel_1.MinimumSize = new System.Drawing.Size(185, 46);
-            this.VioLabel_1.Name = "VioLabel_1";
-            this.VioLabel_1.Size = new System.Drawing.Size(185, 46);
-            this.VioLabel_1.TabIndex = 137;
-            this.VioLabel_1.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
-            this.VioLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            VioLabel_1.AutoSize = true;
+            VioLabel_1.Cursor = Cursors.Hand;
+            VioLabel_1.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            VioLabel_1.Location = new Point(181, 106);
+            VioLabel_1.Margin = new Padding(5, 0, 5, 0);
+            VioLabel_1.MaximumSize = new Size(200, 0);
+            VioLabel_1.MinimumSize = new Size(185, 46);
+            VioLabel_1.Name = "VioLabel_1";
+            VioLabel_1.Size = new Size(185, 46);
+            VioLabel_1.TabIndex = 137;
+            VioLabel_1.Text = "VIO TEXT VIO TEXT VIO TEXT VIO TEXT  VIO TEXT ";
+            VioLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // StaticDateLabel
             // 
-            this.StaticDateLabel.AutoSize = true;
-            this.StaticDateLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticDateLabel.Location = new System.Drawing.Point(758, 56);
-            this.StaticDateLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticDateLabel.Name = "StaticDateLabel";
-            this.StaticDateLabel.Size = new System.Drawing.Size(72, 35);
-            this.StaticDateLabel.TabIndex = 136;
-            this.StaticDateLabel.Text = "Дата";
+            StaticDateLabel.AutoSize = true;
+            StaticDateLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticDateLabel.Location = new Point(758, 56);
+            StaticDateLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticDateLabel.Name = "StaticDateLabel";
+            StaticDateLabel.Size = new Size(72, 35);
+            StaticDateLabel.TabIndex = 136;
+            StaticDateLabel.Text = "Дата";
             // 
             // StaticVioLabel
             // 
-            this.StaticVioLabel.AutoSize = true;
-            this.StaticVioLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticVioLabel.Location = new System.Drawing.Point(202, 56);
-            this.StaticVioLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticVioLabel.Name = "StaticVioLabel";
-            this.StaticVioLabel.Size = new System.Drawing.Size(142, 35);
-            this.StaticVioLabel.TabIndex = 135;
-            this.StaticVioLabel.Text = "Нарушение";
+            StaticVioLabel.AutoSize = true;
+            StaticVioLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticVioLabel.Location = new Point(202, 56);
+            StaticVioLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticVioLabel.Name = "StaticVioLabel";
+            StaticVioLabel.Size = new Size(142, 35);
+            StaticVioLabel.TabIndex = 135;
+            StaticVioLabel.Text = "Нарушение";
             // 
             // StaticSumLabel
             // 
-            this.StaticSumLabel.AutoSize = true;
-            this.StaticSumLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticSumLabel.Location = new System.Drawing.Point(639, 56);
-            this.StaticSumLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticSumLabel.Name = "StaticSumLabel";
-            this.StaticSumLabel.Size = new System.Drawing.Size(88, 35);
-            this.StaticSumLabel.TabIndex = 134;
-            this.StaticSumLabel.Text = "Сумма";
+            StaticSumLabel.AutoSize = true;
+            StaticSumLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticSumLabel.Location = new Point(639, 56);
+            StaticSumLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticSumLabel.Name = "StaticSumLabel";
+            StaticSumLabel.Size = new Size(88, 35);
+            StaticSumLabel.TabIndex = 134;
+            StaticSumLabel.Text = "Сумма";
             // 
             // StaticCarLabel
             // 
-            this.StaticCarLabel.AutoSize = true;
-            this.StaticCarLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticCarLabel.Location = new System.Drawing.Point(535, 56);
-            this.StaticCarLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticCarLabel.Name = "StaticCarLabel";
-            this.StaticCarLabel.Size = new System.Drawing.Size(67, 35);
-            this.StaticCarLabel.TabIndex = 133;
-            this.StaticCarLabel.Text = "Авто";
+            StaticCarLabel.AutoSize = true;
+            StaticCarLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticCarLabel.Location = new Point(535, 56);
+            StaticCarLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticCarLabel.Name = "StaticCarLabel";
+            StaticCarLabel.Size = new Size(67, 35);
+            StaticCarLabel.TabIndex = 133;
+            StaticCarLabel.Text = "Авто";
             // 
             // NextPageButton
             // 
-            this.NextPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NextPageButton.Image = global::ROV_TL.Properties.Resources.NextPageIcon;
-            this.NextPageButton.Location = new System.Drawing.Point(665, 11);
-            this.NextPageButton.Name = "NextPageButton";
-            this.NextPageButton.Size = new System.Drawing.Size(30, 30);
-            this.NextPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.NextPageButton.TabIndex = 132;
-            this.NextPageButton.TabStop = false;
-            this.NextPageButton.Click += new System.EventHandler(this.NextPageButton_Click);
+            NextPageButton.Cursor = Cursors.Hand;
+            NextPageButton.Image = Properties.Resources.NextPageIcon;
+            NextPageButton.Location = new Point(665, 11);
+            NextPageButton.Name = "NextPageButton";
+            NextPageButton.Size = new Size(30, 30);
+            NextPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            NextPageButton.TabIndex = 132;
+            NextPageButton.TabStop = false;
+            NextPageButton.Click += NextPageButton_Click;
             // 
             // PrevPageButton
             // 
-            this.PrevPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PrevPageButton.Image = global::ROV_TL.Properties.Resources.PrevPageIcon;
-            this.PrevPageButton.Location = new System.Drawing.Point(337, 11);
-            this.PrevPageButton.Name = "PrevPageButton";
-            this.PrevPageButton.Size = new System.Drawing.Size(30, 30);
-            this.PrevPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PrevPageButton.TabIndex = 131;
-            this.PrevPageButton.TabStop = false;
-            this.PrevPageButton.Click += new System.EventHandler(this.PrevPageButton_Click);
+            PrevPageButton.Cursor = Cursors.Hand;
+            PrevPageButton.Image = Properties.Resources.PrevPageIcon;
+            PrevPageButton.Location = new Point(337, 11);
+            PrevPageButton.Name = "PrevPageButton";
+            PrevPageButton.Size = new Size(30, 30);
+            PrevPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            PrevPageButton.TabIndex = 131;
+            PrevPageButton.TabStop = false;
+            PrevPageButton.Click += PrevPageButton_Click;
             // 
             // CurrentPageLabel
             // 
-            this.CurrentPageLabel.AutoSize = true;
-            this.CurrentPageLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CurrentPageLabel.Location = new System.Drawing.Point(373, 8);
-            this.CurrentPageLabel.Name = "CurrentPageLabel";
-            this.CurrentPageLabel.Size = new System.Drawing.Size(286, 35);
-            this.CurrentPageLabel.TabIndex = 130;
-            this.CurrentPageLabel.Text = "Текущая страница: 1";
+            CurrentPageLabel.AutoSize = true;
+            CurrentPageLabel.Font = new Font("Bahnschrift SemiBold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CurrentPageLabel.Location = new Point(373, 8);
+            CurrentPageLabel.Name = "CurrentPageLabel";
+            CurrentPageLabel.Size = new Size(286, 35);
+            CurrentPageLabel.TabIndex = 130;
+            CurrentPageLabel.Text = "Текущая страница: 1";
             // 
             // NoPayViosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.LoginLabel_5);
-            this.Controls.Add(this.LoginLabel_4);
-            this.Controls.Add(this.LoginLabel_3);
-            this.Controls.Add(this.LoginLabel_2);
-            this.Controls.Add(this.LoginLabel_1);
-            this.Controls.Add(this.StaticLoginLabel);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.DateLabel_5);
-            this.Controls.Add(this.SumLabel_5);
-            this.Controls.Add(this.ModelLabel_5);
-            this.Controls.Add(this.VioLabel_5);
-            this.Controls.Add(this.DateLabel_4);
-            this.Controls.Add(this.SumLabel_4);
-            this.Controls.Add(this.ModelLabel_4);
-            this.Controls.Add(this.VioLabel_4);
-            this.Controls.Add(this.DateLabel_3);
-            this.Controls.Add(this.SumLabel_3);
-            this.Controls.Add(this.ModelLabel_3);
-            this.Controls.Add(this.VioLabel_3);
-            this.Controls.Add(this.DateLabel_2);
-            this.Controls.Add(this.SumLabel_2);
-            this.Controls.Add(this.ModelLabel_2);
-            this.Controls.Add(this.VioLabel_2);
-            this.Controls.Add(this.DateLabel_1);
-            this.Controls.Add(this.SumLabel_1);
-            this.Controls.Add(this.ModelLabel_1);
-            this.Controls.Add(this.VioLabel_1);
-            this.Controls.Add(this.StaticDateLabel);
-            this.Controls.Add(this.StaticVioLabel);
-            this.Controls.Add(this.StaticSumLabel);
-            this.Controls.Add(this.StaticCarLabel);
-            this.Controls.Add(this.NextPageButton);
-            this.Controls.Add(this.PrevPageButton);
-            this.Controls.Add(this.CurrentPageLabel);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "NoPayViosForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NoPayViosForm";
-            this.Load += new System.EventHandler(this.NoPayViosForm_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(LoginLabel_5);
+            Controls.Add(LoginLabel_4);
+            Controls.Add(LoginLabel_3);
+            Controls.Add(LoginLabel_2);
+            Controls.Add(LoginLabel_1);
+            Controls.Add(StaticLoginLabel);
+            Controls.Add(panel8);
+            Controls.Add(panel7);
+            Controls.Add(panel6);
+            Controls.Add(panel5);
+            Controls.Add(panel4);
+            Controls.Add(DateLabel_5);
+            Controls.Add(SumLabel_5);
+            Controls.Add(ModelLabel_5);
+            Controls.Add(VioLabel_5);
+            Controls.Add(DateLabel_4);
+            Controls.Add(SumLabel_4);
+            Controls.Add(ModelLabel_4);
+            Controls.Add(VioLabel_4);
+            Controls.Add(DateLabel_3);
+            Controls.Add(SumLabel_3);
+            Controls.Add(ModelLabel_3);
+            Controls.Add(VioLabel_3);
+            Controls.Add(DateLabel_2);
+            Controls.Add(SumLabel_2);
+            Controls.Add(ModelLabel_2);
+            Controls.Add(VioLabel_2);
+            Controls.Add(DateLabel_1);
+            Controls.Add(SumLabel_1);
+            Controls.Add(ModelLabel_1);
+            Controls.Add(VioLabel_1);
+            Controls.Add(StaticDateLabel);
+            Controls.Add(StaticVioLabel);
+            Controls.Add(StaticSumLabel);
+            Controls.Add(StaticCarLabel);
+            Controls.Add(NextPageButton);
+            Controls.Add(PrevPageButton);
+            Controls.Add(CurrentPageLabel);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "NoPayViosForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "NoPayViosForm";
+            Load += NoPayViosForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

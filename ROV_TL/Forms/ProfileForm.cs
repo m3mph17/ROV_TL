@@ -129,7 +129,7 @@ namespace ROV_TL
                 log.Warn("FIO is wrong: {FIO}", LoginTextBox.Text);
                 return;
             }
-            
+
 
             // Updating user info
 
@@ -257,7 +257,7 @@ namespace ROV_TL
 
         private void ExitPictureBox_Click(object sender, EventArgs e)
         {
-            log.Info("Log off from profile {login}", user.Login); 
+            log.Info("Log off from profile {login}", user.Login);
             this.Close();
         }
 
@@ -266,6 +266,36 @@ namespace ROV_TL
             BalanceForm balanceForm = new BalanceForm(user, this);
             balanceForm.ShowDialog();
             this.Close();
+        }
+
+        private void ProfileLabel_MouseHover(object sender, EventArgs e)
+        {
+            Control ctrl = sender as Control;
+            ToolTip toolTip1 = new ToolTip();
+            if (ctrl != null)
+            {
+                toolTip1.SetToolTip(ctrl, "Ваш профиль");
+            }
+        }
+
+        private void VioLabel_MouseHover(object sender, EventArgs e)
+        {
+            Control ctrl = sender as Control;
+            ToolTip toolTip1 = new ToolTip();
+            if (ctrl != null)
+            {
+                toolTip1.SetToolTip(ctrl, "Ваши штрафы");
+            }
+        }
+
+        private void CarInfoLabel_MouseHover(object sender, EventArgs e)
+        {
+            Control ctrl = sender as Control;
+            ToolTip toolTip1 = new ToolTip();
+            if (ctrl != null)
+            {
+                toolTip1.SetToolTip(ctrl, "Ваши автомобили");
+            }
         }
     }
 }

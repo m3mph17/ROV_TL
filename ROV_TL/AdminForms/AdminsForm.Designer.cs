@@ -28,767 +28,768 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ViosLabel = new System.Windows.Forms.Label();
-            this.AdminProfileLabel = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CarsLabel = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.AdminsLabel = new System.Windows.Forms.Label();
-            this.UsersLabel = new System.Windows.Forms.Label();
-            this.NextPageButton = new System.Windows.Forms.PictureBox();
-            this.PrevPageButton = new System.Windows.Forms.PictureBox();
-            this.CurrentPageLabel = new System.Windows.Forms.Label();
-            this.StaticEmailLabel = new System.Windows.Forms.Label();
-            this.StaticLvlLabel = new System.Windows.Forms.Label();
-            this.StaticPasswordLabel = new System.Windows.Forms.Label();
-            this.StaticLoginLabel = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.LvlLabel_1 = new System.Windows.Forms.Label();
-            this.LoginLabel_1 = new System.Windows.Forms.Label();
-            this.PasswordLabel_1 = new System.Windows.Forms.Label();
-            this.EmailLabel_1 = new System.Windows.Forms.Label();
-            this.EmailLabel_2 = new System.Windows.Forms.Label();
-            this.PasswordLabel_2 = new System.Windows.Forms.Label();
-            this.LoginLabel_2 = new System.Windows.Forms.Label();
-            this.LvlLabel_2 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.EmailLabel_3 = new System.Windows.Forms.Label();
-            this.PasswordLabel_3 = new System.Windows.Forms.Label();
-            this.LoginLabel_3 = new System.Windows.Forms.Label();
-            this.LvlLabel_3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.EmailLabel_4 = new System.Windows.Forms.Label();
-            this.PasswordLabel_4 = new System.Windows.Forms.Label();
-            this.LoginLabel_4 = new System.Windows.Forms.Label();
-            this.LvlLabel_4 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.EmailLabel_5 = new System.Windows.Forms.Label();
-            this.PasswordLabel_5 = new System.Windows.Forms.Label();
-            this.LoginLabel_5 = new System.Windows.Forms.Label();
-            this.LvlLabel_5 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.EmailLabel_6 = new System.Windows.Forms.Label();
-            this.PasswordLabel_6 = new System.Windows.Forms.Label();
-            this.LoginLabel_6 = new System.Windows.Forms.Label();
-            this.LvlLabel_6 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.EmailLabel_7 = new System.Windows.Forms.Label();
-            this.PasswordLabel_7 = new System.Windows.Forms.Label();
-            this.LoginLabel_7 = new System.Windows.Forms.Label();
-            this.LvlLabel_7 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.AddButton = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AddButton)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminsForm));
+            panel1 = new Panel();
+            ViosLabel = new Label();
+            AdminProfileLabel = new Label();
+            panel3 = new Panel();
+            CarsLabel = new Label();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            AdminsLabel = new Label();
+            UsersLabel = new Label();
+            NextPageButton = new PictureBox();
+            PrevPageButton = new PictureBox();
+            CurrentPageLabel = new Label();
+            StaticEmailLabel = new Label();
+            StaticLvlLabel = new Label();
+            StaticPasswordLabel = new Label();
+            StaticLoginLabel = new Label();
+            panel8 = new Panel();
+            LvlLabel_1 = new Label();
+            LoginLabel_1 = new Label();
+            PasswordLabel_1 = new Label();
+            EmailLabel_1 = new Label();
+            EmailLabel_2 = new Label();
+            PasswordLabel_2 = new Label();
+            LoginLabel_2 = new Label();
+            LvlLabel_2 = new Label();
+            panel9 = new Panel();
+            EmailLabel_3 = new Label();
+            PasswordLabel_3 = new Label();
+            LoginLabel_3 = new Label();
+            LvlLabel_3 = new Label();
+            panel4 = new Panel();
+            EmailLabel_4 = new Label();
+            PasswordLabel_4 = new Label();
+            LoginLabel_4 = new Label();
+            LvlLabel_4 = new Label();
+            panel5 = new Panel();
+            EmailLabel_5 = new Label();
+            PasswordLabel_5 = new Label();
+            LoginLabel_5 = new Label();
+            LvlLabel_5 = new Label();
+            panel6 = new Panel();
+            EmailLabel_6 = new Label();
+            PasswordLabel_6 = new Label();
+            LoginLabel_6 = new Label();
+            LvlLabel_6 = new Label();
+            panel7 = new Panel();
+            EmailLabel_7 = new Label();
+            PasswordLabel_7 = new Label();
+            LoginLabel_7 = new Label();
+            LvlLabel_7 = new Label();
+            panel10 = new Panel();
+            AddButton = new PictureBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AddButton).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.ViosLabel);
-            this.panel1.Controls.Add(this.AdminProfileLabel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarsLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.AdminsLabel);
-            this.panel1.Controls.Add(this.UsersLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 460);
-            this.panel1.TabIndex = 15;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(ViosLabel);
+            panel1.Controls.Add(AdminProfileLabel);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarsLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(AdminsLabel);
+            panel1.Controls.Add(UsersLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 460);
+            panel1.TabIndex = 15;
             // 
             // ViosLabel
             // 
-            this.ViosLabel.AutoSize = true;
-            this.ViosLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ViosLabel.ForeColor = System.Drawing.Color.Black;
-            this.ViosLabel.Location = new System.Drawing.Point(11, 221);
-            this.ViosLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ViosLabel.Name = "ViosLabel";
-            this.ViosLabel.Size = new System.Drawing.Size(119, 29);
-            this.ViosLabel.TabIndex = 11;
-            this.ViosLabel.Text = "Нарушения";
-            this.ViosLabel.Click += new System.EventHandler(this.ViosLabel_Click);
+            ViosLabel.AutoSize = true;
+            ViosLabel.Cursor = Cursors.Hand;
+            ViosLabel.ForeColor = Color.Black;
+            ViosLabel.Location = new Point(11, 221);
+            ViosLabel.Margin = new Padding(5, 0, 5, 0);
+            ViosLabel.Name = "ViosLabel";
+            ViosLabel.Size = new Size(119, 29);
+            ViosLabel.TabIndex = 11;
+            ViosLabel.Text = "Нарушения";
+            ViosLabel.Click += ViosLabel_Click;
             // 
             // AdminProfileLabel
             // 
-            this.AdminProfileLabel.AutoSize = true;
-            this.AdminProfileLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminProfileLabel.Location = new System.Drawing.Point(47, 62);
-            this.AdminProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminProfileLabel.Name = "AdminProfileLabel";
-            this.AdminProfileLabel.Size = new System.Drawing.Size(72, 29);
-            this.AdminProfileLabel.TabIndex = 10;
-            this.AdminProfileLabel.Text = "Admin";
-            this.AdminProfileLabel.Click += new System.EventHandler(this.AdminProfileLabel_Click);
+            AdminProfileLabel.AutoSize = true;
+            AdminProfileLabel.Cursor = Cursors.Hand;
+            AdminProfileLabel.ForeColor = Color.Black;
+            AdminProfileLabel.Location = new Point(47, 62);
+            AdminProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminProfileLabel.Name = "AdminProfileLabel";
+            AdminProfileLabel.Size = new Size(72, 29);
+            AdminProfileLabel.TabIndex = 10;
+            AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.Click += AdminProfileLabel_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(-2, 139);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(163, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(-2, 139);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(163, 5);
+            panel3.TabIndex = 9;
             // 
             // CarsLabel
             // 
-            this.CarsLabel.AutoSize = true;
-            this.CarsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarsLabel.ForeColor = System.Drawing.Color.Black;
-            this.CarsLabel.Location = new System.Drawing.Point(11, 185);
-            this.CarsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarsLabel.Name = "CarsLabel";
-            this.CarsLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarsLabel.TabIndex = 8;
-            this.CarsLabel.Text = "Автомобили";
-            this.CarsLabel.Click += new System.EventHandler(this.CarsLabel_Click);
+            CarsLabel.AutoSize = true;
+            CarsLabel.Cursor = Cursors.Hand;
+            CarsLabel.ForeColor = Color.Black;
+            CarsLabel.Location = new Point(11, 185);
+            CarsLabel.Margin = new Padding(5, 0, 5, 0);
+            CarsLabel.Name = "CarsLabel";
+            CarsLabel.Size = new Size(126, 29);
+            CarsLabel.TabIndex = 8;
+            CarsLabel.Text = "Автомобили";
+            CarsLabel.Click += CarsLabel_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.ForeColor = System.Drawing.Color.Black;
-            this.ROVLabel.Location = new System.Drawing.Point(33, 9);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.ForeColor = Color.Black;
+            ROVLabel.Location = new Point(33, 9);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // AdminsLabel
             // 
-            this.AdminsLabel.AutoSize = true;
-            this.AdminsLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdminsLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminsLabel.Location = new System.Drawing.Point(11, 109);
-            this.AdminsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminsLabel.Name = "AdminsLabel";
-            this.AdminsLabel.Size = new System.Drawing.Size(150, 29);
-            this.AdminsLabel.TabIndex = 2;
-            this.AdminsLabel.Text = "Администраторы";
+            AdminsLabel.AutoSize = true;
+            AdminsLabel.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            AdminsLabel.ForeColor = Color.Black;
+            AdminsLabel.Location = new Point(11, 109);
+            AdminsLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminsLabel.Name = "AdminsLabel";
+            AdminsLabel.Size = new Size(150, 29);
+            AdminsLabel.TabIndex = 2;
+            AdminsLabel.Text = "Администраторы";
             // 
             // UsersLabel
             // 
-            this.UsersLabel.AutoSize = true;
-            this.UsersLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UsersLabel.ForeColor = System.Drawing.Color.Black;
-            this.UsersLabel.Location = new System.Drawing.Point(11, 149);
-            this.UsersLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.UsersLabel.Name = "UsersLabel";
-            this.UsersLabel.Size = new System.Drawing.Size(142, 29);
-            this.UsersLabel.TabIndex = 3;
-            this.UsersLabel.Text = "Пользователи";
-            this.UsersLabel.Click += new System.EventHandler(this.UsersLabel_Click);
+            UsersLabel.AutoSize = true;
+            UsersLabel.Cursor = Cursors.Hand;
+            UsersLabel.ForeColor = Color.Black;
+            UsersLabel.Location = new Point(11, 149);
+            UsersLabel.Margin = new Padding(5, 0, 5, 0);
+            UsersLabel.Name = "UsersLabel";
+            UsersLabel.Size = new Size(142, 29);
+            UsersLabel.TabIndex = 3;
+            UsersLabel.Text = "Пользователи";
+            UsersLabel.Click += UsersLabel_Click;
             // 
             // NextPageButton
             // 
-            this.NextPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NextPageButton.Image = global::ROV_TL.Properties.Resources.NextPageIcon;
-            this.NextPageButton.Location = new System.Drawing.Point(676, 12);
-            this.NextPageButton.Name = "NextPageButton";
-            this.NextPageButton.Size = new System.Drawing.Size(30, 30);
-            this.NextPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.NextPageButton.TabIndex = 47;
-            this.NextPageButton.TabStop = false;
-            this.NextPageButton.Click += new System.EventHandler(this.NextPageButton_Click);
+            NextPageButton.Cursor = Cursors.Hand;
+            NextPageButton.Image = Properties.Resources.NextPageIcon;
+            NextPageButton.Location = new Point(676, 12);
+            NextPageButton.Name = "NextPageButton";
+            NextPageButton.Size = new Size(30, 30);
+            NextPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            NextPageButton.TabIndex = 47;
+            NextPageButton.TabStop = false;
+            NextPageButton.Click += NextPageButton_Click;
             // 
             // PrevPageButton
             // 
-            this.PrevPageButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PrevPageButton.Image = global::ROV_TL.Properties.Resources.PrevPageIcon;
-            this.PrevPageButton.Location = new System.Drawing.Point(348, 12);
-            this.PrevPageButton.Name = "PrevPageButton";
-            this.PrevPageButton.Size = new System.Drawing.Size(30, 30);
-            this.PrevPageButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PrevPageButton.TabIndex = 46;
-            this.PrevPageButton.TabStop = false;
-            this.PrevPageButton.Click += new System.EventHandler(this.PrevPageButton_Click);
+            PrevPageButton.Cursor = Cursors.Hand;
+            PrevPageButton.Image = Properties.Resources.PrevPageIcon;
+            PrevPageButton.Location = new Point(348, 12);
+            PrevPageButton.Name = "PrevPageButton";
+            PrevPageButton.Size = new Size(30, 30);
+            PrevPageButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            PrevPageButton.TabIndex = 46;
+            PrevPageButton.TabStop = false;
+            PrevPageButton.Click += PrevPageButton_Click;
             // 
             // CurrentPageLabel
             // 
-            this.CurrentPageLabel.AutoSize = true;
-            this.CurrentPageLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CurrentPageLabel.Location = new System.Drawing.Point(384, 9);
-            this.CurrentPageLabel.Name = "CurrentPageLabel";
-            this.CurrentPageLabel.Size = new System.Drawing.Size(286, 35);
-            this.CurrentPageLabel.TabIndex = 45;
-            this.CurrentPageLabel.Text = "Текущая страница: 1";
+            CurrentPageLabel.AutoSize = true;
+            CurrentPageLabel.Font = new Font("Bahnschrift SemiBold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CurrentPageLabel.Location = new Point(384, 9);
+            CurrentPageLabel.Name = "CurrentPageLabel";
+            CurrentPageLabel.Size = new Size(286, 35);
+            CurrentPageLabel.TabIndex = 45;
+            CurrentPageLabel.Text = "Текущая страница: 1";
             // 
             // StaticEmailLabel
             // 
-            this.StaticEmailLabel.AutoSize = true;
-            this.StaticEmailLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticEmailLabel.Location = new System.Drawing.Point(715, 75);
-            this.StaticEmailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticEmailLabel.Name = "StaticEmailLabel";
-            this.StaticEmailLabel.Size = new System.Drawing.Size(80, 35);
-            this.StaticEmailLabel.TabIndex = 51;
-            this.StaticEmailLabel.Text = "Email";
+            StaticEmailLabel.AutoSize = true;
+            StaticEmailLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticEmailLabel.Location = new Point(715, 75);
+            StaticEmailLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticEmailLabel.Name = "StaticEmailLabel";
+            StaticEmailLabel.Size = new Size(80, 35);
+            StaticEmailLabel.TabIndex = 51;
+            StaticEmailLabel.Text = "Email";
             // 
             // StaticLvlLabel
             // 
-            this.StaticLvlLabel.AutoSize = true;
-            this.StaticLvlLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticLvlLabel.Location = new System.Drawing.Point(199, 75);
-            this.StaticLvlLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticLvlLabel.Name = "StaticLvlLabel";
-            this.StaticLvlLabel.Size = new System.Drawing.Size(96, 35);
-            this.StaticLvlLabel.TabIndex = 50;
-            this.StaticLvlLabel.Text = "Доступ";
+            StaticLvlLabel.AutoSize = true;
+            StaticLvlLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticLvlLabel.Location = new Point(199, 75);
+            StaticLvlLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticLvlLabel.Name = "StaticLvlLabel";
+            StaticLvlLabel.Size = new Size(96, 35);
+            StaticLvlLabel.TabIndex = 50;
+            StaticLvlLabel.Text = "Доступ";
             // 
             // StaticPasswordLabel
             // 
-            this.StaticPasswordLabel.AutoSize = true;
-            this.StaticPasswordLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticPasswordLabel.Location = new System.Drawing.Point(518, 75);
-            this.StaticPasswordLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticPasswordLabel.Name = "StaticPasswordLabel";
-            this.StaticPasswordLabel.Size = new System.Drawing.Size(98, 35);
-            this.StaticPasswordLabel.TabIndex = 49;
-            this.StaticPasswordLabel.Text = "Пароль";
+            StaticPasswordLabel.AutoSize = true;
+            StaticPasswordLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticPasswordLabel.Location = new Point(518, 75);
+            StaticPasswordLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticPasswordLabel.Name = "StaticPasswordLabel";
+            StaticPasswordLabel.Size = new Size(98, 35);
+            StaticPasswordLabel.TabIndex = 49;
+            StaticPasswordLabel.Text = "Пароль";
             // 
             // StaticLoginLabel
             // 
-            this.StaticLoginLabel.AutoSize = true;
-            this.StaticLoginLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticLoginLabel.Location = new System.Drawing.Point(353, 75);
-            this.StaticLoginLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticLoginLabel.Name = "StaticLoginLabel";
-            this.StaticLoginLabel.Size = new System.Drawing.Size(84, 35);
-            this.StaticLoginLabel.TabIndex = 48;
-            this.StaticLoginLabel.Text = "Логин";
+            StaticLoginLabel.AutoSize = true;
+            StaticLoginLabel.Font = new Font("Bahnschrift SemiCondensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticLoginLabel.Location = new Point(353, 75);
+            StaticLoginLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticLoginLabel.Name = "StaticLoginLabel";
+            StaticLoginLabel.Size = new Size(84, 35);
+            StaticLoginLabel.TabIndex = 48;
+            StaticLoginLabel.Text = "Логин";
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel8.Location = new System.Drawing.Point(199, 113);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(643, 10);
-            this.panel8.TabIndex = 53;
+            panel8.BackColor = Color.FromArgb(55, 55, 55);
+            panel8.Location = new Point(199, 113);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(643, 10);
+            panel8.TabIndex = 53;
             // 
             // LvlLabel_1
             // 
-            this.LvlLabel_1.AutoSize = true;
-            this.LvlLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_1.Location = new System.Drawing.Point(198, 127);
-            this.LvlLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_1.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_1.Name = "LvlLabel_1";
-            this.LvlLabel_1.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_1.TabIndex = 57;
-            this.LvlLabel_1.Text = "-1";
-            this.LvlLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_1.AutoSize = true;
+            LvlLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_1.Location = new Point(198, 127);
+            LvlLabel_1.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_1.MinimumSize = new Size(96, 0);
+            LvlLabel_1.Name = "LvlLabel_1";
+            LvlLabel_1.Size = new Size(96, 25);
+            LvlLabel_1.TabIndex = 57;
+            LvlLabel_1.Text = "-1";
+            LvlLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_1
             // 
-            this.LoginLabel_1.AutoSize = true;
-            this.LoginLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_1.Location = new System.Drawing.Point(319, 127);
-            this.LoginLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_1.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_1.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_1.Name = "LoginLabel_1";
-            this.LoginLabel_1.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_1.TabIndex = 58;
-            this.LoginLabel_1.Text = "Login";
-            this.LoginLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_1.AutoSize = true;
+            LoginLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_1.Location = new Point(319, 127);
+            LoginLabel_1.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_1.MaximumSize = new Size(160, 0);
+            LoginLabel_1.MinimumSize = new Size(150, 0);
+            LoginLabel_1.Name = "LoginLabel_1";
+            LoginLabel_1.Size = new Size(150, 25);
+            LoginLabel_1.TabIndex = 58;
+            LoginLabel_1.Text = "Login";
+            LoginLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_1
             // 
-            this.PasswordLabel_1.AutoSize = true;
-            this.PasswordLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_1.Location = new System.Drawing.Point(489, 127);
-            this.PasswordLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_1.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_1.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_1.Name = "PasswordLabel_1";
-            this.PasswordLabel_1.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_1.TabIndex = 59;
-            this.PasswordLabel_1.Text = "Password";
-            this.PasswordLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_1.AutoSize = true;
+            PasswordLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_1.Location = new Point(489, 127);
+            PasswordLabel_1.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_1.MaximumSize = new Size(160, 0);
+            PasswordLabel_1.MinimumSize = new Size(150, 0);
+            PasswordLabel_1.Name = "PasswordLabel_1";
+            PasswordLabel_1.Size = new Size(150, 25);
+            PasswordLabel_1.TabIndex = 59;
+            PasswordLabel_1.Text = "Password";
+            PasswordLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // EmailLabel_1
             // 
-            this.EmailLabel_1.AutoSize = true;
-            this.EmailLabel_1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_1.Location = new System.Drawing.Point(655, 127);
-            this.EmailLabel_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_1.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_1.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_1.Name = "EmailLabel_1";
-            this.EmailLabel_1.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_1.TabIndex = 60;
-            this.EmailLabel_1.Text = "Email";
-            this.EmailLabel_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_1.AutoSize = true;
+            EmailLabel_1.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_1.Location = new Point(655, 127);
+            EmailLabel_1.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_1.MaximumSize = new Size(200, 0);
+            EmailLabel_1.MinimumSize = new Size(200, 0);
+            EmailLabel_1.Name = "EmailLabel_1";
+            EmailLabel_1.Size = new Size(200, 25);
+            EmailLabel_1.TabIndex = 60;
+            EmailLabel_1.Text = "Email";
+            EmailLabel_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // EmailLabel_2
             // 
-            this.EmailLabel_2.AutoSize = true;
-            this.EmailLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_2.Location = new System.Drawing.Point(655, 171);
-            this.EmailLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_2.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_2.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_2.Name = "EmailLabel_2";
-            this.EmailLabel_2.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_2.TabIndex = 65;
-            this.EmailLabel_2.Text = "Email";
-            this.EmailLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_2.AutoSize = true;
+            EmailLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_2.Location = new Point(655, 171);
+            EmailLabel_2.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_2.MaximumSize = new Size(200, 0);
+            EmailLabel_2.MinimumSize = new Size(200, 0);
+            EmailLabel_2.Name = "EmailLabel_2";
+            EmailLabel_2.Size = new Size(200, 25);
+            EmailLabel_2.TabIndex = 65;
+            EmailLabel_2.Text = "Email";
+            EmailLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_2
             // 
-            this.PasswordLabel_2.AutoSize = true;
-            this.PasswordLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_2.Location = new System.Drawing.Point(489, 171);
-            this.PasswordLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_2.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_2.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_2.Name = "PasswordLabel_2";
-            this.PasswordLabel_2.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_2.TabIndex = 64;
-            this.PasswordLabel_2.Text = "Password";
-            this.PasswordLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_2.AutoSize = true;
+            PasswordLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_2.Location = new Point(489, 171);
+            PasswordLabel_2.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_2.MaximumSize = new Size(160, 0);
+            PasswordLabel_2.MinimumSize = new Size(150, 0);
+            PasswordLabel_2.Name = "PasswordLabel_2";
+            PasswordLabel_2.Size = new Size(150, 25);
+            PasswordLabel_2.TabIndex = 64;
+            PasswordLabel_2.Text = "Password";
+            PasswordLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_2
             // 
-            this.LoginLabel_2.AutoSize = true;
-            this.LoginLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_2.Location = new System.Drawing.Point(319, 171);
-            this.LoginLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_2.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_2.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_2.Name = "LoginLabel_2";
-            this.LoginLabel_2.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_2.TabIndex = 63;
-            this.LoginLabel_2.Text = "Login";
-            this.LoginLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_2.AutoSize = true;
+            LoginLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_2.Location = new Point(319, 171);
+            LoginLabel_2.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_2.MaximumSize = new Size(160, 0);
+            LoginLabel_2.MinimumSize = new Size(150, 0);
+            LoginLabel_2.Name = "LoginLabel_2";
+            LoginLabel_2.Size = new Size(150, 25);
+            LoginLabel_2.TabIndex = 63;
+            LoginLabel_2.Text = "Login";
+            LoginLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_2
             // 
-            this.LvlLabel_2.AutoSize = true;
-            this.LvlLabel_2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_2.Location = new System.Drawing.Point(198, 171);
-            this.LvlLabel_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_2.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_2.Name = "LvlLabel_2";
-            this.LvlLabel_2.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_2.TabIndex = 62;
-            this.LvlLabel_2.Text = "-1";
-            this.LvlLabel_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_2.AutoSize = true;
+            LvlLabel_2.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_2.Location = new Point(198, 171);
+            LvlLabel_2.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_2.MinimumSize = new Size(96, 0);
+            LvlLabel_2.Name = "LvlLabel_2";
+            LvlLabel_2.Size = new Size(96, 25);
+            LvlLabel_2.TabIndex = 62;
+            LvlLabel_2.Text = "-1";
+            LvlLabel_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel9.Location = new System.Drawing.Point(199, 157);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(643, 10);
-            this.panel9.TabIndex = 61;
+            panel9.BackColor = Color.FromArgb(55, 55, 55);
+            panel9.Location = new Point(199, 157);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(643, 10);
+            panel9.TabIndex = 61;
             // 
             // EmailLabel_3
             // 
-            this.EmailLabel_3.AutoSize = true;
-            this.EmailLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_3.Location = new System.Drawing.Point(655, 216);
-            this.EmailLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_3.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_3.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_3.Name = "EmailLabel_3";
-            this.EmailLabel_3.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_3.TabIndex = 70;
-            this.EmailLabel_3.Text = "Email";
-            this.EmailLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_3.AutoSize = true;
+            EmailLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_3.Location = new Point(655, 216);
+            EmailLabel_3.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_3.MaximumSize = new Size(200, 0);
+            EmailLabel_3.MinimumSize = new Size(200, 0);
+            EmailLabel_3.Name = "EmailLabel_3";
+            EmailLabel_3.Size = new Size(200, 25);
+            EmailLabel_3.TabIndex = 70;
+            EmailLabel_3.Text = "Email";
+            EmailLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_3
             // 
-            this.PasswordLabel_3.AutoSize = true;
-            this.PasswordLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_3.Location = new System.Drawing.Point(489, 216);
-            this.PasswordLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_3.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_3.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_3.Name = "PasswordLabel_3";
-            this.PasswordLabel_3.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_3.TabIndex = 69;
-            this.PasswordLabel_3.Text = "Password";
-            this.PasswordLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_3.AutoSize = true;
+            PasswordLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_3.Location = new Point(489, 216);
+            PasswordLabel_3.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_3.MaximumSize = new Size(160, 0);
+            PasswordLabel_3.MinimumSize = new Size(150, 0);
+            PasswordLabel_3.Name = "PasswordLabel_3";
+            PasswordLabel_3.Size = new Size(150, 25);
+            PasswordLabel_3.TabIndex = 69;
+            PasswordLabel_3.Text = "Password";
+            PasswordLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_3
             // 
-            this.LoginLabel_3.AutoSize = true;
-            this.LoginLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_3.Location = new System.Drawing.Point(319, 216);
-            this.LoginLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_3.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_3.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_3.Name = "LoginLabel_3";
-            this.LoginLabel_3.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_3.TabIndex = 68;
-            this.LoginLabel_3.Text = "Login";
-            this.LoginLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_3.AutoSize = true;
+            LoginLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_3.Location = new Point(319, 216);
+            LoginLabel_3.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_3.MaximumSize = new Size(160, 0);
+            LoginLabel_3.MinimumSize = new Size(150, 0);
+            LoginLabel_3.Name = "LoginLabel_3";
+            LoginLabel_3.Size = new Size(150, 25);
+            LoginLabel_3.TabIndex = 68;
+            LoginLabel_3.Text = "Login";
+            LoginLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_3
             // 
-            this.LvlLabel_3.AutoSize = true;
-            this.LvlLabel_3.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_3.Location = new System.Drawing.Point(198, 216);
-            this.LvlLabel_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_3.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_3.Name = "LvlLabel_3";
-            this.LvlLabel_3.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_3.TabIndex = 67;
-            this.LvlLabel_3.Text = "-1";
-            this.LvlLabel_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_3.AutoSize = true;
+            LvlLabel_3.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_3.Location = new Point(198, 216);
+            LvlLabel_3.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_3.MinimumSize = new Size(96, 0);
+            LvlLabel_3.Name = "LvlLabel_3";
+            LvlLabel_3.Size = new Size(96, 25);
+            LvlLabel_3.TabIndex = 67;
+            LvlLabel_3.Text = "-1";
+            LvlLabel_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(199, 202);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(643, 10);
-            this.panel4.TabIndex = 66;
+            panel4.BackColor = Color.FromArgb(55, 55, 55);
+            panel4.Location = new Point(199, 202);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(643, 10);
+            panel4.TabIndex = 66;
             // 
             // EmailLabel_4
             // 
-            this.EmailLabel_4.AutoSize = true;
-            this.EmailLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_4.Location = new System.Drawing.Point(655, 261);
-            this.EmailLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_4.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_4.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_4.Name = "EmailLabel_4";
-            this.EmailLabel_4.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_4.TabIndex = 75;
-            this.EmailLabel_4.Text = "Email";
-            this.EmailLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_4.AutoSize = true;
+            EmailLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_4.Location = new Point(655, 261);
+            EmailLabel_4.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_4.MaximumSize = new Size(200, 0);
+            EmailLabel_4.MinimumSize = new Size(200, 0);
+            EmailLabel_4.Name = "EmailLabel_4";
+            EmailLabel_4.Size = new Size(200, 25);
+            EmailLabel_4.TabIndex = 75;
+            EmailLabel_4.Text = "Email";
+            EmailLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_4
             // 
-            this.PasswordLabel_4.AutoSize = true;
-            this.PasswordLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_4.Location = new System.Drawing.Point(489, 261);
-            this.PasswordLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_4.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_4.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_4.Name = "PasswordLabel_4";
-            this.PasswordLabel_4.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_4.TabIndex = 74;
-            this.PasswordLabel_4.Text = "Password";
-            this.PasswordLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_4.AutoSize = true;
+            PasswordLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_4.Location = new Point(489, 261);
+            PasswordLabel_4.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_4.MaximumSize = new Size(160, 0);
+            PasswordLabel_4.MinimumSize = new Size(150, 0);
+            PasswordLabel_4.Name = "PasswordLabel_4";
+            PasswordLabel_4.Size = new Size(150, 25);
+            PasswordLabel_4.TabIndex = 74;
+            PasswordLabel_4.Text = "Password";
+            PasswordLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_4
             // 
-            this.LoginLabel_4.AutoSize = true;
-            this.LoginLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_4.Location = new System.Drawing.Point(319, 261);
-            this.LoginLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_4.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_4.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_4.Name = "LoginLabel_4";
-            this.LoginLabel_4.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_4.TabIndex = 73;
-            this.LoginLabel_4.Text = "Login";
-            this.LoginLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_4.AutoSize = true;
+            LoginLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_4.Location = new Point(319, 261);
+            LoginLabel_4.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_4.MaximumSize = new Size(160, 0);
+            LoginLabel_4.MinimumSize = new Size(150, 0);
+            LoginLabel_4.Name = "LoginLabel_4";
+            LoginLabel_4.Size = new Size(150, 25);
+            LoginLabel_4.TabIndex = 73;
+            LoginLabel_4.Text = "Login";
+            LoginLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_4
             // 
-            this.LvlLabel_4.AutoSize = true;
-            this.LvlLabel_4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_4.Location = new System.Drawing.Point(198, 261);
-            this.LvlLabel_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_4.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_4.Name = "LvlLabel_4";
-            this.LvlLabel_4.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_4.TabIndex = 72;
-            this.LvlLabel_4.Text = "-1";
-            this.LvlLabel_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_4.AutoSize = true;
+            LvlLabel_4.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_4.Location = new Point(198, 261);
+            LvlLabel_4.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_4.MinimumSize = new Size(96, 0);
+            LvlLabel_4.Name = "LvlLabel_4";
+            LvlLabel_4.Size = new Size(96, 25);
+            LvlLabel_4.TabIndex = 72;
+            LvlLabel_4.Text = "-1";
+            LvlLabel_4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel5.Location = new System.Drawing.Point(199, 247);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(643, 10);
-            this.panel5.TabIndex = 71;
+            panel5.BackColor = Color.FromArgb(55, 55, 55);
+            panel5.Location = new Point(199, 247);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(643, 10);
+            panel5.TabIndex = 71;
             // 
             // EmailLabel_5
             // 
-            this.EmailLabel_5.AutoSize = true;
-            this.EmailLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_5.Location = new System.Drawing.Point(655, 307);
-            this.EmailLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_5.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_5.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_5.Name = "EmailLabel_5";
-            this.EmailLabel_5.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_5.TabIndex = 80;
-            this.EmailLabel_5.Text = "Email";
-            this.EmailLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_5.AutoSize = true;
+            EmailLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_5.Location = new Point(655, 307);
+            EmailLabel_5.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_5.MaximumSize = new Size(200, 0);
+            EmailLabel_5.MinimumSize = new Size(200, 0);
+            EmailLabel_5.Name = "EmailLabel_5";
+            EmailLabel_5.Size = new Size(200, 25);
+            EmailLabel_5.TabIndex = 80;
+            EmailLabel_5.Text = "Email";
+            EmailLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_5
             // 
-            this.PasswordLabel_5.AutoSize = true;
-            this.PasswordLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_5.Location = new System.Drawing.Point(489, 307);
-            this.PasswordLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_5.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_5.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_5.Name = "PasswordLabel_5";
-            this.PasswordLabel_5.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_5.TabIndex = 79;
-            this.PasswordLabel_5.Text = "Password";
-            this.PasswordLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_5.AutoSize = true;
+            PasswordLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_5.Location = new Point(489, 307);
+            PasswordLabel_5.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_5.MaximumSize = new Size(160, 0);
+            PasswordLabel_5.MinimumSize = new Size(150, 0);
+            PasswordLabel_5.Name = "PasswordLabel_5";
+            PasswordLabel_5.Size = new Size(150, 25);
+            PasswordLabel_5.TabIndex = 79;
+            PasswordLabel_5.Text = "Password";
+            PasswordLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_5
             // 
-            this.LoginLabel_5.AutoSize = true;
-            this.LoginLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_5.Location = new System.Drawing.Point(319, 307);
-            this.LoginLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_5.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_5.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_5.Name = "LoginLabel_5";
-            this.LoginLabel_5.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_5.TabIndex = 78;
-            this.LoginLabel_5.Text = "Login";
-            this.LoginLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_5.AutoSize = true;
+            LoginLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_5.Location = new Point(319, 307);
+            LoginLabel_5.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_5.MaximumSize = new Size(160, 0);
+            LoginLabel_5.MinimumSize = new Size(150, 0);
+            LoginLabel_5.Name = "LoginLabel_5";
+            LoginLabel_5.Size = new Size(150, 25);
+            LoginLabel_5.TabIndex = 78;
+            LoginLabel_5.Text = "Login";
+            LoginLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_5
             // 
-            this.LvlLabel_5.AutoSize = true;
-            this.LvlLabel_5.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_5.Location = new System.Drawing.Point(198, 307);
-            this.LvlLabel_5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_5.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_5.Name = "LvlLabel_5";
-            this.LvlLabel_5.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_5.TabIndex = 77;
-            this.LvlLabel_5.Text = "-1";
-            this.LvlLabel_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_5.AutoSize = true;
+            LvlLabel_5.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_5.Location = new Point(198, 307);
+            LvlLabel_5.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_5.MinimumSize = new Size(96, 0);
+            LvlLabel_5.Name = "LvlLabel_5";
+            LvlLabel_5.Size = new Size(96, 25);
+            LvlLabel_5.TabIndex = 77;
+            LvlLabel_5.Text = "-1";
+            LvlLabel_5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel6.Location = new System.Drawing.Point(199, 293);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(643, 10);
-            this.panel6.TabIndex = 76;
+            panel6.BackColor = Color.FromArgb(55, 55, 55);
+            panel6.Location = new Point(199, 293);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(643, 10);
+            panel6.TabIndex = 76;
             // 
             // EmailLabel_6
             // 
-            this.EmailLabel_6.AutoSize = true;
-            this.EmailLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_6.Location = new System.Drawing.Point(655, 352);
-            this.EmailLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_6.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_6.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_6.Name = "EmailLabel_6";
-            this.EmailLabel_6.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_6.TabIndex = 85;
-            this.EmailLabel_6.Text = "Email";
-            this.EmailLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_6.AutoSize = true;
+            EmailLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_6.Location = new Point(655, 352);
+            EmailLabel_6.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_6.MaximumSize = new Size(200, 0);
+            EmailLabel_6.MinimumSize = new Size(200, 0);
+            EmailLabel_6.Name = "EmailLabel_6";
+            EmailLabel_6.Size = new Size(200, 25);
+            EmailLabel_6.TabIndex = 85;
+            EmailLabel_6.Text = "Email";
+            EmailLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_6
             // 
-            this.PasswordLabel_6.AutoSize = true;
-            this.PasswordLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_6.Location = new System.Drawing.Point(489, 352);
-            this.PasswordLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_6.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_6.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_6.Name = "PasswordLabel_6";
-            this.PasswordLabel_6.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_6.TabIndex = 84;
-            this.PasswordLabel_6.Text = "Password";
-            this.PasswordLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_6.AutoSize = true;
+            PasswordLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_6.Location = new Point(489, 352);
+            PasswordLabel_6.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_6.MaximumSize = new Size(160, 0);
+            PasswordLabel_6.MinimumSize = new Size(150, 0);
+            PasswordLabel_6.Name = "PasswordLabel_6";
+            PasswordLabel_6.Size = new Size(150, 25);
+            PasswordLabel_6.TabIndex = 84;
+            PasswordLabel_6.Text = "Password";
+            PasswordLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_6
             // 
-            this.LoginLabel_6.AutoSize = true;
-            this.LoginLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_6.Location = new System.Drawing.Point(319, 352);
-            this.LoginLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_6.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_6.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_6.Name = "LoginLabel_6";
-            this.LoginLabel_6.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_6.TabIndex = 83;
-            this.LoginLabel_6.Text = "Login";
-            this.LoginLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_6.AutoSize = true;
+            LoginLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_6.Location = new Point(319, 352);
+            LoginLabel_6.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_6.MaximumSize = new Size(160, 0);
+            LoginLabel_6.MinimumSize = new Size(150, 0);
+            LoginLabel_6.Name = "LoginLabel_6";
+            LoginLabel_6.Size = new Size(150, 25);
+            LoginLabel_6.TabIndex = 83;
+            LoginLabel_6.Text = "Login";
+            LoginLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_6
             // 
-            this.LvlLabel_6.AutoSize = true;
-            this.LvlLabel_6.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_6.Location = new System.Drawing.Point(198, 352);
-            this.LvlLabel_6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_6.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_6.Name = "LvlLabel_6";
-            this.LvlLabel_6.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_6.TabIndex = 82;
-            this.LvlLabel_6.Text = "-1";
-            this.LvlLabel_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_6.AutoSize = true;
+            LvlLabel_6.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_6.Location = new Point(198, 352);
+            LvlLabel_6.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_6.MinimumSize = new Size(96, 0);
+            LvlLabel_6.Name = "LvlLabel_6";
+            LvlLabel_6.Size = new Size(96, 25);
+            LvlLabel_6.TabIndex = 82;
+            LvlLabel_6.Text = "-1";
+            LvlLabel_6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel7.Location = new System.Drawing.Point(199, 338);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(643, 10);
-            this.panel7.TabIndex = 81;
+            panel7.BackColor = Color.FromArgb(55, 55, 55);
+            panel7.Location = new Point(199, 338);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(643, 10);
+            panel7.TabIndex = 81;
             // 
             // EmailLabel_7
             // 
-            this.EmailLabel_7.AutoSize = true;
-            this.EmailLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailLabel_7.Location = new System.Drawing.Point(654, 395);
-            this.EmailLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.EmailLabel_7.MaximumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_7.MinimumSize = new System.Drawing.Size(200, 0);
-            this.EmailLabel_7.Name = "EmailLabel_7";
-            this.EmailLabel_7.Size = new System.Drawing.Size(200, 25);
-            this.EmailLabel_7.TabIndex = 90;
-            this.EmailLabel_7.Text = "Email";
-            this.EmailLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            EmailLabel_7.AutoSize = true;
+            EmailLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailLabel_7.Location = new Point(654, 395);
+            EmailLabel_7.Margin = new Padding(5, 0, 5, 0);
+            EmailLabel_7.MaximumSize = new Size(200, 0);
+            EmailLabel_7.MinimumSize = new Size(200, 0);
+            EmailLabel_7.Name = "EmailLabel_7";
+            EmailLabel_7.Size = new Size(200, 25);
+            EmailLabel_7.TabIndex = 90;
+            EmailLabel_7.Text = "Email";
+            EmailLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // PasswordLabel_7
             // 
-            this.PasswordLabel_7.AutoSize = true;
-            this.PasswordLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLabel_7.Location = new System.Drawing.Point(488, 395);
-            this.PasswordLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.PasswordLabel_7.MaximumSize = new System.Drawing.Size(160, 0);
-            this.PasswordLabel_7.MinimumSize = new System.Drawing.Size(150, 0);
-            this.PasswordLabel_7.Name = "PasswordLabel_7";
-            this.PasswordLabel_7.Size = new System.Drawing.Size(150, 25);
-            this.PasswordLabel_7.TabIndex = 89;
-            this.PasswordLabel_7.Text = "Password";
-            this.PasswordLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            PasswordLabel_7.AutoSize = true;
+            PasswordLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordLabel_7.Location = new Point(488, 395);
+            PasswordLabel_7.Margin = new Padding(5, 0, 5, 0);
+            PasswordLabel_7.MaximumSize = new Size(160, 0);
+            PasswordLabel_7.MinimumSize = new Size(150, 0);
+            PasswordLabel_7.Name = "PasswordLabel_7";
+            PasswordLabel_7.Size = new Size(150, 25);
+            PasswordLabel_7.TabIndex = 89;
+            PasswordLabel_7.Text = "Password";
+            PasswordLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginLabel_7
             // 
-            this.LoginLabel_7.AutoSize = true;
-            this.LoginLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginLabel_7.Location = new System.Drawing.Point(318, 395);
-            this.LoginLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LoginLabel_7.MaximumSize = new System.Drawing.Size(160, 0);
-            this.LoginLabel_7.MinimumSize = new System.Drawing.Size(150, 0);
-            this.LoginLabel_7.Name = "LoginLabel_7";
-            this.LoginLabel_7.Size = new System.Drawing.Size(150, 25);
-            this.LoginLabel_7.TabIndex = 88;
-            this.LoginLabel_7.Text = "Login";
-            this.LoginLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LoginLabel_7.AutoSize = true;
+            LoginLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginLabel_7.Location = new Point(318, 395);
+            LoginLabel_7.Margin = new Padding(5, 0, 5, 0);
+            LoginLabel_7.MaximumSize = new Size(160, 0);
+            LoginLabel_7.MinimumSize = new Size(150, 0);
+            LoginLabel_7.Name = "LoginLabel_7";
+            LoginLabel_7.Size = new Size(150, 25);
+            LoginLabel_7.TabIndex = 88;
+            LoginLabel_7.Text = "Login";
+            LoginLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LvlLabel_7
             // 
-            this.LvlLabel_7.AutoSize = true;
-            this.LvlLabel_7.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LvlLabel_7.Location = new System.Drawing.Point(197, 395);
-            this.LvlLabel_7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.LvlLabel_7.MinimumSize = new System.Drawing.Size(96, 0);
-            this.LvlLabel_7.Name = "LvlLabel_7";
-            this.LvlLabel_7.Size = new System.Drawing.Size(96, 25);
-            this.LvlLabel_7.TabIndex = 87;
-            this.LvlLabel_7.Text = "-1";
-            this.LvlLabel_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            LvlLabel_7.AutoSize = true;
+            LvlLabel_7.Font = new Font("Bahnschrift SemiCondensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LvlLabel_7.Location = new Point(197, 395);
+            LvlLabel_7.Margin = new Padding(5, 0, 5, 0);
+            LvlLabel_7.MinimumSize = new Size(96, 0);
+            LvlLabel_7.Name = "LvlLabel_7";
+            LvlLabel_7.Size = new Size(96, 25);
+            LvlLabel_7.TabIndex = 87;
+            LvlLabel_7.Text = "-1";
+            LvlLabel_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.panel10.Location = new System.Drawing.Point(198, 381);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(643, 10);
-            this.panel10.TabIndex = 86;
+            panel10.BackColor = Color.FromArgb(55, 55, 55);
+            panel10.Location = new Point(198, 381);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(643, 10);
+            panel10.TabIndex = 86;
             // 
             // AddButton
             // 
-            this.AddButton.Image = global::ROV_TL.Properties.Resources.AddIcon;
-            this.AddButton.Location = new System.Drawing.Point(199, 9);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(40, 40);
-            this.AddButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AddButton.TabIndex = 91;
-            this.AddButton.TabStop = false;
-            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
+            AddButton.Image = Properties.Resources.AddIcon;
+            AddButton.Location = new Point(199, 9);
+            AddButton.Name = "AddButton";
+            AddButton.Size = new Size(40, 40);
+            AddButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            AddButton.TabIndex = 91;
+            AddButton.TabStop = false;
+            AddButton.Click += AddButton_Click;
             // 
             // AdminsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.EmailLabel_7);
-            this.Controls.Add(this.PasswordLabel_7);
-            this.Controls.Add(this.LoginLabel_7);
-            this.Controls.Add(this.LvlLabel_7);
-            this.Controls.Add(this.panel10);
-            this.Controls.Add(this.EmailLabel_6);
-            this.Controls.Add(this.PasswordLabel_6);
-            this.Controls.Add(this.LoginLabel_6);
-            this.Controls.Add(this.LvlLabel_6);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.EmailLabel_5);
-            this.Controls.Add(this.PasswordLabel_5);
-            this.Controls.Add(this.LoginLabel_5);
-            this.Controls.Add(this.LvlLabel_5);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.EmailLabel_4);
-            this.Controls.Add(this.PasswordLabel_4);
-            this.Controls.Add(this.LoginLabel_4);
-            this.Controls.Add(this.LvlLabel_4);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.EmailLabel_3);
-            this.Controls.Add(this.PasswordLabel_3);
-            this.Controls.Add(this.LoginLabel_3);
-            this.Controls.Add(this.LvlLabel_3);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.EmailLabel_2);
-            this.Controls.Add(this.PasswordLabel_2);
-            this.Controls.Add(this.LoginLabel_2);
-            this.Controls.Add(this.LvlLabel_2);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.EmailLabel_1);
-            this.Controls.Add(this.PasswordLabel_1);
-            this.Controls.Add(this.LoginLabel_1);
-            this.Controls.Add(this.LvlLabel_1);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.StaticEmailLabel);
-            this.Controls.Add(this.StaticLvlLabel);
-            this.Controls.Add(this.StaticPasswordLabel);
-            this.Controls.Add(this.StaticLoginLabel);
-            this.Controls.Add(this.NextPageButton);
-            this.Controls.Add(this.PrevPageButton);
-            this.Controls.Add(this.CurrentPageLabel);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "AdminsForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AProfileForm";
-            this.Load += new System.EventHandler(this.AProfileForm_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NextPageButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PrevPageButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AddButton)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(AddButton);
+            Controls.Add(EmailLabel_7);
+            Controls.Add(PasswordLabel_7);
+            Controls.Add(LoginLabel_7);
+            Controls.Add(LvlLabel_7);
+            Controls.Add(panel10);
+            Controls.Add(EmailLabel_6);
+            Controls.Add(PasswordLabel_6);
+            Controls.Add(LoginLabel_6);
+            Controls.Add(LvlLabel_6);
+            Controls.Add(panel7);
+            Controls.Add(EmailLabel_5);
+            Controls.Add(PasswordLabel_5);
+            Controls.Add(LoginLabel_5);
+            Controls.Add(LvlLabel_5);
+            Controls.Add(panel6);
+            Controls.Add(EmailLabel_4);
+            Controls.Add(PasswordLabel_4);
+            Controls.Add(LoginLabel_4);
+            Controls.Add(LvlLabel_4);
+            Controls.Add(panel5);
+            Controls.Add(EmailLabel_3);
+            Controls.Add(PasswordLabel_3);
+            Controls.Add(LoginLabel_3);
+            Controls.Add(LvlLabel_3);
+            Controls.Add(panel4);
+            Controls.Add(EmailLabel_2);
+            Controls.Add(PasswordLabel_2);
+            Controls.Add(LoginLabel_2);
+            Controls.Add(LvlLabel_2);
+            Controls.Add(panel9);
+            Controls.Add(EmailLabel_1);
+            Controls.Add(PasswordLabel_1);
+            Controls.Add(LoginLabel_1);
+            Controls.Add(LvlLabel_1);
+            Controls.Add(panel8);
+            Controls.Add(StaticEmailLabel);
+            Controls.Add(StaticLvlLabel);
+            Controls.Add(StaticPasswordLabel);
+            Controls.Add(StaticLoginLabel);
+            Controls.Add(NextPageButton);
+            Controls.Add(PrevPageButton);
+            Controls.Add(CurrentPageLabel);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "AdminsForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AProfileForm";
+            Load += AProfileForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)NextPageButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PrevPageButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AddButton).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

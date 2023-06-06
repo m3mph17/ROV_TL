@@ -28,107 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.StaticCloseLabel = new System.Windows.Forms.Label();
-            this.CancelButton = new System.Windows.Forms.Button();
-            this.AddCarButton = new System.Windows.Forms.Button();
-            this.staticRedactLabel = new System.Windows.Forms.Label();
-            this.CarModelTextBox = new System.Windows.Forms.TextBox();
-            this.NumplateTextBox = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCarForm));
+            StaticCloseLabel = new Label();
+            CancelButton = new Button();
+            AddCarButton = new Button();
+            staticRedactLabel = new Label();
+            CarModelTextBox = new TextBox();
+            NumplateTextBox = new TextBox();
+            SuspendLayout();
             // 
             // StaticCloseLabel
             // 
-            this.StaticCloseLabel.AutoSize = true;
-            this.StaticCloseLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.StaticCloseLabel.Location = new System.Drawing.Point(507, 9);
-            this.StaticCloseLabel.Name = "StaticCloseLabel";
-            this.StaticCloseLabel.Size = new System.Drawing.Size(25, 29);
-            this.StaticCloseLabel.TabIndex = 26;
-            this.StaticCloseLabel.Text = "X";
-            this.StaticCloseLabel.Click += new System.EventHandler(this.StaticCloseLabel_Click);
+            StaticCloseLabel.AutoSize = true;
+            StaticCloseLabel.Cursor = Cursors.Hand;
+            StaticCloseLabel.Location = new Point(507, 9);
+            StaticCloseLabel.Name = "StaticCloseLabel";
+            StaticCloseLabel.Size = new Size(25, 29);
+            StaticCloseLabel.TabIndex = 26;
+            StaticCloseLabel.Text = "X";
+            StaticCloseLabel.Click += StaticCloseLabel_Click;
             // 
             // CancelButton
             // 
-            this.CancelButton.BackColor = System.Drawing.Color.Tan;
-            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CancelButton.ForeColor = System.Drawing.Color.Black;
-            this.CancelButton.Location = new System.Drawing.Point(53, 215);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(197, 34);
-            this.CancelButton.TabIndex = 25;
-            this.CancelButton.Text = "Отмена";
-            this.CancelButton.UseVisualStyleBackColor = false;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            CancelButton.BackColor = Color.Tan;
+            CancelButton.FlatStyle = FlatStyle.Flat;
+            CancelButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CancelButton.ForeColor = Color.Black;
+            CancelButton.Location = new Point(53, 215);
+            CancelButton.Name = "CancelButton";
+            CancelButton.Size = new Size(197, 34);
+            CancelButton.TabIndex = 25;
+            CancelButton.Text = "Отмена";
+            CancelButton.UseVisualStyleBackColor = false;
+            CancelButton.Click += CancelButton_Click;
             // 
             // AddCarButton
             // 
-            this.AddCarButton.BackColor = System.Drawing.Color.Tan;
-            this.AddCarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddCarButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AddCarButton.ForeColor = System.Drawing.Color.Black;
-            this.AddCarButton.Location = new System.Drawing.Point(270, 215);
-            this.AddCarButton.Name = "AddCarButton";
-            this.AddCarButton.Size = new System.Drawing.Size(197, 34);
-            this.AddCarButton.TabIndex = 24;
-            this.AddCarButton.Text = "Добавить авто";
-            this.AddCarButton.UseVisualStyleBackColor = false;
-            this.AddCarButton.Click += new System.EventHandler(this.AddCarButton_Click);
+            AddCarButton.BackColor = Color.Tan;
+            AddCarButton.FlatStyle = FlatStyle.Flat;
+            AddCarButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            AddCarButton.ForeColor = Color.Black;
+            AddCarButton.Location = new Point(270, 215);
+            AddCarButton.Name = "AddCarButton";
+            AddCarButton.Size = new Size(197, 34);
+            AddCarButton.TabIndex = 24;
+            AddCarButton.Text = "Добавить авто";
+            AddCarButton.UseVisualStyleBackColor = false;
+            AddCarButton.Click += AddCarButton_Click;
             // 
             // staticRedactLabel
             // 
-            this.staticRedactLabel.AutoSize = true;
-            this.staticRedactLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.staticRedactLabel.Location = new System.Drawing.Point(53, 25);
-            this.staticRedactLabel.Name = "staticRedactLabel";
-            this.staticRedactLabel.Size = new System.Drawing.Size(425, 39);
-            this.staticRedactLabel.TabIndex = 23;
-            this.staticRedactLabel.Text = "Добавление нового автомобиля";
+            staticRedactLabel.AutoSize = true;
+            staticRedactLabel.Font = new Font("Bahnschrift SemiCondensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            staticRedactLabel.Location = new Point(53, 25);
+            staticRedactLabel.Name = "staticRedactLabel";
+            staticRedactLabel.Size = new Size(425, 39);
+            staticRedactLabel.TabIndex = 23;
+            staticRedactLabel.Text = "Добавление нового автомобиля";
             // 
             // CarModelTextBox
             // 
-            this.CarModelTextBox.BackColor = System.Drawing.Color.Tan;
-            this.CarModelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CarModelTextBox.Location = new System.Drawing.Point(53, 112);
-            this.CarModelTextBox.MaxLength = 20;
-            this.CarModelTextBox.Name = "CarModelTextBox";
-            this.CarModelTextBox.PlaceholderText = "Car model";
-            this.CarModelTextBox.Size = new System.Drawing.Size(414, 29);
-            this.CarModelTextBox.TabIndex = 22;
+            CarModelTextBox.BackColor = Color.Tan;
+            CarModelTextBox.BorderStyle = BorderStyle.None;
+            CarModelTextBox.Location = new Point(53, 112);
+            CarModelTextBox.MaxLength = 20;
+            CarModelTextBox.Name = "CarModelTextBox";
+            CarModelTextBox.PlaceholderText = "Car model";
+            CarModelTextBox.Size = new Size(414, 29);
+            CarModelTextBox.TabIndex = 22;
             // 
             // NumplateTextBox
             // 
-            this.NumplateTextBox.BackColor = System.Drawing.Color.Tan;
-            this.NumplateTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.NumplateTextBox.Location = new System.Drawing.Point(53, 162);
-            this.NumplateTextBox.MaxLength = 20;
-            this.NumplateTextBox.Name = "NumplateTextBox";
-            this.NumplateTextBox.PlaceholderText = "Numplate";
-            this.NumplateTextBox.Size = new System.Drawing.Size(414, 29);
-            this.NumplateTextBox.TabIndex = 27;
+            NumplateTextBox.BackColor = Color.Tan;
+            NumplateTextBox.BorderStyle = BorderStyle.None;
+            NumplateTextBox.Location = new Point(53, 162);
+            NumplateTextBox.MaxLength = 20;
+            NumplateTextBox.Name = "NumplateTextBox";
+            NumplateTextBox.PlaceholderText = "Numplate";
+            NumplateTextBox.Size = new Size(414, 29);
+            NumplateTextBox.TabIndex = 27;
             // 
             // AddCarForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(544, 295);
-            this.Controls.Add(this.NumplateTextBox);
-            this.Controls.Add(this.StaticCloseLabel);
-            this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.AddCarButton);
-            this.Controls.Add(this.staticRedactLabel);
-            this.Controls.Add(this.CarModelTextBox);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "AddCarForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddCarForm";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(45, 45, 45);
+            ClientSize = new Size(544, 295);
+            Controls.Add(NumplateTextBox);
+            Controls.Add(StaticCloseLabel);
+            Controls.Add(CancelButton);
+            Controls.Add(AddCarButton);
+            Controls.Add(staticRedactLabel);
+            Controls.Add(CarModelTextBox);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "AddCarForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AddCarForm";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

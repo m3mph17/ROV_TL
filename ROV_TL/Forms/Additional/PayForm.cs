@@ -112,7 +112,7 @@ namespace ROV_TL.Forms.Additional
             {
                 MessageBox.Show("Недостаточно средств для оплаты", "ROV Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }    
+            }
         }
 
         private void CloseButton_Click(object sender, EventArgs e)

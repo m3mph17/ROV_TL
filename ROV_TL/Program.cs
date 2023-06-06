@@ -1,3 +1,5 @@
+using ROV_TL.Models;
+
 namespace ROV_TL
 {
     internal static class Program
@@ -12,6 +14,19 @@ namespace ROV_TL
             // see https://aka.ms/applicationconfiguration.
 
             ApplicationConfiguration.Initialize();
+
+            Intro first = new Intro();
+            DateTime end = DateTime.Now + TimeSpan.FromSeconds(5);
+
+            first.Show();
+            while(end > DateTime.Now)
+            {
+                Application.DoEvents();
+            }
+
+            first.Close();
+            first.Dispose();
+
             Application.Run(new LoginForm());
         }
     }

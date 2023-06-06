@@ -66,7 +66,7 @@ namespace ROV_TL.Forms.Additional
                 return;
             }
 
-            Car newCar = new Car { Model = CarModelTextBox.Text, NumberPlate = NumplateTextBox.Text, UserId = user.Id};
+            Car newCar = new Car { Model = CarModelTextBox.Text, NumberPlate = NumplateTextBox.Text, UserId = user.Id };
             try
             {
                 db.Cars.Add(newCar);

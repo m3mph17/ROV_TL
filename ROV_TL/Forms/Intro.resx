@@ -120,4 +120,29 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AQAAADUAAABnAAAAQf///wH///8B////Af///wH///8B////Af///wH///8BAAAAQQAA
+        AGcAAAA1////Af///wEAAAC3AAAA/wAAAOEAAABVAAAAYQAAAGsAAABvAAAAbwAAAGsAAABhAAAAVQAA
+        AOEAAAD/AAAAt////wH///8BAAAAtwAAAP8AAAD/AAAAiQAAAEMAAAA5AAAANQAAADUAAAA5AAAAQwAA
+        AIkAAAD/AAAA/wAAALf///8B////AQAAALcAAAD/AAAA/wAAAOkAAABPAAAAMwAAADMAAAAzAAAAMwAA
+        AE8AAADpAAAA/wAAAP8AAAC3////Af///wEAAAC3AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAt////wH///8BAAAAswAAANUAAAC9AAAA8wAAAMkAAAClAAAAbQAA
+        AG0AAAClAAAAyQAAAPMAAAC9AAAA1QAAALP///8B////AQAAAIMAAABlAAAAcwAAAOEAAAD9AAAA9QAA
+        AOsAAADtAAAA9QAAAP0AAADhAAAAcwAAAGUAAACD////Af///wEAAAAPAAAAywAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADNAAAAEf///wH///8BAAAAQQAAANMAAADfAAAAmQAA
+        AJkAAACZAAAAmQAAAJkAAACZAAAAmQAAAJkAAADfAAAA0wAAAEH///8B////Af///wH///8BAAAAlwAA
+        ADP///8B////Af///wH///8B////Af///wEAAAAzAAAAl////wH///8B////Af///wH///8B////AQAA
+        AA8AAACTAAAApQAAAKkAAAC9AAAAvQAAAKkAAACjAAAAkwAAAA////8B////Af///wEAAAAnAAAAOwAA
+        AAP///8B////Af///wEAAAApAAAAfQAAAH0AAAAp////Af///wH///8BAAAAAwAAADsAAAAnAAAAEQAA
+        AHUAAACpAAAAiQAAAFcAAABBAAAAhQAAAE8AAABPAAAAhQAAAEEAAABXAAAAiQAAAKkAAAB1AAAAEf//
+        /wH///8B////AQAAACEAAABRAAAAZQAAAEsAAAAFAAAABQAAAEsAAABlAAAAUQAAAB////8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//w==
+</value>
+  </data>
 </root>

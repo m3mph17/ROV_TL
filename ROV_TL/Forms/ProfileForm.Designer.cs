@@ -29,390 +29,393 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfileForm));
-            this.VioLabel = new System.Windows.Forms.Label();
-            this.ProfileLabel = new System.Windows.Forms.Label();
-            this.StaticLoginLabel = new System.Windows.Forms.Label();
-            this.StaticEmailLabel = new System.Windows.Forms.Label();
-            this.BalanceLabel = new System.Windows.Forms.Label();
-            this.CarInfoLabel = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.LoginTextBox = new System.Windows.Forms.TextBox();
-            this.EmailTextBox = new System.Windows.Forms.TextBox();
-            this.FioTextBox = new System.Windows.Forms.TextBox();
-            this.StaticFioLabel = new System.Windows.Forms.Label();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.StaticPasswordLabel = new System.Windows.Forms.Label();
-            this.StaticBalanceLabel = new System.Windows.Forms.Label();
-            this.ChangeDataButton = new System.Windows.Forms.Button();
-            this.ConfirmDataButton = new System.Windows.Forms.Button();
-            this.ExitPictureBox = new System.Windows.Forms.PictureBox();
-            this.UpdatePictureBox = new System.Windows.Forms.PictureBox();
-            this.AcessPictureBox_1 = new System.Windows.Forms.PictureBox();
-            this.AcessPictureBox_3 = new System.Windows.Forms.PictureBox();
-            this.AcessPictureBox_4 = new System.Windows.Forms.PictureBox();
-            this.AcessPictureBox_2 = new System.Windows.Forms.PictureBox();
-            this.AddBalanceButton = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ExitPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpdatePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AddBalanceButton)).BeginInit();
-            this.SuspendLayout();
+            VioLabel = new Label();
+            ProfileLabel = new Label();
+            StaticLoginLabel = new Label();
+            StaticEmailLabel = new Label();
+            BalanceLabel = new Label();
+            CarInfoLabel = new Label();
+            panel1 = new Panel();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            LoginTextBox = new TextBox();
+            EmailTextBox = new TextBox();
+            FioTextBox = new TextBox();
+            StaticFioLabel = new Label();
+            PasswordTextBox = new TextBox();
+            StaticPasswordLabel = new Label();
+            StaticBalanceLabel = new Label();
+            ChangeDataButton = new Button();
+            ConfirmDataButton = new Button();
+            ExitPictureBox = new PictureBox();
+            UpdatePictureBox = new PictureBox();
+            AcessPictureBox_1 = new PictureBox();
+            AcessPictureBox_3 = new PictureBox();
+            AcessPictureBox_4 = new PictureBox();
+            AcessPictureBox_2 = new PictureBox();
+            AddBalanceButton = new PictureBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ExitPictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)UpdatePictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AddBalanceButton).BeginInit();
+            SuspendLayout();
             // 
             // VioLabel
             // 
-            this.VioLabel.AutoSize = true;
-            this.VioLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.VioLabel.Location = new System.Drawing.Point(11, 139);
-            this.VioLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.VioLabel.Name = "VioLabel";
-            this.VioLabel.Size = new System.Drawing.Size(93, 29);
-            this.VioLabel.TabIndex = 3;
-            this.VioLabel.Text = "Штрафы";
-            this.VioLabel.Click += new System.EventHandler(this.VioLabel_Click);
+            VioLabel.AutoSize = true;
+            VioLabel.Cursor = Cursors.Hand;
+            VioLabel.Location = new Point(11, 139);
+            VioLabel.Margin = new Padding(5, 0, 5, 0);
+            VioLabel.Name = "VioLabel";
+            VioLabel.Size = new Size(93, 29);
+            VioLabel.TabIndex = 3;
+            VioLabel.Text = "Штрафы";
+            VioLabel.Click += VioLabel_Click;
+            VioLabel.MouseHover += VioLabel_MouseHover;
             // 
             // ProfileLabel
             // 
-            this.ProfileLabel.AutoSize = true;
-            this.ProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.ProfileLabel.Location = new System.Drawing.Point(12, 97);
-            this.ProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ProfileLabel.Name = "ProfileLabel";
-            this.ProfileLabel.Size = new System.Drawing.Size(98, 29);
-            this.ProfileLabel.TabIndex = 2;
-            this.ProfileLabel.Text = "Профиль";
+            ProfileLabel.AutoSize = true;
+            ProfileLabel.ForeColor = Color.Black;
+            ProfileLabel.Location = new Point(12, 97);
+            ProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            ProfileLabel.Name = "ProfileLabel";
+            ProfileLabel.Size = new Size(98, 29);
+            ProfileLabel.TabIndex = 2;
+            ProfileLabel.Text = "Профиль";
+            ProfileLabel.MouseHover += ProfileLabel_MouseHover;
             // 
             // StaticLoginLabel
             // 
-            this.StaticLoginLabel.AutoSize = true;
-            this.StaticLoginLabel.ForeColor = System.Drawing.Color.White;
-            this.StaticLoginLabel.Location = new System.Drawing.Point(206, 114);
-            this.StaticLoginLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticLoginLabel.Name = "StaticLoginLabel";
-            this.StaticLoginLabel.Size = new System.Drawing.Size(71, 29);
-            this.StaticLoginLabel.TabIndex = 4;
-            this.StaticLoginLabel.Text = "Логин";
+            StaticLoginLabel.AutoSize = true;
+            StaticLoginLabel.ForeColor = Color.White;
+            StaticLoginLabel.Location = new Point(206, 114);
+            StaticLoginLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticLoginLabel.Name = "StaticLoginLabel";
+            StaticLoginLabel.Size = new Size(71, 29);
+            StaticLoginLabel.TabIndex = 4;
+            StaticLoginLabel.Text = "Логин";
             // 
             // StaticEmailLabel
             // 
-            this.StaticEmailLabel.AutoSize = true;
-            this.StaticEmailLabel.ForeColor = System.Drawing.Color.White;
-            this.StaticEmailLabel.Location = new System.Drawing.Point(206, 213);
-            this.StaticEmailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticEmailLabel.Name = "StaticEmailLabel";
-            this.StaticEmailLabel.Size = new System.Drawing.Size(65, 29);
-            this.StaticEmailLabel.TabIndex = 6;
-            this.StaticEmailLabel.Text = "Email";
+            StaticEmailLabel.AutoSize = true;
+            StaticEmailLabel.ForeColor = Color.White;
+            StaticEmailLabel.Location = new Point(206, 213);
+            StaticEmailLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticEmailLabel.Name = "StaticEmailLabel";
+            StaticEmailLabel.Size = new Size(65, 29);
+            StaticEmailLabel.TabIndex = 6;
+            StaticEmailLabel.Text = "Email";
             // 
             // BalanceLabel
             // 
-            this.BalanceLabel.AutoSize = true;
-            this.BalanceLabel.ForeColor = System.Drawing.Color.White;
-            this.BalanceLabel.Location = new System.Drawing.Point(382, 36);
-            this.BalanceLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.BalanceLabel.MinimumSize = new System.Drawing.Size(100, 30);
-            this.BalanceLabel.Name = "BalanceLabel";
-            this.BalanceLabel.Size = new System.Drawing.Size(100, 30);
-            this.BalanceLabel.TabIndex = 7;
-            this.BalanceLabel.Text = "balance";
+            BalanceLabel.AutoSize = true;
+            BalanceLabel.ForeColor = Color.White;
+            BalanceLabel.Location = new Point(382, 36);
+            BalanceLabel.Margin = new Padding(5, 0, 5, 0);
+            BalanceLabel.MinimumSize = new Size(100, 30);
+            BalanceLabel.Name = "BalanceLabel";
+            BalanceLabel.Size = new Size(100, 30);
+            BalanceLabel.TabIndex = 7;
+            BalanceLabel.Text = "balance";
             // 
             // CarInfoLabel
             // 
-            this.CarInfoLabel.AutoSize = true;
-            this.CarInfoLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarInfoLabel.Location = new System.Drawing.Point(11, 175);
-            this.CarInfoLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarInfoLabel.Name = "CarInfoLabel";
-            this.CarInfoLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarInfoLabel.TabIndex = 8;
-            this.CarInfoLabel.Text = "Автомобили";
-            this.CarInfoLabel.Click += new System.EventHandler(this.CarInfoLabel_Click);
+            CarInfoLabel.AutoSize = true;
+            CarInfoLabel.Cursor = Cursors.Hand;
+            CarInfoLabel.Location = new Point(11, 175);
+            CarInfoLabel.Margin = new Padding(5, 0, 5, 0);
+            CarInfoLabel.Name = "CarInfoLabel";
+            CarInfoLabel.Size = new Size(126, 29);
+            CarInfoLabel.TabIndex = 8;
+            CarInfoLabel.Text = "Автомобили";
+            CarInfoLabel.Click += CarInfoLabel_Click;
+            CarInfoLabel.MouseHover += CarInfoLabel_MouseHover;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarInfoLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.ProfileLabel);
-            this.panel1.Controls.Add(this.VioLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 459);
-            this.panel1.TabIndex = 9;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarInfoLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(ProfileLabel);
+            panel1.Controls.Add(VioLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 459);
+            panel1.TabIndex = 9;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(0, 129);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(109, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(0, 129);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(109, 5);
+            panel3.TabIndex = 9;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.Location = new System.Drawing.Point(34, 10);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.Location = new Point(34, 10);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.BackColor = System.Drawing.Color.Tan;
-            this.LoginTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LoginTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginTextBox.Location = new System.Drawing.Point(212, 150);
-            this.LoginTextBox.MaxLength = 12;
-            this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.PlaceholderText = "Логин";
-            this.LoginTextBox.ReadOnly = true;
-            this.LoginTextBox.Size = new System.Drawing.Size(279, 35);
-            this.LoginTextBox.TabIndex = 10;
+            LoginTextBox.BackColor = Color.Tan;
+            LoginTextBox.BorderStyle = BorderStyle.None;
+            LoginTextBox.Font = new Font("Bahnschrift Condensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginTextBox.Location = new Point(212, 150);
+            LoginTextBox.MaxLength = 12;
+            LoginTextBox.Name = "LoginTextBox";
+            LoginTextBox.PlaceholderText = "Логин";
+            LoginTextBox.ReadOnly = true;
+            LoginTextBox.Size = new Size(279, 35);
+            LoginTextBox.TabIndex = 10;
             // 
             // EmailTextBox
             // 
-            this.EmailTextBox.BackColor = System.Drawing.Color.Tan;
-            this.EmailTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.EmailTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EmailTextBox.Location = new System.Drawing.Point(212, 249);
-            this.EmailTextBox.MaxLength = 25;
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.PlaceholderText = "Email";
-            this.EmailTextBox.ReadOnly = true;
-            this.EmailTextBox.Size = new System.Drawing.Size(279, 35);
-            this.EmailTextBox.TabIndex = 11;
+            EmailTextBox.BackColor = Color.Tan;
+            EmailTextBox.BorderStyle = BorderStyle.None;
+            EmailTextBox.Font = new Font("Bahnschrift Condensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailTextBox.Location = new Point(212, 249);
+            EmailTextBox.MaxLength = 25;
+            EmailTextBox.Name = "EmailTextBox";
+            EmailTextBox.PlaceholderText = "Email";
+            EmailTextBox.ReadOnly = true;
+            EmailTextBox.Size = new Size(279, 35);
+            EmailTextBox.TabIndex = 11;
             // 
             // FioTextBox
             // 
-            this.FioTextBox.BackColor = System.Drawing.Color.Tan;
-            this.FioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FioTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FioTextBox.Location = new System.Drawing.Point(547, 249);
-            this.FioTextBox.MaxLength = 75;
-            this.FioTextBox.Name = "FioTextBox";
-            this.FioTextBox.PlaceholderText = "ФИО";
-            this.FioTextBox.ReadOnly = true;
-            this.FioTextBox.Size = new System.Drawing.Size(279, 35);
-            this.FioTextBox.TabIndex = 13;
+            FioTextBox.BackColor = Color.Tan;
+            FioTextBox.BorderStyle = BorderStyle.None;
+            FioTextBox.Font = new Font("Bahnschrift Condensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            FioTextBox.Location = new Point(547, 249);
+            FioTextBox.MaxLength = 75;
+            FioTextBox.Name = "FioTextBox";
+            FioTextBox.PlaceholderText = "ФИО";
+            FioTextBox.ReadOnly = true;
+            FioTextBox.Size = new Size(279, 35);
+            FioTextBox.TabIndex = 13;
             // 
             // StaticFioLabel
             // 
-            this.StaticFioLabel.AutoSize = true;
-            this.StaticFioLabel.ForeColor = System.Drawing.Color.White;
-            this.StaticFioLabel.Location = new System.Drawing.Point(541, 213);
-            this.StaticFioLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticFioLabel.Name = "StaticFioLabel";
-            this.StaticFioLabel.Size = new System.Drawing.Size(56, 29);
-            this.StaticFioLabel.TabIndex = 12;
-            this.StaticFioLabel.Text = "ФИО";
+            StaticFioLabel.AutoSize = true;
+            StaticFioLabel.ForeColor = Color.White;
+            StaticFioLabel.Location = new Point(541, 213);
+            StaticFioLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticFioLabel.Name = "StaticFioLabel";
+            StaticFioLabel.Size = new Size(56, 29);
+            StaticFioLabel.TabIndex = 12;
+            StaticFioLabel.Text = "ФИО";
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.BackColor = System.Drawing.Color.Tan;
-            this.PasswordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.PasswordTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PasswordTextBox.Location = new System.Drawing.Point(547, 150);
-            this.PasswordTextBox.MaxLength = 20;
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PlaceholderText = "Пароль";
-            this.PasswordTextBox.ReadOnly = true;
-            this.PasswordTextBox.Size = new System.Drawing.Size(279, 35);
-            this.PasswordTextBox.TabIndex = 15;
-            this.PasswordTextBox.Enter += new System.EventHandler(this.PasswordTextBox_Enter);
-            this.PasswordTextBox.Leave += new System.EventHandler(this.PasswordTextBox_Leave);
+            PasswordTextBox.BackColor = Color.Tan;
+            PasswordTextBox.BorderStyle = BorderStyle.None;
+            PasswordTextBox.Font = new Font("Bahnschrift Condensed", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PasswordTextBox.Location = new Point(547, 150);
+            PasswordTextBox.MaxLength = 20;
+            PasswordTextBox.Name = "PasswordTextBox";
+            PasswordTextBox.PlaceholderText = "Пароль";
+            PasswordTextBox.ReadOnly = true;
+            PasswordTextBox.Size = new Size(279, 35);
+            PasswordTextBox.TabIndex = 15;
+            PasswordTextBox.Enter += PasswordTextBox_Enter;
+            PasswordTextBox.Leave += PasswordTextBox_Leave;
             // 
             // StaticPasswordLabel
             // 
-            this.StaticPasswordLabel.AutoSize = true;
-            this.StaticPasswordLabel.ForeColor = System.Drawing.Color.White;
-            this.StaticPasswordLabel.Location = new System.Drawing.Point(541, 114);
-            this.StaticPasswordLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.StaticPasswordLabel.Name = "StaticPasswordLabel";
-            this.StaticPasswordLabel.Size = new System.Drawing.Size(80, 29);
-            this.StaticPasswordLabel.TabIndex = 14;
-            this.StaticPasswordLabel.Text = "Пароль";
+            StaticPasswordLabel.AutoSize = true;
+            StaticPasswordLabel.ForeColor = Color.White;
+            StaticPasswordLabel.Location = new Point(541, 114);
+            StaticPasswordLabel.Margin = new Padding(5, 0, 5, 0);
+            StaticPasswordLabel.Name = "StaticPasswordLabel";
+            StaticPasswordLabel.Size = new Size(80, 29);
+            StaticPasswordLabel.TabIndex = 14;
+            StaticPasswordLabel.Text = "Пароль";
             // 
             // StaticBalanceLabel
             // 
-            this.StaticBalanceLabel.AutoSize = true;
-            this.StaticBalanceLabel.ForeColor = System.Drawing.Color.White;
-            this.StaticBalanceLabel.Location = new System.Drawing.Point(206, 36);
-            this.StaticBalanceLabel.Name = "StaticBalanceLabel";
-            this.StaticBalanceLabel.Size = new System.Drawing.Size(172, 29);
-            this.StaticBalanceLabel.TabIndex = 16;
-            this.StaticBalanceLabel.Text = "Текущий баланс:";
+            StaticBalanceLabel.AutoSize = true;
+            StaticBalanceLabel.ForeColor = Color.White;
+            StaticBalanceLabel.Location = new Point(206, 36);
+            StaticBalanceLabel.Name = "StaticBalanceLabel";
+            StaticBalanceLabel.Size = new Size(172, 29);
+            StaticBalanceLabel.TabIndex = 16;
+            StaticBalanceLabel.Text = "Текущий баланс:";
             // 
             // ChangeDataButton
             // 
-            this.ChangeDataButton.BackColor = System.Drawing.Color.Tan;
-            this.ChangeDataButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ChangeDataButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ChangeDataButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ChangeDataButton.Location = new System.Drawing.Point(212, 318);
-            this.ChangeDataButton.Name = "ChangeDataButton";
-            this.ChangeDataButton.Size = new System.Drawing.Size(279, 34);
-            this.ChangeDataButton.TabIndex = 17;
-            this.ChangeDataButton.Text = "Изменить профиль";
-            this.ChangeDataButton.UseVisualStyleBackColor = false;
-            this.ChangeDataButton.Click += new System.EventHandler(this.ChangeDataButton_Click);
+            ChangeDataButton.BackColor = Color.Tan;
+            ChangeDataButton.Cursor = Cursors.Hand;
+            ChangeDataButton.FlatStyle = FlatStyle.Flat;
+            ChangeDataButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ChangeDataButton.Location = new Point(212, 318);
+            ChangeDataButton.Name = "ChangeDataButton";
+            ChangeDataButton.Size = new Size(279, 34);
+            ChangeDataButton.TabIndex = 17;
+            ChangeDataButton.Text = "Изменить профиль";
+            ChangeDataButton.UseVisualStyleBackColor = false;
+            ChangeDataButton.Click += ChangeDataButton_Click;
             // 
             // ConfirmDataButton
             // 
-            this.ConfirmDataButton.BackColor = System.Drawing.Color.Tan;
-            this.ConfirmDataButton.Cursor = System.Windows.Forms.Cursors.No;
-            this.ConfirmDataButton.Enabled = false;
-            this.ConfirmDataButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmDataButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ConfirmDataButton.Location = new System.Drawing.Point(547, 318);
-            this.ConfirmDataButton.Name = "ConfirmDataButton";
-            this.ConfirmDataButton.Size = new System.Drawing.Size(279, 34);
-            this.ConfirmDataButton.TabIndex = 18;
-            this.ConfirmDataButton.Text = "Подтвердить данные";
-            this.ConfirmDataButton.UseVisualStyleBackColor = false;
-            this.ConfirmDataButton.Click += new System.EventHandler(this.ConfirmDataButton_Click);
+            ConfirmDataButton.BackColor = Color.Tan;
+            ConfirmDataButton.Cursor = Cursors.No;
+            ConfirmDataButton.Enabled = false;
+            ConfirmDataButton.FlatStyle = FlatStyle.Flat;
+            ConfirmDataButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ConfirmDataButton.Location = new Point(547, 318);
+            ConfirmDataButton.Name = "ConfirmDataButton";
+            ConfirmDataButton.Size = new Size(279, 34);
+            ConfirmDataButton.TabIndex = 18;
+            ConfirmDataButton.Text = "Подтвердить данные";
+            ConfirmDataButton.UseVisualStyleBackColor = false;
+            ConfirmDataButton.Click += ConfirmDataButton_Click;
             // 
             // ExitPictureBox
             // 
-            this.ExitPictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ExitPictureBox.Image = global::ROV_TL.Properties.Resources.ExitIcon;
-            this.ExitPictureBox.Location = new System.Drawing.Point(816, 12);
-            this.ExitPictureBox.Name = "ExitPictureBox";
-            this.ExitPictureBox.Size = new System.Drawing.Size(39, 35);
-            this.ExitPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ExitPictureBox.TabIndex = 19;
-            this.ExitPictureBox.TabStop = false;
-            this.ExitPictureBox.Click += new System.EventHandler(this.ExitPictureBox_Click);
+            ExitPictureBox.Cursor = Cursors.Hand;
+            ExitPictureBox.Image = Properties.Resources.ExitIcon;
+            ExitPictureBox.Location = new Point(816, 12);
+            ExitPictureBox.Name = "ExitPictureBox";
+            ExitPictureBox.Size = new Size(39, 35);
+            ExitPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            ExitPictureBox.TabIndex = 19;
+            ExitPictureBox.TabStop = false;
+            ExitPictureBox.Click += ExitPictureBox_Click;
             // 
             // UpdatePictureBox
             // 
-            this.UpdatePictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpdatePictureBox.Image = global::ROV_TL.Properties.Resources.UpdateIcon2;
-            this.UpdatePictureBox.Location = new System.Drawing.Point(771, 12);
-            this.UpdatePictureBox.Name = "UpdatePictureBox";
-            this.UpdatePictureBox.Size = new System.Drawing.Size(39, 35);
-            this.UpdatePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.UpdatePictureBox.TabIndex = 20;
-            this.UpdatePictureBox.TabStop = false;
-            this.UpdatePictureBox.Click += new System.EventHandler(this.UpdatePictureBox_Click);
+            UpdatePictureBox.Cursor = Cursors.Hand;
+            UpdatePictureBox.Image = Properties.Resources.UpdateIcon2;
+            UpdatePictureBox.Location = new Point(771, 12);
+            UpdatePictureBox.Name = "UpdatePictureBox";
+            UpdatePictureBox.Size = new Size(39, 35);
+            UpdatePictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+            UpdatePictureBox.TabIndex = 20;
+            UpdatePictureBox.TabStop = false;
+            UpdatePictureBox.Click += UpdatePictureBox_Click;
             // 
             // AcessPictureBox_1
             // 
-            this.AcessPictureBox_1.BackColor = System.Drawing.Color.Tan;
-            this.AcessPictureBox_1.Image = global::ROV_TL.Properties.Resources.LockIcon;
-            this.AcessPictureBox_1.Location = new System.Drawing.Point(457, 152);
-            this.AcessPictureBox_1.Name = "AcessPictureBox_1";
-            this.AcessPictureBox_1.Size = new System.Drawing.Size(25, 31);
-            this.AcessPictureBox_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.AcessPictureBox_1.TabIndex = 21;
-            this.AcessPictureBox_1.TabStop = false;
+            AcessPictureBox_1.BackColor = Color.Tan;
+            AcessPictureBox_1.Image = Properties.Resources.LockIcon;
+            AcessPictureBox_1.Location = new Point(457, 152);
+            AcessPictureBox_1.Name = "AcessPictureBox_1";
+            AcessPictureBox_1.Size = new Size(25, 31);
+            AcessPictureBox_1.SizeMode = PictureBoxSizeMode.Zoom;
+            AcessPictureBox_1.TabIndex = 21;
+            AcessPictureBox_1.TabStop = false;
             // 
             // AcessPictureBox_3
             // 
-            this.AcessPictureBox_3.BackColor = System.Drawing.Color.Tan;
-            this.AcessPictureBox_3.Image = global::ROV_TL.Properties.Resources.LockIcon;
-            this.AcessPictureBox_3.Location = new System.Drawing.Point(457, 251);
-            this.AcessPictureBox_3.Name = "AcessPictureBox_3";
-            this.AcessPictureBox_3.Size = new System.Drawing.Size(25, 31);
-            this.AcessPictureBox_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.AcessPictureBox_3.TabIndex = 22;
-            this.AcessPictureBox_3.TabStop = false;
+            AcessPictureBox_3.BackColor = Color.Tan;
+            AcessPictureBox_3.Image = Properties.Resources.LockIcon;
+            AcessPictureBox_3.Location = new Point(457, 251);
+            AcessPictureBox_3.Name = "AcessPictureBox_3";
+            AcessPictureBox_3.Size = new Size(25, 31);
+            AcessPictureBox_3.SizeMode = PictureBoxSizeMode.Zoom;
+            AcessPictureBox_3.TabIndex = 22;
+            AcessPictureBox_3.TabStop = false;
             // 
             // AcessPictureBox_4
             // 
-            this.AcessPictureBox_4.BackColor = System.Drawing.Color.Tan;
-            this.AcessPictureBox_4.Image = global::ROV_TL.Properties.Resources.LockIcon;
-            this.AcessPictureBox_4.Location = new System.Drawing.Point(791, 251);
-            this.AcessPictureBox_4.Name = "AcessPictureBox_4";
-            this.AcessPictureBox_4.Size = new System.Drawing.Size(25, 31);
-            this.AcessPictureBox_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.AcessPictureBox_4.TabIndex = 24;
-            this.AcessPictureBox_4.TabStop = false;
+            AcessPictureBox_4.BackColor = Color.Tan;
+            AcessPictureBox_4.Image = Properties.Resources.LockIcon;
+            AcessPictureBox_4.Location = new Point(791, 251);
+            AcessPictureBox_4.Name = "AcessPictureBox_4";
+            AcessPictureBox_4.Size = new Size(25, 31);
+            AcessPictureBox_4.SizeMode = PictureBoxSizeMode.Zoom;
+            AcessPictureBox_4.TabIndex = 24;
+            AcessPictureBox_4.TabStop = false;
             // 
             // AcessPictureBox_2
             // 
-            this.AcessPictureBox_2.BackColor = System.Drawing.Color.Tan;
-            this.AcessPictureBox_2.Image = global::ROV_TL.Properties.Resources.LockIcon;
-            this.AcessPictureBox_2.Location = new System.Drawing.Point(791, 152);
-            this.AcessPictureBox_2.Name = "AcessPictureBox_2";
-            this.AcessPictureBox_2.Size = new System.Drawing.Size(25, 31);
-            this.AcessPictureBox_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.AcessPictureBox_2.TabIndex = 23;
-            this.AcessPictureBox_2.TabStop = false;
+            AcessPictureBox_2.BackColor = Color.Tan;
+            AcessPictureBox_2.Image = Properties.Resources.LockIcon;
+            AcessPictureBox_2.Location = new Point(791, 152);
+            AcessPictureBox_2.Name = "AcessPictureBox_2";
+            AcessPictureBox_2.Size = new Size(25, 31);
+            AcessPictureBox_2.SizeMode = PictureBoxSizeMode.Zoom;
+            AcessPictureBox_2.TabIndex = 23;
+            AcessPictureBox_2.TabStop = false;
             // 
             // AddBalanceButton
             // 
-            this.AddBalanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AddBalanceButton.Image = ((System.Drawing.Image)(resources.GetObject("AddBalanceButton.Image")));
-            this.AddBalanceButton.Location = new System.Drawing.Point(497, 33);
-            this.AddBalanceButton.Name = "AddBalanceButton";
-            this.AddBalanceButton.Size = new System.Drawing.Size(36, 35);
-            this.AddBalanceButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AddBalanceButton.TabIndex = 41;
-            this.AddBalanceButton.TabStop = false;
-            this.AddBalanceButton.Click += new System.EventHandler(this.AddBalanceButton_Click);
+            AddBalanceButton.Cursor = Cursors.Hand;
+            AddBalanceButton.Image = (Image)resources.GetObject("AddBalanceButton.Image");
+            AddBalanceButton.Location = new Point(497, 33);
+            AddBalanceButton.Name = "AddBalanceButton";
+            AddBalanceButton.Size = new Size(36, 35);
+            AddBalanceButton.SizeMode = PictureBoxSizeMode.StretchImage;
+            AddBalanceButton.TabIndex = 41;
+            AddBalanceButton.TabStop = false;
+            AddBalanceButton.Click += AddBalanceButton_Click;
             // 
             // ProfileForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.AddBalanceButton);
-            this.Controls.Add(this.AcessPictureBox_4);
-            this.Controls.Add(this.AcessPictureBox_2);
-            this.Controls.Add(this.AcessPictureBox_3);
-            this.Controls.Add(this.AcessPictureBox_1);
-            this.Controls.Add(this.UpdatePictureBox);
-            this.Controls.Add(this.ExitPictureBox);
-            this.Controls.Add(this.ConfirmDataButton);
-            this.Controls.Add(this.ChangeDataButton);
-            this.Controls.Add(this.StaticBalanceLabel);
-            this.Controls.Add(this.PasswordTextBox);
-            this.Controls.Add(this.StaticPasswordLabel);
-            this.Controls.Add(this.FioTextBox);
-            this.Controls.Add(this.StaticFioLabel);
-            this.Controls.Add(this.EmailTextBox);
-            this.Controls.Add(this.LoginTextBox);
-            this.Controls.Add(this.BalanceLabel);
-            this.Controls.Add(this.StaticEmailLabel);
-            this.Controls.Add(this.StaticLoginLabel);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "ProfileForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ProfileForm";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ExitPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpdatePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AcessPictureBox_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AddBalanceButton)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(AddBalanceButton);
+            Controls.Add(AcessPictureBox_4);
+            Controls.Add(AcessPictureBox_2);
+            Controls.Add(AcessPictureBox_3);
+            Controls.Add(AcessPictureBox_1);
+            Controls.Add(UpdatePictureBox);
+            Controls.Add(ExitPictureBox);
+            Controls.Add(ConfirmDataButton);
+            Controls.Add(ChangeDataButton);
+            Controls.Add(StaticBalanceLabel);
+            Controls.Add(PasswordTextBox);
+            Controls.Add(StaticPasswordLabel);
+            Controls.Add(FioTextBox);
+            Controls.Add(StaticFioLabel);
+            Controls.Add(EmailTextBox);
+            Controls.Add(LoginTextBox);
+            Controls.Add(BalanceLabel);
+            Controls.Add(StaticEmailLabel);
+            Controls.Add(StaticLoginLabel);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "ProfileForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ProfileForm";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)ExitPictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)UpdatePictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AcessPictureBox_2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AddBalanceButton).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

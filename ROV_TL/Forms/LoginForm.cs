@@ -27,7 +27,7 @@ namespace ROV_TL
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            User user = new User { Login = LoginTextBox.Text, Password = PasswordTextBox.Text};
+            User user = new User { Login = LoginTextBox.Text, Password = PasswordTextBox.Text };
 
             try
             {
@@ -56,7 +56,7 @@ namespace ROV_TL
                 try
                 {
                     Admin admin = db.Admins.Where(a => a.Login == LoginTextBox.Text).First();
-                    
+
                     if (admin.Password == PasswordTextBox.Text)
                     {
                         AdminProfileForm adminForm = new AdminProfileForm(admin);
@@ -84,6 +84,17 @@ namespace ROV_TL
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Load the icon from a file
+            Icon newIcon = new Icon(@"C:\Users\mp4ge\source\repos\ROV_TL\ROV_TL\Resources\favicon.ico");
+
+            // Set the form's icon to the new icon
+            this.Icon = newIcon;
+        }
+
+
+
         private void RegisterButton_Click(object sender, EventArgs e)
         {
             RegisterForm registerForm = new RegisterForm();
@@ -98,6 +109,62 @@ namespace ROV_TL
             LogManager.Shutdown();
 
             this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void LoginForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Check if Enter key was pressed
+            if (e.KeyCode == Keys.Enter)
+            {
+                LoginButton_Click(null, null);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                // Set focus to the next TextBox control
+                Environment.Exit(0);
+                this.Close();
+            }
+        }
+
+        private void PasswordTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PasswordTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Do something here when Enter key is pressed, e.g. submit the form
+                LoginButton_Click(null, null);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                // Set focus to the next TextBox control
+                StaticLabel.Focus();
+            }
+        }
+
+        private void LoginTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar== (char)Keys.Tab)
+            {
+                // Set focus to the next TextBox control
+                PasswordTextBox.Focus();
+            }
+
+            if (e.KeyChar == (char)Keys.Escape)
+            {
+                // Set focus to the next TextBox control
+                StaticLabel.Focus();
+            }
         }
     }
 }

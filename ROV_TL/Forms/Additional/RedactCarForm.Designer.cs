@@ -28,95 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CarModelTextBox = new System.Windows.Forms.TextBox();
-            this.staticRedactLabel = new System.Windows.Forms.Label();
-            this.ConfirmDataButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
-            this.StaticCloseLabel = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RedactCarForm));
+            CarModelTextBox = new TextBox();
+            staticRedactLabel = new Label();
+            ConfirmDataButton = new Button();
+            CancelButton = new Button();
+            StaticCloseLabel = new Label();
+            SuspendLayout();
             // 
             // CarModelTextBox
             // 
-            this.CarModelTextBox.BackColor = System.Drawing.Color.Tan;
-            this.CarModelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CarModelTextBox.Location = new System.Drawing.Point(66, 92);
-            this.CarModelTextBox.MaxLength = 20;
-            this.CarModelTextBox.Name = "CarModelTextBox";
-            this.CarModelTextBox.PlaceholderText = "Car model";
-            this.CarModelTextBox.Size = new System.Drawing.Size(414, 29);
-            this.CarModelTextBox.TabIndex = 0;
+            CarModelTextBox.BackColor = Color.Tan;
+            CarModelTextBox.BorderStyle = BorderStyle.None;
+            CarModelTextBox.Location = new Point(66, 92);
+            CarModelTextBox.MaxLength = 20;
+            CarModelTextBox.Name = "CarModelTextBox";
+            CarModelTextBox.PlaceholderText = "Car model";
+            CarModelTextBox.Size = new Size(414, 29);
+            CarModelTextBox.TabIndex = 0;
             // 
             // staticRedactLabel
             // 
-            this.staticRedactLabel.AutoSize = true;
-            this.staticRedactLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.staticRedactLabel.Location = new System.Drawing.Point(59, 28);
-            this.staticRedactLabel.Name = "staticRedactLabel";
-            this.staticRedactLabel.Size = new System.Drawing.Size(432, 39);
-            this.staticRedactLabel.TabIndex = 1;
-            this.staticRedactLabel.Text = "Изменение информации об авто";
+            staticRedactLabel.AutoSize = true;
+            staticRedactLabel.Font = new Font("Bahnschrift SemiCondensed", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            staticRedactLabel.Location = new Point(59, 28);
+            staticRedactLabel.Name = "staticRedactLabel";
+            staticRedactLabel.Size = new Size(432, 39);
+            staticRedactLabel.TabIndex = 1;
+            staticRedactLabel.Text = "Изменение информации об авто";
             // 
             // ConfirmDataButton
             // 
-            this.ConfirmDataButton.BackColor = System.Drawing.Color.Tan;
-            this.ConfirmDataButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmDataButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ConfirmDataButton.ForeColor = System.Drawing.Color.Black;
-            this.ConfirmDataButton.Location = new System.Drawing.Point(283, 155);
-            this.ConfirmDataButton.Name = "ConfirmDataButton";
-            this.ConfirmDataButton.Size = new System.Drawing.Size(197, 34);
-            this.ConfirmDataButton.TabIndex = 19;
-            this.ConfirmDataButton.Text = "Подтвердить данные";
-            this.ConfirmDataButton.UseVisualStyleBackColor = false;
-            this.ConfirmDataButton.Click += new System.EventHandler(this.ConfirmDataButton_Click);
+            ConfirmDataButton.BackColor = Color.Tan;
+            ConfirmDataButton.FlatStyle = FlatStyle.Flat;
+            ConfirmDataButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ConfirmDataButton.ForeColor = Color.Black;
+            ConfirmDataButton.Location = new Point(283, 155);
+            ConfirmDataButton.Name = "ConfirmDataButton";
+            ConfirmDataButton.Size = new Size(197, 34);
+            ConfirmDataButton.TabIndex = 19;
+            ConfirmDataButton.Text = "Подтвердить данные";
+            ConfirmDataButton.UseVisualStyleBackColor = false;
+            ConfirmDataButton.Click += ConfirmDataButton_Click;
             // 
             // CancelButton
             // 
-            this.CancelButton.BackColor = System.Drawing.Color.Tan;
-            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CancelButton.ForeColor = System.Drawing.Color.Black;
-            this.CancelButton.Location = new System.Drawing.Point(66, 155);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(197, 34);
-            this.CancelButton.TabIndex = 20;
-            this.CancelButton.Text = "Отмена";
-            this.CancelButton.UseVisualStyleBackColor = false;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            CancelButton.BackColor = Color.Tan;
+            CancelButton.FlatStyle = FlatStyle.Flat;
+            CancelButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CancelButton.ForeColor = Color.Black;
+            CancelButton.Location = new Point(66, 155);
+            CancelButton.Name = "CancelButton";
+            CancelButton.Size = new Size(197, 34);
+            CancelButton.TabIndex = 20;
+            CancelButton.Text = "Отмена";
+            CancelButton.UseVisualStyleBackColor = false;
+            CancelButton.Click += CancelButton_Click;
             // 
             // StaticCloseLabel
             // 
-            this.StaticCloseLabel.AutoSize = true;
-            this.StaticCloseLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.StaticCloseLabel.Location = new System.Drawing.Point(510, 9);
-            this.StaticCloseLabel.Name = "StaticCloseLabel";
-            this.StaticCloseLabel.Size = new System.Drawing.Size(25, 29);
-            this.StaticCloseLabel.TabIndex = 21;
-            this.StaticCloseLabel.Text = "X";
-            this.StaticCloseLabel.Click += new System.EventHandler(this.StaticCloseLabel_Click);
+            StaticCloseLabel.AutoSize = true;
+            StaticCloseLabel.Cursor = Cursors.Hand;
+            StaticCloseLabel.Location = new Point(510, 9);
+            StaticCloseLabel.Name = "StaticCloseLabel";
+            StaticCloseLabel.Size = new Size(25, 29);
+            StaticCloseLabel.TabIndex = 21;
+            StaticCloseLabel.Text = "X";
+            StaticCloseLabel.Click += StaticCloseLabel_Click;
             // 
             // RedactCarForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(553, 221);
-            this.Controls.Add(this.StaticCloseLabel);
-            this.Controls.Add(this.CancelButton);
-            this.Controls.Add(this.ConfirmDataButton);
-            this.Controls.Add(this.staticRedactLabel);
-            this.Controls.Add(this.CarModelTextBox);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "RedactCarForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RedactCarForm";
-            this.Load += new System.EventHandler(this.RedactCarForm_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(45, 45, 45);
+            ClientSize = new Size(553, 221);
+            Controls.Add(StaticCloseLabel);
+            Controls.Add(CancelButton);
+            Controls.Add(ConfirmDataButton);
+            Controls.Add(staticRedactLabel);
+            Controls.Add(CarModelTextBox);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "RedactCarForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "RedactCarForm";
+            Load += RedactCarForm_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

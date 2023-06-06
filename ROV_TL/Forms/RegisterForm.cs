@@ -124,7 +124,7 @@ namespace ROV_TL.Forms
             log.Warn("Data is not unique: email {email}", user.Email);
             return false;
         }
-        private bool IsLoginUnique(User user)   
+        private bool IsLoginUnique(User user)
         {
             try
             {
@@ -146,6 +146,21 @@ namespace ROV_TL.Forms
             LogManager.Shutdown();
 
             this.Close();
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegisterForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                // Set focus to the next TextBox control
+                Environment.Exit(0);
+                this.Close();
+            }
         }
     }
 }

@@ -28,220 +28,221 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ViosLabel = new System.Windows.Forms.Label();
-            this.AdminProfileLabel = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CarsLabel = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.AdminsLabel = new System.Windows.Forms.Label();
-            this.UsersLabel = new System.Windows.Forms.Label();
-            this.NotPayedViosButton = new System.Windows.Forms.Button();
-            this.PayedVioButton = new System.Windows.Forms.Button();
-            this.ActiveVioButton = new System.Windows.Forms.Button();
-            this.CurrentPageLabel = new System.Windows.Forms.Label();
-            this.CreateNewVio = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViosForm));
+            panel1 = new Panel();
+            ViosLabel = new Label();
+            AdminProfileLabel = new Label();
+            panel3 = new Panel();
+            CarsLabel = new Label();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            AdminsLabel = new Label();
+            UsersLabel = new Label();
+            NotPayedViosButton = new Button();
+            PayedVioButton = new Button();
+            ActiveVioButton = new Button();
+            CurrentPageLabel = new Label();
+            CreateNewVio = new Button();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.ViosLabel);
-            this.panel1.Controls.Add(this.AdminProfileLabel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarsLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.AdminsLabel);
-            this.panel1.Controls.Add(this.UsersLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 460);
-            this.panel1.TabIndex = 16;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(ViosLabel);
+            panel1.Controls.Add(AdminProfileLabel);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarsLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(AdminsLabel);
+            panel1.Controls.Add(UsersLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 460);
+            panel1.TabIndex = 16;
             // 
             // ViosLabel
             // 
-            this.ViosLabel.AutoSize = true;
-            this.ViosLabel.ForeColor = System.Drawing.Color.Black;
-            this.ViosLabel.Location = new System.Drawing.Point(11, 216);
-            this.ViosLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ViosLabel.Name = "ViosLabel";
-            this.ViosLabel.Size = new System.Drawing.Size(119, 29);
-            this.ViosLabel.TabIndex = 11;
-            this.ViosLabel.Text = "Нарушения";
+            ViosLabel.AutoSize = true;
+            ViosLabel.ForeColor = Color.Black;
+            ViosLabel.Location = new Point(11, 216);
+            ViosLabel.Margin = new Padding(5, 0, 5, 0);
+            ViosLabel.Name = "ViosLabel";
+            ViosLabel.Size = new Size(119, 29);
+            ViosLabel.TabIndex = 11;
+            ViosLabel.Text = "Нарушения";
             // 
             // AdminProfileLabel
             // 
-            this.AdminProfileLabel.AutoSize = true;
-            this.AdminProfileLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminProfileLabel.Location = new System.Drawing.Point(47, 62);
-            this.AdminProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminProfileLabel.Name = "AdminProfileLabel";
-            this.AdminProfileLabel.Size = new System.Drawing.Size(72, 29);
-            this.AdminProfileLabel.TabIndex = 10;
-            this.AdminProfileLabel.Text = "Admin";
-            this.AdminProfileLabel.Click += new System.EventHandler(this.AdminProfileLabel_Click);
+            AdminProfileLabel.AutoSize = true;
+            AdminProfileLabel.Cursor = Cursors.Hand;
+            AdminProfileLabel.ForeColor = Color.Black;
+            AdminProfileLabel.Location = new Point(47, 62);
+            AdminProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminProfileLabel.Name = "AdminProfileLabel";
+            AdminProfileLabel.Size = new Size(72, 29);
+            AdminProfileLabel.TabIndex = 10;
+            AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.Click += AdminProfileLabel_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(1, 246);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(136, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(1, 246);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(136, 5);
+            panel3.TabIndex = 9;
             // 
             // CarsLabel
             // 
-            this.CarsLabel.AutoSize = true;
-            this.CarsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarsLabel.ForeColor = System.Drawing.Color.Black;
-            this.CarsLabel.Location = new System.Drawing.Point(11, 180);
-            this.CarsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarsLabel.Name = "CarsLabel";
-            this.CarsLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarsLabel.TabIndex = 8;
-            this.CarsLabel.Text = "Автомобили";
-            this.CarsLabel.Click += new System.EventHandler(this.CarsLabel_Click);
+            CarsLabel.AutoSize = true;
+            CarsLabel.Cursor = Cursors.Hand;
+            CarsLabel.ForeColor = Color.Black;
+            CarsLabel.Location = new Point(11, 180);
+            CarsLabel.Margin = new Padding(5, 0, 5, 0);
+            CarsLabel.Name = "CarsLabel";
+            CarsLabel.Size = new Size(126, 29);
+            CarsLabel.TabIndex = 8;
+            CarsLabel.Text = "Автомобили";
+            CarsLabel.Click += CarsLabel_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.ForeColor = System.Drawing.Color.Black;
-            this.ROVLabel.Location = new System.Drawing.Point(33, 9);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.ForeColor = Color.Black;
+            ROVLabel.Location = new Point(33, 9);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // AdminsLabel
             // 
-            this.AdminsLabel.AutoSize = true;
-            this.AdminsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminsLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdminsLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminsLabel.Location = new System.Drawing.Point(11, 109);
-            this.AdminsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminsLabel.Name = "AdminsLabel";
-            this.AdminsLabel.Size = new System.Drawing.Size(150, 29);
-            this.AdminsLabel.TabIndex = 2;
-            this.AdminsLabel.Text = "Администраторы";
-            this.AdminsLabel.Click += new System.EventHandler(this.AdminsLabel_Click);
+            AdminsLabel.AutoSize = true;
+            AdminsLabel.Cursor = Cursors.Hand;
+            AdminsLabel.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            AdminsLabel.ForeColor = Color.Black;
+            AdminsLabel.Location = new Point(11, 109);
+            AdminsLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminsLabel.Name = "AdminsLabel";
+            AdminsLabel.Size = new Size(150, 29);
+            AdminsLabel.TabIndex = 2;
+            AdminsLabel.Text = "Администраторы";
+            AdminsLabel.Click += AdminsLabel_Click;
             // 
             // UsersLabel
             // 
-            this.UsersLabel.AutoSize = true;
-            this.UsersLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UsersLabel.ForeColor = System.Drawing.Color.Black;
-            this.UsersLabel.Location = new System.Drawing.Point(11, 144);
-            this.UsersLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.UsersLabel.Name = "UsersLabel";
-            this.UsersLabel.Size = new System.Drawing.Size(142, 29);
-            this.UsersLabel.TabIndex = 3;
-            this.UsersLabel.Text = "Пользователи";
-            this.UsersLabel.Click += new System.EventHandler(this.UsersLabel_Click);
+            UsersLabel.AutoSize = true;
+            UsersLabel.Cursor = Cursors.Hand;
+            UsersLabel.ForeColor = Color.Black;
+            UsersLabel.Location = new Point(11, 144);
+            UsersLabel.Margin = new Padding(5, 0, 5, 0);
+            UsersLabel.Name = "UsersLabel";
+            UsersLabel.Size = new Size(142, 29);
+            UsersLabel.TabIndex = 3;
+            UsersLabel.Text = "Пользователи";
+            UsersLabel.Click += UsersLabel_Click;
             // 
             // NotPayedViosButton
             // 
-            this.NotPayedViosButton.BackColor = System.Drawing.Color.Tan;
-            this.NotPayedViosButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NotPayedViosButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NotPayedViosButton.ForeColor = System.Drawing.Color.Black;
-            this.NotPayedViosButton.Location = new System.Drawing.Point(250, 109);
-            this.NotPayedViosButton.Name = "NotPayedViosButton";
-            this.NotPayedViosButton.Size = new System.Drawing.Size(220, 74);
-            this.NotPayedViosButton.TabIndex = 39;
-            this.NotPayedViosButton.Text = "Неоплаченные штрафы";
-            this.NotPayedViosButton.UseVisualStyleBackColor = false;
-            this.NotPayedViosButton.Click += new System.EventHandler(this.NotPayedViosButton_Click);
+            NotPayedViosButton.BackColor = Color.Tan;
+            NotPayedViosButton.FlatStyle = FlatStyle.Flat;
+            NotPayedViosButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            NotPayedViosButton.ForeColor = Color.Black;
+            NotPayedViosButton.Location = new Point(250, 109);
+            NotPayedViosButton.Name = "NotPayedViosButton";
+            NotPayedViosButton.Size = new Size(220, 74);
+            NotPayedViosButton.TabIndex = 39;
+            NotPayedViosButton.Text = "Неоплаченные штрафы";
+            NotPayedViosButton.UseVisualStyleBackColor = false;
+            NotPayedViosButton.Click += NotPayedViosButton_Click;
             // 
             // PayedVioButton
             // 
-            this.PayedVioButton.BackColor = System.Drawing.Color.Tan;
-            this.PayedVioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PayedVioButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PayedVioButton.ForeColor = System.Drawing.Color.Black;
-            this.PayedVioButton.Location = new System.Drawing.Point(569, 109);
-            this.PayedVioButton.Name = "PayedVioButton";
-            this.PayedVioButton.Size = new System.Drawing.Size(220, 74);
-            this.PayedVioButton.TabIndex = 40;
-            this.PayedVioButton.Text = "Оплаченные штрафы";
-            this.PayedVioButton.UseVisualStyleBackColor = false;
-            this.PayedVioButton.Click += new System.EventHandler(this.PayedVioButton_Click);
+            PayedVioButton.BackColor = Color.Tan;
+            PayedVioButton.FlatStyle = FlatStyle.Flat;
+            PayedVioButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            PayedVioButton.ForeColor = Color.Black;
+            PayedVioButton.Location = new Point(569, 109);
+            PayedVioButton.Name = "PayedVioButton";
+            PayedVioButton.Size = new Size(220, 74);
+            PayedVioButton.TabIndex = 40;
+            PayedVioButton.Text = "Оплаченные штрафы";
+            PayedVioButton.UseVisualStyleBackColor = false;
+            PayedVioButton.Click += PayedVioButton_Click;
             // 
             // ActiveVioButton
             // 
-            this.ActiveVioButton.BackColor = System.Drawing.Color.Tan;
-            this.ActiveVioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ActiveVioButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ActiveVioButton.ForeColor = System.Drawing.Color.Black;
-            this.ActiveVioButton.Location = new System.Drawing.Point(250, 229);
-            this.ActiveVioButton.Name = "ActiveVioButton";
-            this.ActiveVioButton.Size = new System.Drawing.Size(220, 74);
-            this.ActiveVioButton.TabIndex = 41;
-            this.ActiveVioButton.Text = "База активных правил";
-            this.ActiveVioButton.UseVisualStyleBackColor = false;
-            this.ActiveVioButton.Click += new System.EventHandler(this.ActiveVioButton_Click);
+            ActiveVioButton.BackColor = Color.Tan;
+            ActiveVioButton.FlatStyle = FlatStyle.Flat;
+            ActiveVioButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            ActiveVioButton.ForeColor = Color.Black;
+            ActiveVioButton.Location = new Point(250, 229);
+            ActiveVioButton.Name = "ActiveVioButton";
+            ActiveVioButton.Size = new Size(220, 74);
+            ActiveVioButton.TabIndex = 41;
+            ActiveVioButton.Text = "База активных правил";
+            ActiveVioButton.UseVisualStyleBackColor = false;
+            ActiveVioButton.Click += ActiveVioButton_Click;
             // 
             // CurrentPageLabel
             // 
-            this.CurrentPageLabel.AutoSize = true;
-            this.CurrentPageLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CurrentPageLabel.Location = new System.Drawing.Point(250, 32);
-            this.CurrentPageLabel.Name = "CurrentPageLabel";
-            this.CurrentPageLabel.Size = new System.Drawing.Size(539, 35);
-            this.CurrentPageLabel.TabIndex = 46;
-            this.CurrentPageLabel.Text = "Меню взаимодействия с нарушениями";
+            CurrentPageLabel.AutoSize = true;
+            CurrentPageLabel.Font = new Font("Bahnschrift SemiBold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            CurrentPageLabel.Location = new Point(250, 32);
+            CurrentPageLabel.Name = "CurrentPageLabel";
+            CurrentPageLabel.Size = new Size(539, 35);
+            CurrentPageLabel.TabIndex = 46;
+            CurrentPageLabel.Text = "Меню взаимодействия с нарушениями";
             // 
             // CreateNewVio
             // 
-            this.CreateNewVio.BackColor = System.Drawing.Color.Tan;
-            this.CreateNewVio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CreateNewVio.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CreateNewVio.ForeColor = System.Drawing.Color.Black;
-            this.CreateNewVio.Location = new System.Drawing.Point(569, 229);
-            this.CreateNewVio.Name = "CreateNewVio";
-            this.CreateNewVio.Size = new System.Drawing.Size(220, 74);
-            this.CreateNewVio.TabIndex = 47;
-            this.CreateNewVio.Text = "Создать новое нарушение";
-            this.CreateNewVio.UseVisualStyleBackColor = false;
-            this.CreateNewVio.Click += new System.EventHandler(this.CreateNewVio_Click);
+            CreateNewVio.BackColor = Color.Tan;
+            CreateNewVio.FlatStyle = FlatStyle.Flat;
+            CreateNewVio.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CreateNewVio.ForeColor = Color.Black;
+            CreateNewVio.Location = new Point(569, 229);
+            CreateNewVio.Name = "CreateNewVio";
+            CreateNewVio.Size = new Size(220, 74);
+            CreateNewVio.TabIndex = 47;
+            CreateNewVio.Text = "Создать новое нарушение";
+            CreateNewVio.UseVisualStyleBackColor = false;
+            CreateNewVio.Click += CreateNewVio_Click;
             // 
             // ViosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.CreateNewVio);
-            this.Controls.Add(this.CurrentPageLabel);
-            this.Controls.Add(this.ActiveVioButton);
-            this.Controls.Add(this.PayedVioButton);
-            this.Controls.Add(this.NotPayedViosButton);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "ViosForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ViosForm";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(CreateNewVio);
+            Controls.Add(CurrentPageLabel);
+            Controls.Add(ActiveVioButton);
+            Controls.Add(PayedVioButton);
+            Controls.Add(NotPayedViosButton);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "ViosForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ViosForm";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

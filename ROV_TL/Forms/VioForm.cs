@@ -44,7 +44,7 @@ namespace ROV_TL.Forms
 
             double de = Convert.ToDouble(count) / Convert.ToDouble(pageSize);
             int pagesExist = (int)Math.Ceiling(de);
-            if (page >= pagesExist)   
+            if (page >= pagesExist)
             {
                 return false;
             }
@@ -53,7 +53,7 @@ namespace ROV_TL.Forms
                 return true;
             }
         }
-        
+
         private bool IsPrevPageExist()
         {
             if (page <= 1)
@@ -201,7 +201,7 @@ namespace ROV_TL.Forms
         private void ViolationLabel_Click(object sender, EventArgs e)
         {
             Label currentLabel = (Label)sender;
-            Vio payVio= db.Violations.Where(v => v.VioId == vioDict[currentLabel]).First();
+            Vio payVio = db.Violations.Where(v => v.VioId == vioDict[currentLabel]).First();
             PayForm payForm = new PayForm(user, payVio.VioId, payVio.CarId, this);
 
             payForm.ShowDialog();

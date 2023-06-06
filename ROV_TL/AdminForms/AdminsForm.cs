@@ -185,7 +185,7 @@ namespace ROV_TL.AdminForms
             }
 
             CurrentPageLabel.Text = "Текущая страница: " + page;
-            
+
             ClearEmptyLabels();
             SetLabelClicks();
 

@@ -170,7 +170,7 @@ namespace ROV_TL
                 ClearEmptyLabel();
                 SetLabelClicks();
 
-                
+
             }
             catch (Exception ex)
             {
@@ -194,7 +194,7 @@ namespace ROV_TL
         private void PlateLabel_Click(object sender, EventArgs e)
         {
             Label plate = (Label)sender;
-            MessageBox.Show(plate.Text);;
+            MessageBox.Show(plate.Text); ;
         }
 
         private void VioLabel_Click(object sender, EventArgs e)

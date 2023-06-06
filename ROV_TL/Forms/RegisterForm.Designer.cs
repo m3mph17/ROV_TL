@@ -28,158 +28,161 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.loginTextBox = new System.Windows.Forms.TextBox();
-            this.passwordTextBox = new System.Windows.Forms.TextBox();
-            this.emailTextBox = new System.Windows.Forms.TextBox();
-            this.registerButton = new System.Windows.Forms.Button();
-            this.fioTextBox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.LoginButton = new System.Windows.Forms.Button();
-            this.staticLabel = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.closeLabel = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
+            loginTextBox = new TextBox();
+            passwordTextBox = new TextBox();
+            emailTextBox = new TextBox();
+            registerButton = new Button();
+            fioTextBox = new TextBox();
+            textBox1 = new TextBox();
+            LoginButton = new Button();
+            staticLabel = new Label();
+            panel1 = new Panel();
+            closeLabel = new Label();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // loginTextBox
             // 
-            this.loginTextBox.BackColor = System.Drawing.Color.Tan;
-            this.loginTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.loginTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.loginTextBox.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.loginTextBox.Location = new System.Drawing.Point(29, 92);
-            this.loginTextBox.Name = "loginTextBox";
-            this.loginTextBox.PlaceholderText = "Логин";
-            this.loginTextBox.Size = new System.Drawing.Size(269, 29);
-            this.loginTextBox.TabIndex = 0;
+            loginTextBox.BackColor = Color.Tan;
+            loginTextBox.BorderStyle = BorderStyle.None;
+            loginTextBox.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            loginTextBox.ForeColor = SystemColors.WindowText;
+            loginTextBox.Location = new Point(29, 92);
+            loginTextBox.Name = "loginTextBox";
+            loginTextBox.PlaceholderText = "Логин";
+            loginTextBox.Size = new Size(269, 29);
+            loginTextBox.TabIndex = 0;
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.BackColor = System.Drawing.Color.Tan;
-            this.passwordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.passwordTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.passwordTextBox.Location = new System.Drawing.Point(29, 138);
-            this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.PlaceholderText = "Пароль";
-            this.passwordTextBox.Size = new System.Drawing.Size(269, 29);
-            this.passwordTextBox.TabIndex = 1;
+            passwordTextBox.BackColor = Color.Tan;
+            passwordTextBox.BorderStyle = BorderStyle.None;
+            passwordTextBox.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            passwordTextBox.Location = new Point(29, 138);
+            passwordTextBox.Name = "passwordTextBox";
+            passwordTextBox.PlaceholderText = "Пароль";
+            passwordTextBox.Size = new Size(269, 29);
+            passwordTextBox.TabIndex = 1;
             // 
             // emailTextBox
             // 
-            this.emailTextBox.BackColor = System.Drawing.Color.Tan;
-            this.emailTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.emailTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.emailTextBox.Location = new System.Drawing.Point(29, 270);
-            this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.PlaceholderText = "Email";
-            this.emailTextBox.Size = new System.Drawing.Size(269, 29);
-            this.emailTextBox.TabIndex = 2;
+            emailTextBox.BackColor = Color.Tan;
+            emailTextBox.BorderStyle = BorderStyle.None;
+            emailTextBox.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            emailTextBox.Location = new Point(29, 270);
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.PlaceholderText = "Email";
+            emailTextBox.Size = new Size(269, 29);
+            emailTextBox.TabIndex = 2;
             // 
             // registerButton
             // 
-            this.registerButton.BackColor = System.Drawing.Color.Tan;
-            this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.registerButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.registerButton.Location = new System.Drawing.Point(187, 324);
-            this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(111, 52);
-            this.registerButton.TabIndex = 3;
-            this.registerButton.Text = "Регистрация";
-            this.registerButton.UseVisualStyleBackColor = false;
-            this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
+            registerButton.BackColor = Color.Tan;
+            registerButton.FlatStyle = FlatStyle.Flat;
+            registerButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            registerButton.Location = new Point(187, 324);
+            registerButton.Name = "registerButton";
+            registerButton.Size = new Size(111, 52);
+            registerButton.TabIndex = 3;
+            registerButton.Text = "Регистрация";
+            registerButton.UseVisualStyleBackColor = false;
+            registerButton.Click += registerButton_Click;
             // 
             // fioTextBox
             // 
-            this.fioTextBox.BackColor = System.Drawing.Color.Tan;
-            this.fioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.fioTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.fioTextBox.Location = new System.Drawing.Point(29, 226);
-            this.fioTextBox.Name = "fioTextBox";
-            this.fioTextBox.PlaceholderText = "ФИО";
-            this.fioTextBox.Size = new System.Drawing.Size(269, 29);
-            this.fioTextBox.TabIndex = 4;
+            fioTextBox.BackColor = Color.Tan;
+            fioTextBox.BorderStyle = BorderStyle.None;
+            fioTextBox.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            fioTextBox.Location = new Point(29, 226);
+            fioTextBox.Name = "fioTextBox";
+            fioTextBox.PlaceholderText = "ФИО";
+            fioTextBox.Size = new Size(269, 29);
+            fioTextBox.TabIndex = 4;
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Tan;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(29, 182);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "Подтвердить пароль";
-            this.textBox1.Size = new System.Drawing.Size(269, 29);
-            this.textBox1.TabIndex = 5;
+            textBox1.BackColor = Color.Tan;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(29, 182);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Подтвердить пароль";
+            textBox1.Size = new Size(269, 29);
+            textBox1.TabIndex = 5;
             // 
             // LoginButton
             // 
-            this.LoginButton.BackColor = System.Drawing.Color.Tan;
-            this.LoginButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.LoginButton.Location = new System.Drawing.Point(29, 324);
-            this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(111, 52);
-            this.LoginButton.TabIndex = 6;
-            this.LoginButton.Text = "Вход";
-            this.LoginButton.UseVisualStyleBackColor = false;
-            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            LoginButton.BackColor = Color.Tan;
+            LoginButton.FlatAppearance.BorderColor = Color.FromArgb(64, 64, 64);
+            LoginButton.FlatStyle = FlatStyle.Flat;
+            LoginButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            LoginButton.Location = new Point(29, 324);
+            LoginButton.Name = "LoginButton";
+            LoginButton.Size = new Size(111, 52);
+            LoginButton.TabIndex = 6;
+            LoginButton.Text = "Вход";
+            LoginButton.UseVisualStyleBackColor = false;
+            LoginButton.Click += LoginButton_Click;
             // 
             // staticLabel
             // 
-            this.staticLabel.AutoSize = true;
-            this.staticLabel.BackColor = System.Drawing.Color.Tan;
-            this.staticLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.staticLabel.Location = new System.Drawing.Point(94, 19);
-            this.staticLabel.Name = "staticLabel";
-            this.staticLabel.Size = new System.Drawing.Size(164, 42);
-            this.staticLabel.TabIndex = 7;
-            this.staticLabel.Text = "Регистрация";
+            staticLabel.AutoSize = true;
+            staticLabel.BackColor = Color.Tan;
+            staticLabel.Font = new Font("Bahnschrift Condensed", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
+            staticLabel.Location = new Point(94, 19);
+            staticLabel.Name = "staticLabel";
+            staticLabel.Size = new Size(164, 42);
+            staticLabel.TabIndex = 7;
+            staticLabel.Text = "Регистрация";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.closeLabel);
-            this.panel1.Controls.Add(this.staticLabel);
-            this.panel1.Location = new System.Drawing.Point(-10, -10);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(342, 75);
-            this.panel1.TabIndex = 8;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(closeLabel);
+            panel1.Controls.Add(staticLabel);
+            panel1.Location = new Point(-10, -10);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(342, 75);
+            panel1.TabIndex = 8;
             // 
             // closeLabel
             // 
-            this.closeLabel.AutoSize = true;
-            this.closeLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.closeLabel.Location = new System.Drawing.Point(289, 19);
-            this.closeLabel.Name = "closeLabel";
-            this.closeLabel.Size = new System.Drawing.Size(30, 33);
-            this.closeLabel.TabIndex = 8;
-            this.closeLabel.Text = "X";
-            this.closeLabel.Click += new System.EventHandler(this.closeLabel_Click);
+            closeLabel.AutoSize = true;
+            closeLabel.Cursor = Cursors.Hand;
+            closeLabel.Font = new Font("Bahnschrift SemiBold", 20F, FontStyle.Bold, GraphicsUnit.Point);
+            closeLabel.Location = new Point(289, 19);
+            closeLabel.Name = "closeLabel";
+            closeLabel.Size = new Size(30, 33);
+            closeLabel.TabIndex = 8;
+            closeLabel.Text = "X";
+            closeLabel.Click += closeLabel_Click;
             // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(329, 404);
-            this.Controls.Add(this.LoginButton);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.fioTextBox);
-            this.Controls.Add(this.registerButton);
-            this.Controls.Add(this.emailTextBox);
-            this.Controls.Add(this.passwordTextBox);
-            this.Controls.Add(this.loginTextBox);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "RegisterForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RegisterForm";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(329, 404);
+            Controls.Add(LoginButton);
+            Controls.Add(textBox1);
+            Controls.Add(fioTextBox);
+            Controls.Add(registerButton);
+            Controls.Add(emailTextBox);
+            Controls.Add(passwordTextBox);
+            Controls.Add(loginTextBox);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "RegisterForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "RegisterForm";
+            Load += RegisterForm_Load;
+            KeyDown += RegisterForm_KeyDown;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

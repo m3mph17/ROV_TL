@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NLog;
+using OfficeOpenXml;
 using ROV_TL.AdminForms.AdminAddtional;
 using ROV_TL.Models;
+using System.Runtime.InteropServices;
+using LicenseContext = OfficeOpenXml.LicenseContext;
 
 namespace ROV_TL.AdminForms
 {
@@ -127,7 +130,7 @@ namespace ROV_TL.AdminForms
                     emailLabels[i].Text = "";
                     emailLabels[i].Enabled = false;
                 }
-                
+
                 if (fioLabels[i].Text == "Fio")
                 {
                     fioLabels[i].Text = "";
@@ -255,6 +258,49 @@ namespace ROV_TL.AdminForms
             this.Hide();
             profileForm.ShowDialog();
             this.Close();
+        }
+
+        private async void UsersForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private async void ExportToExcel()
+        {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            string excelName = string.Empty;
+            var stream = new MemoryStream();
+
+            using (var package = new ExcelPackage(stream))
+            {
+                var workSheet = package.Workbook.Worksheets.Add("Sheet1");
+                var _users = db.Users.ToList();
+                workSheet.Cells.LoadFromCollection(_users, true);
+                excelName = $"Exports\\UserList-{DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss")}.xlsx";
+
+                try
+                {
+                    await package.SaveAsAsync(new FileInfo(excelName));
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Not good");
+
+                }
+                MessageBox.Show("Good");
+            }
+            stream.Position = 0;
+        }
+
+        private void UsersForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.NumPad5)
+            {
+                // Do something when num pad 5 is pressed
+                ExportToExcel();
+            }
+            // Sleep for a short amount of time to avoid using too much CPU
+            Thread.Sleep(10);
         }
     }
 }
