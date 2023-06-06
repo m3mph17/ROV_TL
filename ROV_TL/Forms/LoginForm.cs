@@ -154,7 +154,7 @@ namespace ROV_TL
 
         private void LoginTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar== (char)Keys.Tab)
+            if (e.KeyChar == (char)Keys.Tab)
             {
                 // Set focus to the next TextBox control
                 PasswordTextBox.Focus();
@@ -165,6 +165,11 @@ namespace ROV_TL
                 // Set focus to the next TextBox control
                 StaticLabel.Focus();
             }
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

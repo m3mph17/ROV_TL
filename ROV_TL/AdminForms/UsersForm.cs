@@ -296,7 +296,6 @@ namespace ROV_TL.AdminForms
         {
             if (e.KeyCode == Keys.NumPad5)
             {
-                // Do something when num pad 5 is pressed
                 ExportToExcel();
             }
             // Sleep for a short amount of time to avoid using too much CPU

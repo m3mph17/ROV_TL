@@ -55,6 +55,7 @@
             AcessPictureBox_4 = new PictureBox();
             AcessPictureBox_2 = new PictureBox();
             AddBalanceButton = new PictureBox();
+            UserNameLabel = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ExitPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)UpdatePictureBox).BeginInit();
@@ -140,6 +141,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(UserNameLabel);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(CarInfoLabel);
             panel1.Controls.Add(panel2);
@@ -372,6 +374,16 @@
             AddBalanceButton.TabStop = false;
             AddBalanceButton.Click += AddBalanceButton_Click;
             // 
+            // UserNameLabel
+            // 
+            UserNameLabel.AutoSize = true;
+            UserNameLabel.Location = new Point(45, 419);
+            UserNameLabel.MaximumSize = new Size(200, 27);
+            UserNameLabel.Name = "UserNameLabel";
+            UserNameLabel.Size = new Size(65, 27);
+            UserNameLabel.TabIndex = 10;
+            UserNameLabel.Text = "label1";
+            // 
             // ProfileForm
             // 
             AutoScaleDimensions = new SizeF(11F, 29F);
@@ -405,6 +417,7 @@
             Name = "ProfileForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ProfileForm";
+            Load += ProfileForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)ExitPictureBox).EndInit();
@@ -446,5 +459,6 @@
         private PictureBox AcessPictureBox_4;
         private PictureBox AcessPictureBox_2;
         private PictureBox AddBalanceButton;
+        private Label UserNameLabel;
     }
 }

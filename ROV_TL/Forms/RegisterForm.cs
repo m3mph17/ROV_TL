@@ -2,7 +2,10 @@
 using ROV_TL.Models;
 using NLog;
 using System.Text.RegularExpressions;
-using System.Net.Mail;
+using MimeKit;
+using MailKit.Net.Smtp;
+using MailKit;
+using System.Diagnostics;
 
 namespace ROV_TL.Forms
 {
@@ -19,7 +22,7 @@ namespace ROV_TL.Forms
             InitializeComponent();
         }
 
-        private void registerButton_Click(object sender, EventArgs e)
+        private async void registerButton_Click(object sender, EventArgs e)
         {
             User user = new User
             {
@@ -71,19 +74,27 @@ namespace ROV_TL.Forms
 
                 try
                 {
-                    MailMessage mm = new MailMessage();
-                    SmtpClient smtpclient = new SmtpClient("smtp.mail.ru", 587);
-                    mm.From = new MailAddress("z4574736@gmail.com");
-                    mm.To.Add(user.Email);
-                    mm.Subject = "registration";
-                    mm.Body = "registration";
-                    smtpclient.Credentials = new System.Net.NetworkCredential("fghfgh1954@inbox.ru", "231204den");
-                    smtpclient.EnableSsl = true;
-                    smtpclient.Send(mm);
-                    MessageBox.Show("Email has meen sent.");
+                    MimeMessage mail = new MimeMessage();
+                    mail.From.Add(new MailboxAddress("Штрафы", "fuj6629@gmail.com"));
+                    mail.To.Add(new MailboxAddress("Нарушитель", user.Email));
+                    
+                    BodyBuilder bodybuilder = new BodyBuilder();
+                    bodybuilder.HtmlBody = "Регистрация успешна!";
+                    bodybuilder.TextBody = $"{user.Login}, Вы были успешно зарегистрированы!";
+                    mail.Body = bodybuilder.ToMessageBody();
+                    mail.Subject = "Регистрация";
+                    using (var client = new SmtpClient())
+                    {
+                        await client.ConnectAsync("smtp.gmail.com", 587, false);
+                        await client.AuthenticateAsync("fuj6629@gmail.com", "khiyvsscoromwtds");
+                        await client.SendAsync(mail);
+
+                        await client.DisconnectAsync(true);
+                    }
                 }
                 catch (Exception ex)
                 {
+                    Debug.WriteLine(ex.Message);
                     Console.WriteLine("error");
                 }
 
