@@ -3,11 +3,18 @@ using NLog;
 using System.Text.RegularExpressions;
 using ROV_TL.Forms;
 using ROV_TL.Forms.Additional;
+using System.Drawing.Printing;
+using System.Windows.Forms;
+using System;
+using System.IO;
+using System.Drawing;
+using System.Data;
 
 namespace ROV_TL
 {
     public partial class ProfileForm : Form
     {
+
         // Entity framework things
         ApplicationContext db = new ApplicationContext();
 
@@ -19,6 +26,8 @@ namespace ROV_TL
 
         // Array of lock/unlock pic boxes
         PictureBox[] accessBoxes;
+        private StreamReader streamToPrint;
+        private Font printFont;
 
         public ProfileForm(int id)
         {
@@ -43,6 +52,7 @@ namespace ROV_TL
             accessBoxes[1] = AcessPictureBox_2;
             accessBoxes[2] = AcessPictureBox_3;
             accessBoxes[3] = AcessPictureBox_4;
+
         }
 
         private void CarInfoLabel_Click(object sender, EventArgs e)
@@ -296,6 +306,16 @@ namespace ROV_TL
             {
                 toolTip1.SetToolTip(ctrl, "Ваши автомобили");
             }
+        }
+
+        private void ProfileForm_Load(object sender, EventArgs e)
+        {
+            UserNameLabel.Text = $"{user.Login}";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
