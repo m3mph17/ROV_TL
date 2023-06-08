@@ -219,5 +219,18 @@ namespace ROV_TL
             addCarForm.ShowDialog();
             this.Close();
         }
+
+        private void CarsForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void CarsForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Environment.Exit(0);
+            }
+        }
     }
 }

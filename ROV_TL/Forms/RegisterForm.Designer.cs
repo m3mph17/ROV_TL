@@ -179,6 +179,7 @@
             Text = "RegisterForm";
             Load += RegisterForm_Load;
             KeyDown += RegisterForm_KeyDown;
+            KeyPress += RegisterForm_KeyPress;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

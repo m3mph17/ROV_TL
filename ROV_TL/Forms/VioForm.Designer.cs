@@ -587,6 +587,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "VioForm";
             Load += VioForm_Load;
+            KeyDown += VioForm_KeyDown;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)PrevPageButton).EndInit();

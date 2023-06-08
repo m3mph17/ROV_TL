@@ -239,5 +239,13 @@ namespace ROV_TL.Forms
             carsForm.ShowDialog();
             this.Close();
         }
+
+        private void VioForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Escape)
+            {
+                Environment.Exit(0);
+            }
+        }
     }
 }

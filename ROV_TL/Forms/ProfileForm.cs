@@ -312,5 +312,10 @@ namespace ROV_TL
         {
             UserNameLabel.Text = $"{user.Login}";
         }
+
+        private void ProfileForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

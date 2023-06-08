@@ -36,6 +36,7 @@
             BalanceLabel = new Label();
             CarInfoLabel = new Label();
             panel1 = new Panel();
+            UserNameLabel = new Label();
             panel3 = new Panel();
             panel2 = new Panel();
             ROVLabel = new Label();
@@ -55,7 +56,6 @@
             AcessPictureBox_4 = new PictureBox();
             AcessPictureBox_2 = new PictureBox();
             AddBalanceButton = new PictureBox();
-            UserNameLabel = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ExitPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)UpdatePictureBox).BeginInit();
@@ -152,6 +152,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(173, 459);
             panel1.TabIndex = 9;
+            // 
+            // UserNameLabel
+            // 
+            UserNameLabel.AutoSize = true;
+            UserNameLabel.Location = new Point(45, 419);
+            UserNameLabel.MaximumSize = new Size(200, 27);
+            UserNameLabel.Name = "UserNameLabel";
+            UserNameLabel.Size = new Size(65, 27);
+            UserNameLabel.TabIndex = 10;
+            UserNameLabel.Text = "label1";
             // 
             // panel3
             // 
@@ -374,16 +384,6 @@
             AddBalanceButton.TabStop = false;
             AddBalanceButton.Click += AddBalanceButton_Click;
             // 
-            // UserNameLabel
-            // 
-            UserNameLabel.AutoSize = true;
-            UserNameLabel.Location = new Point(45, 419);
-            UserNameLabel.MaximumSize = new Size(200, 27);
-            UserNameLabel.Name = "UserNameLabel";
-            UserNameLabel.Size = new Size(65, 27);
-            UserNameLabel.TabIndex = 10;
-            UserNameLabel.Text = "label1";
-            // 
             // ProfileForm
             // 
             AutoScaleDimensions = new SizeF(11F, 29F);
@@ -418,6 +418,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ProfileForm";
             Load += ProfileForm_Load;
+            KeyPress += ProfileForm_KeyPress;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)ExitPictureBox).EndInit();

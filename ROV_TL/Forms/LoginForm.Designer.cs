@@ -142,6 +142,7 @@
             Text = "Form1";
             Load += LoginForm_Load;
             KeyDown += LoginForm_KeyDown;
+            KeyPress += LoginForm_KeyPress;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

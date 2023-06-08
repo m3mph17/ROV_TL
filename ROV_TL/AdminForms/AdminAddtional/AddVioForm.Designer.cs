@@ -28,278 +28,282 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.ViosLabel = new System.Windows.Forms.Label();
-            this.AdminProfileLabel = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CarsLabel = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.ROVLabel = new System.Windows.Forms.Label();
-            this.AdminsLabel = new System.Windows.Forms.Label();
-            this.UsersLabel = new System.Windows.Forms.Label();
-            this.LoginTextBox = new System.Windows.Forms.TextBox();
-            this.ModelTextBox = new System.Windows.Forms.TextBox();
-            this.VioTextBox = new System.Windows.Forms.TextBox();
-            this.FineTextBox = new System.Windows.Forms.TextBox();
-            this.UIDTextBox = new System.Windows.Forms.TextBox();
-            this.CIDTextBox = new System.Windows.Forms.TextBox();
-            this.DateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.CreateButton = new System.Windows.Forms.Button();
-            this.RandomGenButton = new System.Windows.Forms.Button();
-            this.StaticHeaderLabel = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            ViosLabel = new Label();
+            AdminProfileLabel = new Label();
+            panel3 = new Panel();
+            CarsLabel = new Label();
+            panel2 = new Panel();
+            ROVLabel = new Label();
+            AdminsLabel = new Label();
+            UsersLabel = new Label();
+            LoginTextBox = new TextBox();
+            ModelTextBox = new TextBox();
+            VioTextBox = new TextBox();
+            FineTextBox = new TextBox();
+            UIDTextBox = new TextBox();
+            CIDTextBox = new TextBox();
+            DateTimePicker = new DateTimePicker();
+            CreateButton = new Button();
+            RandomGenButton = new Button();
+            StaticHeaderLabel = new Label();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Tan;
-            this.panel1.Controls.Add(this.ViosLabel);
-            this.panel1.Controls.Add(this.AdminProfileLabel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.CarsLabel);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.ROVLabel);
-            this.panel1.Controls.Add(this.AdminsLabel);
-            this.panel1.Controls.Add(this.UsersLabel);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 460);
-            this.panel1.TabIndex = 17;
+            panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(ViosLabel);
+            panel1.Controls.Add(AdminProfileLabel);
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(CarsLabel);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(ROVLabel);
+            panel1.Controls.Add(AdminsLabel);
+            panel1.Controls.Add(UsersLabel);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(173, 460);
+            panel1.TabIndex = 17;
             // 
             // ViosLabel
             // 
-            this.ViosLabel.AutoSize = true;
-            this.ViosLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ViosLabel.ForeColor = System.Drawing.Color.Black;
-            this.ViosLabel.Location = new System.Drawing.Point(11, 216);
-            this.ViosLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.ViosLabel.Name = "ViosLabel";
-            this.ViosLabel.Size = new System.Drawing.Size(119, 29);
-            this.ViosLabel.TabIndex = 11;
-            this.ViosLabel.Text = "Нарушения";
+            ViosLabel.AutoSize = true;
+            ViosLabel.Cursor = Cursors.Hand;
+            ViosLabel.ForeColor = Color.Black;
+            ViosLabel.Location = new Point(11, 216);
+            ViosLabel.Margin = new Padding(5, 0, 5, 0);
+            ViosLabel.Name = "ViosLabel";
+            ViosLabel.Size = new Size(119, 29);
+            ViosLabel.TabIndex = 11;
+            ViosLabel.Text = "Нарушения";
+            ViosLabel.Click += ViosLabel_Click;
             // 
             // AdminProfileLabel
             // 
-            this.AdminProfileLabel.AutoSize = true;
-            this.AdminProfileLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AdminProfileLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminProfileLabel.Location = new System.Drawing.Point(47, 62);
-            this.AdminProfileLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminProfileLabel.Name = "AdminProfileLabel";
-            this.AdminProfileLabel.Size = new System.Drawing.Size(72, 29);
-            this.AdminProfileLabel.TabIndex = 10;
-            this.AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.AutoSize = true;
+            AdminProfileLabel.Cursor = Cursors.Hand;
+            AdminProfileLabel.ForeColor = Color.Black;
+            AdminProfileLabel.Location = new Point(47, 62);
+            AdminProfileLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminProfileLabel.Name = "AdminProfileLabel";
+            AdminProfileLabel.Size = new Size(72, 29);
+            AdminProfileLabel.TabIndex = 10;
+            AdminProfileLabel.Text = "Admin";
+            AdminProfileLabel.Click += AdminProfileLabel_Click;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel3.Location = new System.Drawing.Point(1, 246);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(136, 5);
-            this.panel3.TabIndex = 9;
+            panel3.BackColor = Color.FromArgb(35, 35, 35);
+            panel3.Location = new Point(1, 246);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(136, 5);
+            panel3.TabIndex = 9;
             // 
             // CarsLabel
             // 
-            this.CarsLabel.AutoSize = true;
-            this.CarsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CarsLabel.ForeColor = System.Drawing.Color.Black;
-            this.CarsLabel.Location = new System.Drawing.Point(11, 180);
-            this.CarsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.CarsLabel.Name = "CarsLabel";
-            this.CarsLabel.Size = new System.Drawing.Size(126, 29);
-            this.CarsLabel.TabIndex = 8;
-            this.CarsLabel.Text = "Автомобили";
+            CarsLabel.AutoSize = true;
+            CarsLabel.Cursor = Cursors.Hand;
+            CarsLabel.ForeColor = Color.Black;
+            CarsLabel.Location = new Point(11, 180);
+            CarsLabel.Margin = new Padding(5, 0, 5, 0);
+            CarsLabel.Name = "CarsLabel";
+            CarsLabel.Size = new Size(126, 29);
+            CarsLabel.TabIndex = 8;
+            CarsLabel.Text = "Автомобили";
+            CarsLabel.Click += CarsLabel_Click;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.panel2.Location = new System.Drawing.Point(-2, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(185, 10);
-            this.panel2.TabIndex = 5;
+            panel2.BackColor = Color.FromArgb(35, 35, 35);
+            panel2.Location = new Point(-2, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(185, 10);
+            panel2.TabIndex = 5;
             // 
             // ROVLabel
             // 
-            this.ROVLabel.AutoSize = true;
-            this.ROVLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ROVLabel.ForeColor = System.Drawing.Color.Black;
-            this.ROVLabel.Location = new System.Drawing.Point(33, 9);
-            this.ROVLabel.Name = "ROVLabel";
-            this.ROVLabel.Size = new System.Drawing.Size(99, 58);
-            this.ROVLabel.TabIndex = 4;
-            this.ROVLabel.Text = "ROV";
+            ROVLabel.AutoSize = true;
+            ROVLabel.Font = new Font("Bahnschrift SemiCondensed", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            ROVLabel.ForeColor = Color.Black;
+            ROVLabel.Location = new Point(33, 9);
+            ROVLabel.Name = "ROVLabel";
+            ROVLabel.Size = new Size(99, 58);
+            ROVLabel.TabIndex = 4;
+            ROVLabel.Text = "ROV";
             // 
             // AdminsLabel
             // 
-            this.AdminsLabel.AutoSize = true;
-            this.AdminsLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdminsLabel.ForeColor = System.Drawing.Color.Black;
-            this.AdminsLabel.Location = new System.Drawing.Point(11, 109);
-            this.AdminsLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.AdminsLabel.Name = "AdminsLabel";
-            this.AdminsLabel.Size = new System.Drawing.Size(150, 29);
-            this.AdminsLabel.TabIndex = 2;
-            this.AdminsLabel.Text = "Администраторы";
+            AdminsLabel.AutoSize = true;
+            AdminsLabel.Font = new Font("Bahnschrift Condensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            AdminsLabel.ForeColor = Color.Black;
+            AdminsLabel.Location = new Point(11, 109);
+            AdminsLabel.Margin = new Padding(5, 0, 5, 0);
+            AdminsLabel.Name = "AdminsLabel";
+            AdminsLabel.Size = new Size(150, 29);
+            AdminsLabel.TabIndex = 2;
+            AdminsLabel.Text = "Администраторы";
+            AdminsLabel.Click += AdminsLabel_Click;
             // 
             // UsersLabel
             // 
-            this.UsersLabel.AutoSize = true;
-            this.UsersLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UsersLabel.ForeColor = System.Drawing.Color.Black;
-            this.UsersLabel.Location = new System.Drawing.Point(11, 144);
-            this.UsersLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.UsersLabel.Name = "UsersLabel";
-            this.UsersLabel.Size = new System.Drawing.Size(142, 29);
-            this.UsersLabel.TabIndex = 3;
-            this.UsersLabel.Text = "Пользователи";
+            UsersLabel.AutoSize = true;
+            UsersLabel.Cursor = Cursors.Hand;
+            UsersLabel.ForeColor = Color.Black;
+            UsersLabel.Location = new Point(11, 144);
+            UsersLabel.Margin = new Padding(5, 0, 5, 0);
+            UsersLabel.Name = "UsersLabel";
+            UsersLabel.Size = new Size(142, 29);
+            UsersLabel.TabIndex = 3;
+            UsersLabel.Text = "Пользователи";
+            UsersLabel.Click += UsersLabel_Click;
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.BackColor = System.Drawing.Color.Tan;
-            this.LoginTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LoginTextBox.Location = new System.Drawing.Point(274, 111);
-            this.LoginTextBox.MaxLength = 50;
-            this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.PlaceholderText = "Login";
-            this.LoginTextBox.Size = new System.Drawing.Size(241, 29);
-            this.LoginTextBox.TabIndex = 50;
+            LoginTextBox.BackColor = Color.Tan;
+            LoginTextBox.BorderStyle = BorderStyle.None;
+            LoginTextBox.Location = new Point(274, 111);
+            LoginTextBox.MaxLength = 50;
+            LoginTextBox.Name = "LoginTextBox";
+            LoginTextBox.PlaceholderText = "Login";
+            LoginTextBox.Size = new Size(241, 29);
+            LoginTextBox.TabIndex = 50;
             // 
             // ModelTextBox
             // 
-            this.ModelTextBox.BackColor = System.Drawing.Color.Tan;
-            this.ModelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ModelTextBox.Location = new System.Drawing.Point(274, 158);
-            this.ModelTextBox.MaxLength = 50;
-            this.ModelTextBox.Name = "ModelTextBox";
-            this.ModelTextBox.PlaceholderText = "Car model";
-            this.ModelTextBox.Size = new System.Drawing.Size(556, 29);
-            this.ModelTextBox.TabIndex = 51;
+            ModelTextBox.BackColor = Color.Tan;
+            ModelTextBox.BorderStyle = BorderStyle.None;
+            ModelTextBox.Location = new Point(274, 158);
+            ModelTextBox.MaxLength = 50;
+            ModelTextBox.Name = "ModelTextBox";
+            ModelTextBox.PlaceholderText = "Car model";
+            ModelTextBox.Size = new Size(556, 29);
+            ModelTextBox.TabIndex = 51;
             // 
             // VioTextBox
             // 
-            this.VioTextBox.BackColor = System.Drawing.Color.Tan;
-            this.VioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.VioTextBox.Location = new System.Drawing.Point(210, 210);
-            this.VioTextBox.MaxLength = 50;
-            this.VioTextBox.Multiline = true;
-            this.VioTextBox.Name = "VioTextBox";
-            this.VioTextBox.PlaceholderText = "Violation text";
-            this.VioTextBox.Size = new System.Drawing.Size(620, 76);
-            this.VioTextBox.TabIndex = 52;
+            VioTextBox.BackColor = Color.Tan;
+            VioTextBox.BorderStyle = BorderStyle.None;
+            VioTextBox.Location = new Point(210, 210);
+            VioTextBox.MaxLength = 50;
+            VioTextBox.Multiline = true;
+            VioTextBox.Name = "VioTextBox";
+            VioTextBox.PlaceholderText = "Violation text";
+            VioTextBox.Size = new Size(620, 76);
+            VioTextBox.TabIndex = 52;
             // 
             // FineTextBox
             // 
-            this.FineTextBox.BackColor = System.Drawing.Color.Tan;
-            this.FineTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FineTextBox.Location = new System.Drawing.Point(210, 302);
-            this.FineTextBox.MaxLength = 50;
-            this.FineTextBox.Name = "FineTextBox";
-            this.FineTextBox.PlaceholderText = "Fine";
-            this.FineTextBox.Size = new System.Drawing.Size(620, 29);
-            this.FineTextBox.TabIndex = 53;
+            FineTextBox.BackColor = Color.Tan;
+            FineTextBox.BorderStyle = BorderStyle.None;
+            FineTextBox.Location = new Point(210, 302);
+            FineTextBox.MaxLength = 50;
+            FineTextBox.Name = "FineTextBox";
+            FineTextBox.PlaceholderText = "Fine";
+            FineTextBox.Size = new Size(620, 29);
+            FineTextBox.TabIndex = 53;
             // 
             // UIDTextBox
             // 
-            this.UIDTextBox.BackColor = System.Drawing.Color.Tan;
-            this.UIDTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.UIDTextBox.Location = new System.Drawing.Point(210, 111);
-            this.UIDTextBox.MaxLength = 50;
-            this.UIDTextBox.Name = "UIDTextBox";
-            this.UIDTextBox.PlaceholderText = "UID";
-            this.UIDTextBox.Size = new System.Drawing.Size(58, 29);
-            this.UIDTextBox.TabIndex = 54;
+            UIDTextBox.BackColor = Color.Tan;
+            UIDTextBox.BorderStyle = BorderStyle.None;
+            UIDTextBox.Location = new Point(210, 111);
+            UIDTextBox.MaxLength = 50;
+            UIDTextBox.Name = "UIDTextBox";
+            UIDTextBox.PlaceholderText = "UID";
+            UIDTextBox.Size = new Size(58, 29);
+            UIDTextBox.TabIndex = 54;
             // 
             // CIDTextBox
             // 
-            this.CIDTextBox.BackColor = System.Drawing.Color.Tan;
-            this.CIDTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CIDTextBox.Location = new System.Drawing.Point(210, 158);
-            this.CIDTextBox.MaxLength = 50;
-            this.CIDTextBox.Name = "CIDTextBox";
-            this.CIDTextBox.PlaceholderText = "CID";
-            this.CIDTextBox.Size = new System.Drawing.Size(58, 29);
-            this.CIDTextBox.TabIndex = 55;
+            CIDTextBox.BackColor = Color.Tan;
+            CIDTextBox.BorderStyle = BorderStyle.None;
+            CIDTextBox.Location = new Point(210, 158);
+            CIDTextBox.MaxLength = 50;
+            CIDTextBox.Name = "CIDTextBox";
+            CIDTextBox.PlaceholderText = "CID";
+            CIDTextBox.Size = new Size(58, 29);
+            CIDTextBox.TabIndex = 55;
             // 
             // DateTimePicker
             // 
-            this.DateTimePicker.CalendarForeColor = System.Drawing.Color.White;
-            this.DateTimePicker.CalendarMonthBackground = System.Drawing.Color.Tan;
-            this.DateTimePicker.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.DateTimePicker.CalendarTitleForeColor = System.Drawing.Color.White;
-            this.DateTimePicker.CalendarTrailingForeColor = System.Drawing.Color.Tan;
-            this.DateTimePicker.Location = new System.Drawing.Point(629, 109);
-            this.DateTimePicker.Name = "DateTimePicker";
-            this.DateTimePicker.Size = new System.Drawing.Size(201, 36);
-            this.DateTimePicker.TabIndex = 57;
+            DateTimePicker.CalendarForeColor = Color.White;
+            DateTimePicker.CalendarMonthBackground = Color.Tan;
+            DateTimePicker.CalendarTitleBackColor = Color.FromArgb(45, 45, 45);
+            DateTimePicker.CalendarTitleForeColor = Color.White;
+            DateTimePicker.CalendarTrailingForeColor = Color.Tan;
+            DateTimePicker.Location = new Point(629, 109);
+            DateTimePicker.Name = "DateTimePicker";
+            DateTimePicker.Size = new Size(201, 36);
+            DateTimePicker.TabIndex = 57;
             // 
             // CreateButton
             // 
-            this.CreateButton.BackColor = System.Drawing.Color.Tan;
-            this.CreateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CreateButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.CreateButton.ForeColor = System.Drawing.Color.Black;
-            this.CreateButton.Location = new System.Drawing.Point(633, 365);
-            this.CreateButton.Name = "CreateButton";
-            this.CreateButton.Size = new System.Drawing.Size(197, 36);
-            this.CreateButton.TabIndex = 58;
-            this.CreateButton.Text = "Создать";
-            this.CreateButton.UseVisualStyleBackColor = false;
-            this.CreateButton.Click += new System.EventHandler(this.CreateButton_Click);
+            CreateButton.BackColor = Color.Tan;
+            CreateButton.FlatStyle = FlatStyle.Flat;
+            CreateButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            CreateButton.ForeColor = Color.Black;
+            CreateButton.Location = new Point(633, 365);
+            CreateButton.Name = "CreateButton";
+            CreateButton.Size = new Size(197, 36);
+            CreateButton.TabIndex = 58;
+            CreateButton.Text = "Создать";
+            CreateButton.UseVisualStyleBackColor = false;
+            CreateButton.Click += CreateButton_Click;
             // 
             // RandomGenButton
             // 
-            this.RandomGenButton.BackColor = System.Drawing.Color.Tan;
-            this.RandomGenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RandomGenButton.Font = new System.Drawing.Font("Bahnschrift Condensed", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RandomGenButton.ForeColor = System.Drawing.Color.Black;
-            this.RandomGenButton.Location = new System.Drawing.Point(210, 365);
-            this.RandomGenButton.Name = "RandomGenButton";
-            this.RandomGenButton.Size = new System.Drawing.Size(198, 36);
-            this.RandomGenButton.TabIndex = 59;
-            this.RandomGenButton.Text = "Заполнить случайно";
-            this.RandomGenButton.UseVisualStyleBackColor = false;
-            this.RandomGenButton.Click += new System.EventHandler(this.RandomGenButton_Click);
+            RandomGenButton.BackColor = Color.Tan;
+            RandomGenButton.FlatStyle = FlatStyle.Flat;
+            RandomGenButton.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            RandomGenButton.ForeColor = Color.Black;
+            RandomGenButton.Location = new Point(210, 365);
+            RandomGenButton.Name = "RandomGenButton";
+            RandomGenButton.Size = new Size(198, 36);
+            RandomGenButton.TabIndex = 59;
+            RandomGenButton.Text = "Заполнить случайно";
+            RandomGenButton.UseVisualStyleBackColor = false;
+            RandomGenButton.Click += RandomGenButton_Click;
             // 
             // StaticHeaderLabel
             // 
-            this.StaticHeaderLabel.AutoSize = true;
-            this.StaticHeaderLabel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StaticHeaderLabel.Location = new System.Drawing.Point(210, 25);
-            this.StaticHeaderLabel.Name = "StaticHeaderLabel";
-            this.StaticHeaderLabel.Size = new System.Drawing.Size(476, 45);
-            this.StaticHeaderLabel.TabIndex = 60;
-            this.StaticHeaderLabel.Text = "Добавление нового нарушения";
+            StaticHeaderLabel.AutoSize = true;
+            StaticHeaderLabel.Font = new Font("Bahnschrift SemiCondensed", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
+            StaticHeaderLabel.Location = new Point(210, 25);
+            StaticHeaderLabel.Name = "StaticHeaderLabel";
+            StaticHeaderLabel.Size = new Size(476, 45);
+            StaticHeaderLabel.TabIndex = 60;
+            StaticHeaderLabel.Text = "Добавление нового нарушения";
             // 
             // AddVioForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(867, 455);
-            this.Controls.Add(this.StaticHeaderLabel);
-            this.Controls.Add(this.RandomGenButton);
-            this.Controls.Add(this.CreateButton);
-            this.Controls.Add(this.DateTimePicker);
-            this.Controls.Add(this.CIDTextBox);
-            this.Controls.Add(this.UIDTextBox);
-            this.Controls.Add(this.FineTextBox);
-            this.Controls.Add(this.VioTextBox);
-            this.Controls.Add(this.ModelTextBox);
-            this.Controls.Add(this.LoginTextBox);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "AddVioForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddVioForm";
-            this.Load += new System.EventHandler(this.AddVioForm_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(11F, 29F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(35, 35, 35);
+            ClientSize = new Size(867, 455);
+            Controls.Add(StaticHeaderLabel);
+            Controls.Add(RandomGenButton);
+            Controls.Add(CreateButton);
+            Controls.Add(DateTimePicker);
+            Controls.Add(CIDTextBox);
+            Controls.Add(UIDTextBox);
+            Controls.Add(FineTextBox);
+            Controls.Add(VioTextBox);
+            Controls.Add(ModelTextBox);
+            Controls.Add(LoginTextBox);
+            Controls.Add(panel1);
+            Font = new Font("Bahnschrift SemiCondensed", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.White;
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "AddVioForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AddVioForm";
+            Load += AddVioForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

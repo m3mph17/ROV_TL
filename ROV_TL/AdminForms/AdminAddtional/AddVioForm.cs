@@ -68,10 +68,64 @@ namespace ROV_TL.AdminForms.AdminAddtional
 
         private void CreateButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+
+                db.Violations.Add(newVio);
+                db.SaveChanges();
+
+                MessageBox.Show("Нарушение успешно добавлено");
+
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка во время сохранения" + ex.Message);
+            }
 
 
-            db.Violations.Add(newVio);
-            db.SaveChanges();
+        }
+
+        private void CarsLabel_Click(object sender, EventArgs e)
+        {
+            CarsForm carsform = new CarsForm(admin);
+            this.Hide();
+            carsform.ShowDialog();
+            this.Close();
+
+        }
+
+        private void UsersLabel_Click(object sender, EventArgs e)
+        {
+            UsersForm usersform = new UsersForm(admin);
+            this.Hide();
+            usersform.ShowDialog();
+            this.Close();
+        }
+
+        private void AdminsLabel_Click(object sender, EventArgs e)
+        {
+            AdminsForm adminForms = new AdminsForm(admin);
+            this.Hide();
+            adminForms.ShowDialog();
+            this.Close();
+
+        }
+
+        private void AdminProfileLabel_Click(object sender, EventArgs e)
+        {
+            AdminProfileForm adminform = new AdminProfileForm(admin);
+            this.Hide();
+            adminform.ShowDialog();
+            this.Close();
+        }
+
+        private void ViosLabel_Click(object sender, EventArgs e)
+        {
+            ViosForm vioform = new ViosForm(admin);
+            this.Hide();
+            vioform.ShowDialog();
+            this.Close();
         }
     }
 }

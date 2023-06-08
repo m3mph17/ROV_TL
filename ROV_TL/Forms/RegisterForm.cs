@@ -77,7 +77,7 @@ namespace ROV_TL.Forms
                     MimeMessage mail = new MimeMessage();
                     mail.From.Add(new MailboxAddress("Штрафы", "fuj6629@gmail.com"));
                     mail.To.Add(new MailboxAddress("Нарушитель", user.Email));
-                    
+
                     BodyBuilder bodybuilder = new BodyBuilder();
                     bodybuilder.HtmlBody = "Регистрация успешна!";
                     bodybuilder.TextBody = $"{user.Login}, Вы были успешно зарегистрированы!";
@@ -168,10 +168,12 @@ namespace ROV_TL.Forms
         {
             if (e.KeyCode == Keys.Escape)
             {
-                // Set focus to the next TextBox control
                 Environment.Exit(0);
-                this.Close();
             }
+        }
+
+        private void RegisterForm_KeyPress(object sender, KeyPressEventArgs e)
+        {
         }
     }
 }

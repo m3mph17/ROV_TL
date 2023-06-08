@@ -488,6 +488,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CarsForm";
             Load += CarsForm_Load;
+            KeyDown += CarsForm_KeyDown;
+            KeyPress += CarsForm_KeyPress;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)AddCarButton).EndInit();

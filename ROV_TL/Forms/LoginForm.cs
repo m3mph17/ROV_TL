@@ -128,7 +128,6 @@ namespace ROV_TL
             {
                 // Set focus to the next TextBox control
                 Environment.Exit(0);
-                this.Close();
             }
         }
 
@@ -163,11 +162,16 @@ namespace ROV_TL
             if (e.KeyChar == (char)Keys.Escape)
             {
                 // Set focus to the next TextBox control
-                StaticLabel.Focus();
+                Environment.Exit(0);
             }
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginForm_KeyPress(object sender, KeyPressEventArgs e)
         {
 
         }
