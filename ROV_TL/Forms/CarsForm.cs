@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using Newtonsoft.Json;
 using NLog;
 using ROV_TL.Forms;
 using ROV_TL.Forms.Additional;
@@ -19,6 +20,9 @@ namespace ROV_TL
         Label[] numplates;
         Label[] vios;
 
+
+        // All cars
+        Car[] allCars;
 
         // Dictionary with car id and it's model name
         Dictionary<string, int> carDict = new Dictionary<string, int>();
@@ -148,6 +152,7 @@ namespace ROV_TL
             try
             {
                 Car[] cars = db.Cars.Where(c => c.UserId == user.Id).ToArray();
+                allCars = cars;
 
                 string[] carModels = db.Cars.Select(c => c.Model).ToArray();
                 int[] carIds = cars.Select(c => c.CarId).ToArray();
@@ -231,6 +236,29 @@ namespace ROV_TL
             {
                 Environment.Exit(0);
             }
+        }
+
+        private void CarInfoLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SerializeButton_Click(object sender, EventArgs e)
+        {
+            DirectoryInfo directory = new DirectoryInfo("Json");
+            foreach (FileInfo file in directory.GetFiles())
+            {
+                file.Delete();
+            }
+            // Deserialize the object from file
+
+            for (int i = 0; i < allCars.Length; i++)
+            {
+                string json = JsonConvert.SerializeObject(allCars, Formatting.Indented);
+                File.WriteAllText($"Json\\Cars.json", json);
+            }
+
+            MessageBox.Show("Успешно сериализовано");
         }
     }
 }

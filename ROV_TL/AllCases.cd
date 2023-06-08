@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ROV_TL.Properties.Resources" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAACAwAAAEBEAiAAQAJAAAgAAgAAAAAAIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.AddAdminForm" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARgAAAAAACBQgAAAAACCCEBmAAEAJIBAAAAABAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\AddAdminForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.AddCarForm" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAACBRgAAAAgCCCABCAAEABIBAACAABEAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\AddCarForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.AddRuleForm" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACCAQgAACAAiCCAACAAEABIBAAAAABAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\AddRuleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.AddUserForm" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAACBQgAAAAACCCAAmAAEAJIRAAAAABAAABAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\AddUserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.AddVioForm" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICBAAACBQCAAAAgiAKgACBAECQAUEBABIkQwBACA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\AddVioForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.RedactAdminForm" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARgAAAAABCBQgAAAAACCCEAmAAEAJIBAAAAABAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\RedactAdminForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.RedactCarForm" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAACBRgAEAAgCCCABCAAEABIBAACAABEAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\RedactCarForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.RedactRuleForm" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAACCAQgAAAAAiCCAACAAEABIBAAAAgBAAAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\RedactRuleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.RedactUserForm" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAACBQgAAAAICCCAAmAAEAJIRAAAAABAAABQA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\RedactUserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.RedactVioForm" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACBRgAAAAgiCCgICAAEABIBACCAABEQAAAA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\RedactVioForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.SearchUserForm" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxABAAAAACBQgAAAAACCCAAmAAEAJIRAAIAABAAABQA=</HashCode>
+      <FileName>AdminForms\AdminAddtional\SearchUserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminAddtional.ViosForm" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGBAAACAAAAAAAACAIAgCBAEAEAQABABQgYgFACA=</HashCode>
+      <FileName>AdminForms\ViosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.ActivViosForm" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIiBIAICBRDEEAEACrLAAmBAkAmiQAlFAAhYgrBTA=</HashCode>
+      <FileName>AdminForms\ActivViosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminProfileForm" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIKRAAACBQ4AAAgACAKgQnFAEApAQABAAIhQABACA=</HashCode>
+      <FileName>AdminForms\AdminProfileForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.AdminsForm" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICBAEAKAQBGAAEACACAAmhAEBnCQAhFBAhYg/ALE=</HashCode>
+      <FileName>AdminForms\AdminsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.CarsForm" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICBgEACIQhGAEEACIKAAmBAEClCQAhNIAhYgBCDA=</HashCode>
+      <FileName>AdminForms\CarsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.NoPayViosForm" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAICBAEAioSBWAAEGSbKACmBPkBkAQQhFAAgQgBiTA=</HashCode>
+      <FileName>AdminForms\NoPayViosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.PayedViosForm" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAICBAEAioSBUAAEGSbKACmBPkBkAQQhFAAgQgBiTA=</HashCode>
+      <FileName>AdminForms\PayedViosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.AdminForms.UsersForm" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAMCBAEAKAUBmIAEACIaB8mhAEAnCSAhNAAhYghABA=</HashCode>
+      <FileName>AdminForms\UsersForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.Additional.AddCarForm" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACCARAAAAAEKCCABCAACAAIBAAAAABAAAAQA=</HashCode>
+      <FileName>Forms\Additional\AddCarForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.Additional.BalanceForm" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAIBACACIQAAAAAACACAICAAAAAAAAAAAABAAACQA=</HashCode>
+      <FileName>Forms\Additional\BalanceForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.Additional.PayForm" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgBIBACACIUgRAEAICACABSAAAAAEACCAAABQAAgQA=</HashCode>
+      <FileName>Forms\Additional\PayForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.Additional.RedactCarForm" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAACAQgAEAAICCCABCAACABIBAAAAABAAAAAA=</HashCode>
+      <FileName>Forms\Additional\RedactCarForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.CarsForm" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACRAiACCKAQgCAAiAaICICCAAAAAACQgmofoQIIAQQ=</HashCode>
+      <FileName>Forms\CarsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.LoginForm" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJABAAAIAGBQAIACAJCACAAiAAAEAQACAASAAQAAAAA=</HashCode>
+      <FileName>Forms\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.ProfileForm" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQABCQAAACBa4MEAmACgKoSnAAAQpAAAAAAIhQKAJwA=</HashCode>
+      <FileName>Forms\ProfileForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.DBCode" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.ApplicationContext" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACCCARAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EF_Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Program" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.Intro" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAAAACAAAACAAAAIAAAAAAAAABAAAA=</HashCode>
+      <FileName>Forms\Intro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.Admin" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAIAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.Car" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAgAAAAAAAI=</HashCode>
+      <FileName>Models\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.PayedVio" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAARAAEAiAAAAEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PayedVio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.Rule" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAgA=</HashCode>
+      <FileName>Models\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.User" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAACAAAgAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Models.Vio" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAiAAAAEAAABAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Vio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.RegisterForm" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASABgEAgAGAQAAQAACCCCAQXAAAAAAAAEACAAQAAAAA=</HashCode>
+      <FileName>Forms\RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROV_TL.Forms.VioForm" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACisSBWAAEGSbKICmEPgAEAASgFgAgQIAiRA=</HashCode>
+      <FileName>Forms\VioForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

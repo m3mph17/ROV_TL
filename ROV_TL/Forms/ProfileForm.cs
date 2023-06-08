@@ -317,5 +317,15 @@ namespace ROV_TL
         {
             Environment.Exit(0);
         }
+
+        private void Help_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Для управления приложением используйте клавиши Esc, Tab, Enter, а также ЛКП");
+        }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Приложение предназначено для учета правонарушений участников дорожного движения\nв приложении ROV вы можете вести учет и оплату ваших правонарушений");
+        }
     }
 }

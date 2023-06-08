@@ -56,6 +56,8 @@
             AcessPictureBox_4 = new PictureBox();
             AcessPictureBox_2 = new PictureBox();
             AddBalanceButton = new PictureBox();
+            Help = new PictureBox();
+            About = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ExitPictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)UpdatePictureBox).BeginInit();
@@ -64,6 +66,8 @@
             ((System.ComponentModel.ISupportInitialize)AcessPictureBox_4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)AcessPictureBox_2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)AddBalanceButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Help).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)About).BeginInit();
             SuspendLayout();
             // 
             // VioLabel
@@ -384,12 +388,38 @@
             AddBalanceButton.TabStop = false;
             AddBalanceButton.Click += AddBalanceButton_Click;
             // 
+            // Help
+            // 
+            Help.Cursor = Cursors.Hand;
+            Help.Image = Properties.Resources.helpicon;
+            Help.Location = new Point(561, 33);
+            Help.Name = "Help";
+            Help.Size = new Size(36, 35);
+            Help.SizeMode = PictureBoxSizeMode.StretchImage;
+            Help.TabIndex = 42;
+            Help.TabStop = false;
+            Help.Click += Help_Click;
+            // 
+            // About
+            // 
+            About.Cursor = Cursors.Hand;
+            About.Image = Properties.Resources.icons8_о_нас_100;
+            About.Location = new Point(624, 33);
+            About.Name = "About";
+            About.Size = new Size(36, 35);
+            About.SizeMode = PictureBoxSizeMode.StretchImage;
+            About.TabIndex = 43;
+            About.TabStop = false;
+            About.Click += About_Click;
+            // 
             // ProfileForm
             // 
             AutoScaleDimensions = new SizeF(11F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 35, 35);
             ClientSize = new Size(867, 455);
+            Controls.Add(About);
+            Controls.Add(Help);
             Controls.Add(AddBalanceButton);
             Controls.Add(AcessPictureBox_4);
             Controls.Add(AcessPictureBox_2);
@@ -428,6 +458,8 @@
             ((System.ComponentModel.ISupportInitialize)AcessPictureBox_4).EndInit();
             ((System.ComponentModel.ISupportInitialize)AcessPictureBox_2).EndInit();
             ((System.ComponentModel.ISupportInitialize)AddBalanceButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Help).EndInit();
+            ((System.ComponentModel.ISupportInitialize)About).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -461,5 +493,7 @@
         private PictureBox AcessPictureBox_2;
         private PictureBox AddBalanceButton;
         private Label UserNameLabel;
+        private PictureBox Help;
+        private PictureBox About;
     }
 }

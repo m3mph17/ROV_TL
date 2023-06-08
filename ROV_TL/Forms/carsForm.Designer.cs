@@ -65,6 +65,7 @@
             vioLabel_8 = new Label();
             StaticNoCarLabel = new Label();
             AddCarButton = new PictureBox();
+            SerializeButton = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AddCarButton).BeginInit();
             SuspendLayout();
@@ -223,6 +224,7 @@
             CarInfoLabel.Size = new Size(126, 29);
             CarInfoLabel.TabIndex = 8;
             CarInfoLabel.Text = "Автомобили";
+            CarInfoLabel.Click += CarInfoLabel_Click;
             // 
             // panel2
             // 
@@ -443,12 +445,27 @@
             AddCarButton.TabStop = false;
             AddCarButton.Click += AddCarButton_Click;
             // 
+            // SerializeButton
+            // 
+            SerializeButton.BackColor = Color.Tan;
+            SerializeButton.FlatAppearance.BorderSize = 0;
+            SerializeButton.FlatStyle = FlatStyle.Flat;
+            SerializeButton.ForeColor = Color.Black;
+            SerializeButton.Location = new Point(736, 396);
+            SerializeButton.Name = "SerializeButton";
+            SerializeButton.Size = new Size(104, 47);
+            SerializeButton.TabIndex = 41;
+            SerializeButton.Text = "Json";
+            SerializeButton.UseVisualStyleBackColor = false;
+            SerializeButton.Click += SerializeButton_Click;
+            // 
             // CarsForm
             // 
             AutoScaleDimensions = new SizeF(11F, 29F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 35, 35);
             ClientSize = new Size(867, 455);
+            Controls.Add(SerializeButton);
             Controls.Add(AddCarButton);
             Controls.Add(vioLabel_8);
             Controls.Add(vioLabel_7);
@@ -534,5 +551,6 @@
         private Label vioLabel_8;
         private Label StaticNoCarLabel;
         private PictureBox AddCarButton;
+        private Button SerializeButton;
     }
 }

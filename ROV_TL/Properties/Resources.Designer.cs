@@ -93,6 +93,26 @@ namespace ROV_TL.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap helpicon {
+            get {
+                object obj = ResourceManager.GetObject("helpicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_о_нас_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-о-нас-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LockIcon {
             get {
                 object obj = ResourceManager.GetObject("LockIcon", resourceCulture);
